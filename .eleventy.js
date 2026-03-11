@@ -16,6 +16,31 @@ module.exports = function (eleventyConfig) {
     return array.slice(start, end);
   });
 
+  eleventyConfig.addFilter("striptags", function (str) {
+    if (!str) return str;
+    return String(str).replace(/<[^>]*>/g, "");
+  });
+
+  // Global data: compute language helpers for every page
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    // L = language code string (e.g. "en", "uz")
+    L: function (data) {
+      if (data.lang && data.lang.code) return data.lang.code;
+      return "en";
+    },
+    // t = UI translation strings for current language
+    t: function (data) {
+      var code = (data.lang && data.lang.code) ? data.lang.code : "en";
+      return data.ui ? (data.ui[code] || data.ui.en) : {};
+    },
+    // langRoot = path prefix for assets/links (e.g. "" for root, "../" for subdir)
+    langRoot: function (data) {
+      if (!data.lang || !data.lang.code) return "";
+      // Pages in language subdirs need ../ to reach root assets
+      return "../";
+    }
+  });
+
   return {
     dir: {
       input: "src",

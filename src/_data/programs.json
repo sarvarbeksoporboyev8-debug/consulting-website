@@ -1,27 +1,110 @@
-[
-  {
-    "title": "Language Courses",
-    "description": "Language courses + opportunity to work",
-    "requirement": ""
-  },
-  {
-    "title": "Bachelor's Degree",
-    "description": "Undergraduate programs at top universities worldwide",
-    "requirement": "IELTS 4.5"
-  },
-  {
-    "title": "Master's Degree",
-    "description": "Graduate programs for career advancement",
-    "requirement": "IELTS 6.0"
-  },
-  {
-    "title": "PhD Programs",
-    "description": "Doctoral research programs with funding opportunities",
-    "requirement": ""
-  },
-  {
-    "title": "Summer Camps",
-    "description": "Summer vacation programs for teenagers aged 8-17",
-    "requirement": "Ages 8-17"
-  }
-]
+{
+  "en": [
+    {
+      "title": "Language Courses",
+      "description": "Language courses with the opportunity to work part-time",
+      "requirement": ""
+    },
+    {
+      "title": "Bachelor's Degree",
+      "description": "Undergraduate programs at top universities worldwide",
+      "requirement": "IELTS 4.5"
+    },
+    {
+      "title": "Master's Degree",
+      "description": "Graduate programs for career advancement",
+      "requirement": "IELTS 6.0"
+    },
+    {
+      "title": "PhD Programs",
+      "description": "Doctoral research programs with funding opportunities",
+      "requirement": ""
+    },
+    {
+      "title": "Summer Camps",
+      "description": "Summer vacation programs for teenagers aged 8–17",
+      "requirement": "Ages 8–17"
+    }
+  ],
+  "uz": [
+    {
+      "title": "Til kurslari",
+      "description": "Til kurslari va ishlash imkoniyati",
+      "requirement": ""
+    },
+    {
+      "title": "Bakalavr",
+      "description": "Dunyoning top universitetlarida bakalavr dasturlari",
+      "requirement": "IELTS 4.5"
+    },
+    {
+      "title": "Magistratura",
+      "description": "Karyera o'sishi uchun magistratura dasturlari",
+      "requirement": "IELTS 6.0"
+    },
+    {
+      "title": "PhD dasturlari",
+      "description": "Moliyalashtirish imkoniyatlari bilan doktorantura dasturlari",
+      "requirement": ""
+    },
+    {
+      "title": "Yozgi lagerlar",
+      "description": "8–17 yoshli o'smirlar uchun yozgi ta'til dasturlari",
+      "requirement": "8–17 yosh"
+    }
+  ],
+  "uzcyrl": [
+    {
+      "title": "Тил курслари",
+      "description": "Тил курслари ва ишлаш имконияти",
+      "requirement": ""
+    },
+    {
+      "title": "Бакалавр",
+      "description": "Дунёнинг топ университетларида бакалавр дастурлари",
+      "requirement": "IELTS 4.5"
+    },
+    {
+      "title": "Магистратура",
+      "description": "Карьера ўсиши учун магистратура дастурлари",
+      "requirement": "IELTS 6.0"
+    },
+    {
+      "title": "PhD дастурлари",
+      "description": "Молиялаштириш имкониятлари билан докторантура дастурлари",
+      "requirement": ""
+    },
+    {
+      "title": "Ёзги лагерлар",
+      "description": "8–17 ёшли ўсмирлар учун ёзги таътил дастурлари",
+      "requirement": "8–17 ёш"
+    }
+  ],
+  "ru": [
+    {
+      "title": "Языковые курсы",
+      "description": "Языковые курсы с возможностью подработки",
+      "requirement": ""
+    },
+    {
+      "title": "Бакалавриат",
+      "description": "Программы бакалавриата в ведущих университетах мира",
+      "requirement": "IELTS 4.5"
+    },
+    {
+      "title": "Магистратура",
+      "description": "Магистерские программы для карьерного роста",
+      "requirement": "IELTS 6.0"
+    },
+    {
+      "title": "Докторантура (PhD)",
+      "description": "Докторские исследовательские программы с возможностью финансирования",
+      "requirement": ""
+    },
+    {
+      "title": "Летние лагеря",
+      "description": "Летние каникулярные программы для подростков от 8 до 17 лет",
+      "requirement": "8–17 лет"
+    }
+  ]
+}

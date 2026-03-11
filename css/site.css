@@ -193,6 +193,40 @@ header,
   color: var(--gray-700);
 }
 
+/* Language switcher */
+.lang-switcher {
+  display: flex;
+  gap: 4px;
+  border: 1px solid #eee;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.lang-switcher a {
+  padding: 6px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gray-500);
+  text-decoration: none;
+  background: var(--white);
+  border-right: 1px solid #eee;
+  white-space: nowrap;
+}
+
+.lang-switcher a:last-child {
+  border-right: none;
+}
+
+.lang-switcher a:hover {
+  background: #f5f5f5;
+  color: var(--black);
+}
+
+.lang-switcher a.active {
+  background: var(--black);
+  color: var(--white);
+}
+
 /* Mobile toggle */
 .nav-toggle {
   display: none;

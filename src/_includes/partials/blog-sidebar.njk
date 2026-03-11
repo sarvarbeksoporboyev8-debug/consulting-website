@@ -1,32 +1,14 @@
       <aside class="sidebar">
-        <h2 class="sidebar-title">Categories</h2>
-        <ul class="sidebar-list">
-          <li><a href="blog.html">Study Abroad</a></li>
-          <li><a href="blog.html">IELTS Preparation</a></li>
-          <li><a href="blog.html">Scholarships</a></li>
-          <li><a href="blog.html">Student Life</a></li>
-        </ul>
-
-        <h2 class="sidebar-title recent-posts">Recent Posts</h2>
-        {%- for post in blog | reverse %}
+        <h2 class="sidebar-title recent-posts">{{ t.blog_title | striptags | default("Recent Posts") }}</h2>
+        {%- for post in blog[L] | reverse %}
         {%- if loop.index <= 4 %}
         <article class="recent-post">
           <div class="thumb" aria-hidden="true"></div>
           <div class="meta">
-            <h4><a href="{{ post.link }}">{{ post.title }}</a></h4>
+            <h4><a href="/{{ L }}/{{ post.link }}">{{ post.title }}</a></h4>
             <time datetime="{{ post.datetime }}">{{ post.date }}</time>
           </div>
         </article>
         {%- endif %}
         {%- endfor %}
-
-        <h2 class="sidebar-title tags-wrap">Tags</h2>
-        <div class="tags">
-          <a href="blog.html" class="active">Study Abroad</a>
-          <a href="blog.html">IELTS</a>
-          <a href="blog.html">Scholarships</a>
-          <a href="blog.html">Visa</a>
-          <a href="blog.html">University</a>
-          <a href="blog.html">Student Life</a>
-        </div>
       </aside>

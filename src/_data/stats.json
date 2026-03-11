@@ -1,6 +1,26 @@
-[
-  { "value": "12+", "label": "Partner Countries" },
-  { "value": "500+", "label": "Students Placed" },
-  { "value": "98%", "label": "Visa Success Rate" },
-  { "value": "50+", "label": "Partner Universities" }
-]
+{
+  "en": [
+    { "value": "12+", "label": "Partner Countries" },
+    { "value": "500+", "label": "Students Placed" },
+    { "value": "98%", "label": "Visa Success Rate" },
+    { "value": "50+", "label": "Partner Universities" }
+  ],
+  "uz": [
+    { "value": "12+", "label": "Hamkor davlatlar" },
+    { "value": "500+", "label": "Joylashtirilgan talabalar" },
+    { "value": "98%", "label": "Viza muvaffaqiyat darajasi" },
+    { "value": "50+", "label": "Hamkor universitetlar" }
+  ],
+  "uzcyrl": [
+    { "value": "12+", "label": "Ҳамкор давлатлар" },
+    { "value": "500+", "label": "Жойлаштирилган талабалар" },
+    { "value": "98%", "label": "Виза муваффақият даражаси" },
+    { "value": "50+", "label": "Ҳамкор университетлар" }
+  ],
+  "ru": [
+    { "value": "12+", "label": "Стран-партнёров" },
+    { "value": "500+", "label": "Студентов размещено" },
+    { "value": "98%", "label": "Успех по визам" },
+    { "value": "50+", "label": "Университетов-партнёров" }
+  ]
+}

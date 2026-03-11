@@ -1,12 +1,35 @@
 {
-  "name": "GRANT CONSULTING",
-  "tagline": "Grant Consulting is an educational consulting agency based in Tashkent, helping students study abroad.",
-  "address": "Tashkent, Labzak 2B, Office 102",
-  "phone": "+998 90 327-66-00",
-  "phoneHref": "tel:+998903276600",
-  "phone2": "+998 90 328-66-00",
-  "phone2Href": "tel:+998903286600",
-  "email": "info@grantconsulting.uz",
-  "instagram": "@GrantConsulting",
-  "year": "2026"
+  "en": {
+    "name": "GRANT CONSULTING",
+    "tagline": "Grant Consulting is an educational consulting agency based in Tashkent, helping students study abroad.",
+    "year": "2026"
+  },
+  "uz": {
+    "name": "GRANT CONSULTING",
+    "tagline": "Grant Consulting – bu xorijda ta'lim olishni istagan talabalar uchun professional konsalting xizmatlari ko'rsatuvchi kompaniya.",
+    "year": "2026"
+  },
+  "uzcyrl": {
+    "name": "GRANT CONSULTING",
+    "tagline": "Grant Consulting – бу хорижда таълим олишни истаган талабалар учун профессионал консалтинг хизматлари кўрсатувчи компания.",
+    "year": "2026"
+  },
+  "ru": {
+    "name": "GRANT CONSULTING",
+    "tagline": "Grant Consulting — агентство образовательного консалтинга в Ташкенте, помогающее студентам учиться за рубежом.",
+    "year": "2026"
+  },
+  "shared": {
+    "address_en": "Tashkent, Labzak 2B, Office 102",
+    "address_uz": "Toshkent shahri, Labzak ko'chasi 2B-uy",
+    "address_uzcyrl": "Тошкент шаҳри, Лабзак кўчаси 2Б-уй",
+    "address_ru": "г. Ташкент, ул. Лабзак, дом 2Б, офис 102",
+    "phone": "+998 90 327-66-00",
+    "phoneHref": "tel:+998903276600",
+    "phone2": "+998 90 328-66-00",
+    "phone2Href": "tel:+998903286600",
+    "email": "info@grantconsulting.uz",
+    "instagram": "https://www.instagram.com/grant_consulting_",
+    "telegram": "https://t.me/GrantConsulting"
+  }
 }

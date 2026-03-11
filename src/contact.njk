@@ -1,70 +1,73 @@
----
-layout: layouts/page.njk
-title: "Contact Us - Grant Consulting"
-description: "Contact Grant Consulting to discuss your study abroad plans. Free consultation available."
-pageCss: "css/contact.css"
-navKey: "Contact"
-extraFonts: "&family=Merriweather:wght@700"
-heroTitle: "Contact Us"
-breadcrumbs:
-  - label: "Contact"
+---js
+{
+  pagination: { data: "languages", size: 1, alias: "lang" },
+  permalink: function(data) { return data.lang.code + "/contact.html"; },
+  layout: "layouts/page.njk",
+  pageCss: "css/contact.css",
+  navKey: "Contact",
+  extraFonts: "&family=Merriweather:wght@700",
+  currentPage: "contact.html",
+  eleventyComputed: {
+    title: function(data) { var L = data.lang.code; return (data.ui[L]||data.ui.en).page_contact_title + " - Grant Consulting"; },
+    description: function(data) { return (data.ui[data.lang.code]||data.ui.en).page_contact_hero; },
+    heroTitle: function(data) { return (data.ui[data.lang.code]||data.ui.en).page_contact_hero; },
+    breadcrumbs: function(data) { return [{ label: (data.ui[data.lang.code]||data.ui.en).page_contact_hero }]; }
+  }
+}
 ---
     <div class="contact-wrap">
       <div class="contact-details-card">
         <div class="card-head">
-          <h2>Contact Details</h2>
+          <h2>{{ t.contact_details_title }}</h2>
         </div>
         <div class="card-body">
-          <h3>Office Address</h3>
+          <h3>{{ t.contact_office_title }}</h3>
           <div class="address">
             <span class="icon" aria-hidden="true"></span>
-            <p>{{ site.address }}</p>
+            <p>{{ site.shared["address_" + L] | default(site.shared.address_en) }}</p>
           </div>
           <div class="contact-info">
-            <h3>Contact Info</h3>
+            <h3>{{ t.contact_info_title }}</h3>
             <div class="contact-row">
               <span class="icon icon-sm" aria-hidden="true"></span>
-              <p><a href="{{ site.phoneHref }}">{{ site.phone }}</a></p>
+              <p><a href="{{ site.shared.phoneHref }}">{{ site.shared.phone }}</a></p>
             </div>
-            {%- if site.phone2 %}
             <div class="contact-row">
               <span class="icon icon-sm" aria-hidden="true"></span>
-              <p><a href="{{ site.phone2Href }}">{{ site.phone2 }}</a></p>
+              <p><a href="{{ site.shared.phone2Href }}">{{ site.shared.phone2 }}</a></p>
             </div>
-            {%- endif %}
             <div class="contact-row">
               <span class="icon icon-sm" aria-hidden="true"></span>
-              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              <p><a href="mailto:{{ site.shared.email }}">{{ site.shared.email }}</a></p>
             </div>
-            {%- if site.instagram %}
             <div class="contact-row">
               <span class="icon icon-sm" aria-hidden="true"></span>
-              <p>Instagram: {{ site.instagram }}</p>
+              <p><a href="{{ site.shared.instagram }}">Instagram</a> | <a href="{{ site.shared.telegram }}">Telegram</a></p>
             </div>
-            {%- endif %}
           </div>
         </div>
       </div>
 
       <div class="contact-form-card" id="contact-form">
         <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST" class="stacked-form" data-form novalidate>
+          <input type="hidden" name="_language" value="{{ L }}">
           <div class="form-group">
-            <label for="contact-name">Name*</label>
-            <input type="text" id="contact-name" name="name" placeholder="Enter your name" required>
+            <label for="contact-name">{{ t.contact_form_name }}</label>
+            <input type="text" id="contact-name" name="name" placeholder="{{ t.form_name_placeholder }}" required>
           </div>
           <div class="form-group">
-            <label for="contact-email">Email*</label>
-            <input type="email" id="contact-email" name="email" placeholder="Enter your email address" required>
+            <label for="contact-email">{{ t.contact_form_email }}</label>
+            <input type="email" id="contact-email" name="email" placeholder="{{ t.form_email_placeholder }}" required>
           </div>
           <div class="form-group">
-            <label for="contact-phone">Phone</label>
+            <label for="contact-phone">{{ t.contact_form_phone }}</label>
             <input type="tel" id="contact-phone" name="phone" placeholder="+998 90 XXX-XX-XX">
           </div>
           <div class="form-group">
-            <label for="contact-message">Tell us about your goals*</label>
-            <textarea id="contact-message" name="message" placeholder="Which country and program are you interested in? What is your current IELTS score?" rows="5" required></textarea>
+            <label for="contact-message">{{ t.contact_form_message }}</label>
+            <textarea id="contact-message" name="message" placeholder="{{ t.contact_form_placeholder }}" rows="5" required></textarea>
           </div>
-          <button type="submit" class="btn-send">Send Message</button>
+          <button type="submit" class="btn-send">{{ t.contact_form_submit }}</button>
           <p class="form-status" data-form-status aria-live="polite"></p>
         </form>
       </div>
@@ -76,9 +79,9 @@ breadcrumbs:
 
     <section class="cta-section">
       <div class="cta-inner">
-        <h2>Ready to start your study abroad journey?</h2>
-        <a href="contact.html#contact-form" class="btn-book">
-          <span>Book a <strong>Free</strong> Consultation</span>
+        <h2>{{ t.cta_title }}</h2>
+        <a href="/{{ L }}/contact.html#contact-form" class="btn-book">
+          <span>{{ t.cta_button }}</span>
           <span class="icon" aria-hidden="true"></span>
         </a>
       </div>

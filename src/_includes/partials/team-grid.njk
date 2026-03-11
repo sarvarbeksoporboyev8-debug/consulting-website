@@ -1,23 +1,17 @@
       <div class="team-grid">
-        {%- for member in team %}
+        {%- for member in team[L] %}
         <div class="team-card">
           <div class="photo">
             {%- if member.photo %}
-            <img src="{{ member.photo }}" alt="{{ member.name }}" loading="lazy" width="300" height="300">
+            <img src="{{ langRoot }}{{ member.photo }}" alt="{{ member.name }}" loading="lazy" width="300" height="300">
             {%- endif %}
           </div>
           <h3>{{ member.name }}</h3>
           <div class="role">{{ member.role }}</div>
           <div class="socials">
-            {%- if member.socials.instagram %}
-            <a href="{{ member.socials.instagram }}" aria-label="{{ member.name }} on Instagram">IG</a>
-            {%- endif %}
-            {%- if member.socials.linkedin %}
-            <a href="{{ member.socials.linkedin }}" aria-label="{{ member.name }} on LinkedIn">LI</a>
-            {%- endif %}
-            {%- if member.socials.telegram %}
-            <a href="{{ member.socials.telegram }}" aria-label="{{ member.name }} on Telegram">TG</a>
-            {%- endif %}
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
           </div>
         </div>
         {%- endfor %}

@@ -1,20 +1,26 @@
----
-layout: layouts/page.njk
-title: "Blog - Grant Consulting"
-description: "Articles and guides about studying abroad, IELTS preparation, scholarships, and student life."
-pageCss: "css/blog.css"
-navKey: "Blog"
-extraFonts: "&family=Merriweather:wght@700"
-heroTitle: "Blog"
-breadcrumbs:
-  - label: "Blog"
+---js
+{
+  pagination: { data: "languages", size: 1, alias: "lang" },
+  permalink: function(data) { return data.lang.code + "/blog.html"; },
+  layout: "layouts/page.njk",
+  pageCss: "css/blog.css",
+  navKey: "Blog",
+  extraFonts: "&family=Merriweather:wght@700",
+  currentPage: "blog.html",
+  eleventyComputed: {
+    title: function(data) { var L = data.lang.code; return (data.ui[L]||data.ui.en).page_blog_title + " - Grant Consulting"; },
+    description: function(data) { return (data.ui[data.lang.code]||data.ui.en).blog_subtitle; },
+    heroTitle: function(data) { return (data.ui[data.lang.code]||data.ui.en).page_blog_hero; },
+    breadcrumbs: function(data) { return [{ label: (data.ui[data.lang.code]||data.ui.en).page_blog_hero }]; }
+  }
+}
 ---
     <div class="main-wrap">
       {% include "partials/blog-sidebar.njk" %}
 
       <div class="blog-content">
         <div class="blog-grid">
-          {%- for post in blog %}
+          {%- for post in blog[L] %}
           <article class="blog-card">
             <div class="image" aria-hidden="true"></div>
             <div class="body">
@@ -22,13 +28,12 @@ breadcrumbs:
                 <span>{{ post.author }}</span>
                 <span>{{ post.date }}</span>
               </div>
-              <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
+              <h3><a href="/{{ L }}/{{ post.link }}">{{ post.title }}</a></h3>
               <p class="excerpt">{{ post.excerpt }}</p>
-              <a href="{{ post.link }}" class="read-more">Read More</a>
+              <a href="/{{ L }}/{{ post.link }}" class="read-more">{{ t.btn_read_more }}</a>
             </div>
           </article>
           {%- endfor %}
         </div>
-
       </div>
     </div>

@@ -1,33 +1,36 @@
----
-layout: layouts/page.njk
-title: "FAQ - Grant Consulting"
-description: "Find answers about studying abroad, IELTS requirements, visa support, scholarships, and how Grant Consulting works."
-pageCss: "css/faq.css"
-extraFonts: "&family=Merriweather:wght@700"
-heroTitle: "Frequently Asked Questions"
-breadcrumbs:
-  - label: "FAQ"
+---js
+{
+  pagination: { data: "languages", size: 1, alias: "lang" },
+  permalink: function(data) { return data.lang.code + "/faq.html"; },
+  layout: "layouts/page.njk",
+  pageCss: "css/faq.css",
+  extraFonts: "&family=Merriweather:wght@700",
+  currentPage: "faq.html",
+  eleventyComputed: {
+    title: function(data) { var L = data.lang.code; return (data.ui[L]||data.ui.en).page_faq_title + " - Grant Consulting"; },
+    description: function(data) { return (data.ui[data.lang.code]||data.ui.en).page_faq_title; },
+    heroTitle: function(data) { return (data.ui[data.lang.code]||data.ui.en).page_faq_hero; },
+    breadcrumbs: function(data) { return [{ label: (data.ui[data.lang.code]||data.ui.en).page_faq_hero }]; }
+  }
+}
 ---
     <div class="faq-wrap">
       <aside class="faq-sidebar">
         <div class="sidebar-head">
-          <h2>Quick Navigation</h2>
+          <h2>{{ t.faq_sidebar_title }}</h2>
         </div>
         <div class="sidebar-body">
           <nav aria-label="FAQ categories">
-            <a href="#faq" class="active">General</a>
-            <a href="#faq">Admissions</a>
-            <a href="#faq">IELTS &amp; Language</a>
-            <a href="#faq">Visa &amp; Documents</a>
-            <a href="#faq">Scholarships</a>
-            <a href="#faq">Programs</a>
+            {%- for cat in t.faq_categories %}
+            <a href="#faq"{% if loop.first %} class="active"{% endif %}>{{ cat }}</a>
+            {%- endfor %}
           </nav>
         </div>
       </aside>
 
       <div class="faq-content" id="faq">
         <ul class="faq-list">
-          {%- for item in faq.full %}
+          {%- for item in faq[L].full %}
           <li class="faq-item{% if loop.first %} is-open{% endif %}">
             <button type="button" aria-expanded="{{ 'true' if loop.first else 'false' }}" aria-controls="faq-{{ loop.index }}" id="faq-q{{ loop.index }}">
               {{ item.question }}
@@ -45,8 +48,8 @@ breadcrumbs:
     </div>
 
     <section class="video-section">
-      <h2>See How We Help Students <span class="highlight">Study Abroad</span></h2>
-      <p>Watch how our team guides students through every step of the study abroad process.</p>
+      <h2>{{ t.about_video_title | safe }}</h2>
+      <p>{{ t.about_video_desc }}</p>
       <div class="video-placeholder" aria-label="Video placeholder">
         <button type="button" class="play-btn" aria-label="Play video"></button>
       </div>
@@ -54,9 +57,9 @@ breadcrumbs:
 
     <section class="cta-section">
       <div class="cta-inner">
-        <h2>Ready to start your study abroad journey?</h2>
-        <a href="contact.html" class="btn-book">
-          <span>Book a <strong>FREE</strong> Consultation</span>
+        <h2>{{ t.cta_title }}</h2>
+        <a href="/{{ L }}/contact.html" class="btn-book">
+          <span>{{ t.cta_button }}</span>
           <span class="icon" aria-hidden="true"></span>
         </a>
       </div>

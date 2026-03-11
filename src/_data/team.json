@@ -1,42 +1,106 @@
-[
-  {
-    "name": "Devon Lane",
-    "role": "CEO & Founder",
-    "photo": "img/team/devon-lane.svg",
-    "socials": {
-      "instagram": "",
-      "linkedin": "",
-      "telegram": ""
+{
+  "en": [
+    {
+      "name": "Devon Lane",
+      "role": "CEO & Founder",
+      "photo": "img/team/devon-lane.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Floyd Miles",
+      "role": "Senior Consultant",
+      "photo": "img/team/floyd-miles.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Ronald Richards",
+      "role": "Visa Specialist",
+      "photo": "img/team/ronald-richards.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Jane Cooper",
+      "role": "IELTS Instructor",
+      "photo": "img/team/jane-cooper.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
     }
-  },
-  {
-    "name": "Floyd Miles",
-    "role": "Senior Consultant",
-    "photo": "img/team/floyd-miles.svg",
-    "socials": {
-      "instagram": "",
-      "linkedin": "",
-      "telegram": ""
+  ],
+  "uz": [
+    {
+      "name": "Devon Lane",
+      "role": "Bosh direktor va asoschisi",
+      "photo": "img/team/devon-lane.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Floyd Miles",
+      "role": "Katta maslahatchi",
+      "photo": "img/team/floyd-miles.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Ronald Richards",
+      "role": "Viza mutaxassisi",
+      "photo": "img/team/ronald-richards.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Jane Cooper",
+      "role": "IELTS o'qituvchisi",
+      "photo": "img/team/jane-cooper.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
     }
-  },
-  {
-    "name": "Ronald Richards",
-    "role": "Visa Specialist",
-    "photo": "img/team/ronald-richards.svg",
-    "socials": {
-      "instagram": "",
-      "linkedin": "",
-      "telegram": ""
+  ],
+  "uzcyrl": [
+    {
+      "name": "Devon Lane",
+      "role": "Бош директор ва асосчиси",
+      "photo": "img/team/devon-lane.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Floyd Miles",
+      "role": "Катта маслаҳатчи",
+      "photo": "img/team/floyd-miles.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Ronald Richards",
+      "role": "Виза мутахассиси",
+      "photo": "img/team/ronald-richards.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Jane Cooper",
+      "role": "IELTS ўқитувчиси",
+      "photo": "img/team/jane-cooper.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
     }
-  },
-  {
-    "name": "Jane Cooper",
-    "role": "IELTS Instructor",
-    "photo": "img/team/jane-cooper.svg",
-    "socials": {
-      "instagram": "",
-      "linkedin": "",
-      "telegram": ""
+  ],
+  "ru": [
+    {
+      "name": "Devon Lane",
+      "role": "Генеральный директор и основатель",
+      "photo": "img/team/devon-lane.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Floyd Miles",
+      "role": "Старший консультант",
+      "photo": "img/team/floyd-miles.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Ronald Richards",
+      "role": "Специалист по визам",
+      "photo": "img/team/ronald-richards.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
+    },
+    {
+      "name": "Jane Cooper",
+      "role": "Преподаватель IELTS",
+      "photo": "img/team/jane-cooper.svg",
+      "socials": { "instagram": "", "linkedin": "", "telegram": "" }
     }
-  }
-]
+  ]
+}

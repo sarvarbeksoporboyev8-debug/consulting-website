@@ -4,13 +4,13 @@ layout: layouts/base.njk
     <section class="page-hero">
       <div class="page-hero-inner">
         <h1>{{ heroTitle }}</h1>
-        <p>{{ heroSubtitle | default("Learn more about our vision, mission, and operating approach so you can understand how we work.") }}</p>
+        <p>{{ heroSubtitle | default(t.hero_subtitle) }}</p>
         <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="index.html">Home</a>
+          <a href="/{{ L }}/index.html">{{ t.breadcrumb_home | default("Home") }}</a>
           {%- for crumb in breadcrumbs %}
           <span>/</span>
           {%- if crumb.url %}
-          <a href="{{ crumb.url }}">{{ crumb.label }}</a>
+          <a href="/{{ L }}/{{ crumb.url }}">{{ crumb.label }}</a>
           {%- else %}
           <span>{{ crumb.label }}</span>
           {%- endif %}

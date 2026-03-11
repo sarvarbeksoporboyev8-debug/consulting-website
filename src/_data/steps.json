@@ -1,22 +1,90 @@
-[
-  {
-    "num": "01",
-    "title": "Free Consultation",
-    "description": "We assess your academic profile, discuss your goals, and identify the best countries and universities for you."
-  },
-  {
-    "num": "02",
-    "title": "Document Preparation",
-    "description": "We help you gather all required documents, write recommendation letters, and craft compelling personal essays."
-  },
-  {
-    "num": "03",
-    "title": "University Application",
-    "description": "We submit your applications to up to 3 universities and follow up to ensure everything is processed correctly."
-  },
-  {
-    "num": "04",
-    "title": "Visa & Departure",
-    "description": "We handle your visa application, prepare you for the interview, and provide pre-departure training for life abroad."
-  }
-]
+{
+  "en": [
+    {
+      "num": "01",
+      "title": "Free Consultation",
+      "description": "We assess your academic profile, discuss your goals, and identify the best countries and universities for you."
+    },
+    {
+      "num": "02",
+      "title": "Document Preparation",
+      "description": "We help you gather all required documents, write recommendation letters, and craft compelling personal essays."
+    },
+    {
+      "num": "03",
+      "title": "University Application",
+      "description": "We submit your applications to up to 3 universities and follow up to ensure everything is processed correctly."
+    },
+    {
+      "num": "04",
+      "title": "Visa & Departure",
+      "description": "We handle your visa application, prepare you for the interview, and provide pre-departure training for life abroad."
+    }
+  ],
+  "uz": [
+    {
+      "num": "01",
+      "title": "Bepul konsultatsiya",
+      "description": "Biz sizning akademik profilingizni baholaymiz, maqsadlaringizni muhokama qilamiz va siz uchun eng yaxshi davlatlar va universitetlarni aniqlaymiz."
+    },
+    {
+      "num": "02",
+      "title": "Hujjatlarni tayyorlash",
+      "description": "Biz sizga barcha zarur hujjatlarni yig'ishda, tavsiya xatlarini yozishda va ta'sirli shaxsiy insho tayyorlashda yordam beramiz."
+    },
+    {
+      "num": "03",
+      "title": "Universitetga hujjat topshirish",
+      "description": "Biz sizning arizalaringizni 3 tagacha universitetga topshiramiz va hamma narsa to'g'ri ko'rib chiqilishini ta'minlaymiz."
+    },
+    {
+      "num": "04",
+      "title": "Viza va jo'nash",
+      "description": "Biz sizning viza arizangizni ko'rib chiqamiz, intervyuga tayyorlaymiz va xorijda hayotga tayyorgarlik treningini o'tkazamiz."
+    }
+  ],
+  "uzcyrl": [
+    {
+      "num": "01",
+      "title": "Бепул консултатсия",
+      "description": "Биз сизнинг академик профилингизни баҳолаймиз, мақсадларингизни муҳокама қиламиз ва сиз учун энг яхши давлатлар ва университетларни аниқлаймиз."
+    },
+    {
+      "num": "02",
+      "title": "Ҳужжатларни тайёрлаш",
+      "description": "Биз сизга барча зарур ҳужжатларни йиғишда, тавсия хатларини ёзишда ва таъсирли шахсий иншо тайёрлашда ёрдам берамиз."
+    },
+    {
+      "num": "03",
+      "title": "Университетга ҳужжат топшириш",
+      "description": "Биз сизнинг аризаларингизни 3 тагача университетга топширамиз ва ҳамма нарса тўғри кўриб чиқилишини таъминлаймиз."
+    },
+    {
+      "num": "04",
+      "title": "Виза ва жўнаш",
+      "description": "Биз сизнинг виза аризангизни кўриб чиқамиз, интервьюга тайёрлаймиз ва хорижда ҳаётга тайёргарлик тренингини ўтказамиз."
+    }
+  ],
+  "ru": [
+    {
+      "num": "01",
+      "title": "Бесплатная консультация",
+      "description": "Мы оцениваем ваш академический профиль, обсуждаем ваши цели и определяем лучшие страны и университеты для вас."
+    },
+    {
+      "num": "02",
+      "title": "Подготовка документов",
+      "description": "Мы помогаем собрать все необходимые документы, написать рекомендательные письма и составить убедительное мотивационное эссе."
+    },
+    {
+      "num": "03",
+      "title": "Подача в университет",
+      "description": "Мы подаём ваши заявки в 3 университета и следим за тем, чтобы всё было обработано правильно."
+    },
+    {
+      "num": "04",
+      "title": "Виза и отъезд",
+      "description": "Мы занимаемся вашей визовой заявкой, готовим к собеседованию и проводим предвыездной тренинг для жизни за рубежом."
+    }
+  ]
+}

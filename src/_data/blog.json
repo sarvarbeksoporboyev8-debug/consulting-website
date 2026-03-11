@@ -1,50 +1,202 @@
-[
-  {
-    "title": "How to Choose the Right Country for Studying Abroad",
-    "excerpt": "Comparing cost of living, education quality, work opportunities, and visa policies across our 12 partner countries to help you decide.",
-    "author": "Admin",
-    "date": "10 July, 2024",
-    "datetime": "2024-07-10",
-    "link": "blog-post.html"
-  },
-  {
-    "title": "IELTS Preparation: Tips to Reach Your Target Score",
-    "excerpt": "Practical strategies for each IELTS section - listening, reading, writing, and speaking - from our experienced instructors.",
-    "author": "Admin",
-    "date": "15 August, 2024",
-    "datetime": "2024-08-15",
-    "link": "blog-post.html"
-  },
-  {
-    "title": "Scholarship Guide: How to Fund Your Education Abroad",
-    "excerpt": "A step-by-step guide to finding, applying for, and winning scholarships at international universities.",
-    "author": "Admin",
-    "date": "28 September, 2024",
-    "datetime": "2024-09-28",
-    "link": "blog-post.html"
-  },
-  {
-    "title": "Student Visa Interview: What to Expect and How to Prepare",
-    "excerpt": "Common visa interview questions, best answers, and tips from students who successfully obtained their visas.",
-    "author": "Admin",
-    "date": "05 November, 2024",
-    "datetime": "2024-11-05",
-    "link": "blog-post.html"
-  },
-  {
-    "title": "Life as an International Student: What Nobody Tells You",
-    "excerpt": "Real stories and practical advice from Uzbek students currently studying in the UK, Canada, and South Korea.",
-    "author": "Admin",
-    "date": "12 January, 2025",
-    "datetime": "2025-01-12",
-    "link": "blog-post.html"
-  },
-  {
-    "title": "Working While Studying: Rules and Opportunities by Country",
-    "excerpt": "A breakdown of part-time work regulations, typical student jobs, and earning potential in each of our partner countries.",
-    "author": "Admin",
-    "date": "28 February, 2025",
-    "datetime": "2025-02-28",
-    "link": "blog-post.html"
-  }
-]
+{
+  "en": [
+    {
+      "title": "How to Choose the Right Country for Studying Abroad",
+      "excerpt": "Comparing cost of living, education quality, work opportunities, and visa policies across our 12 partner countries to help you decide.",
+      "author": "Admin",
+      "date": "10 July, 2024",
+      "datetime": "2024-07-10",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "IELTS Preparation: Tips to Reach Your Target Score",
+      "excerpt": "Practical strategies for each IELTS section - listening, reading, writing, and speaking - from our experienced instructors.",
+      "author": "Admin",
+      "date": "15 August, 2024",
+      "datetime": "2024-08-15",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Scholarship Guide: How to Fund Your Education Abroad",
+      "excerpt": "A step-by-step guide to finding, applying for, and winning scholarships at international universities.",
+      "author": "Admin",
+      "date": "28 September, 2024",
+      "datetime": "2024-09-28",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Student Visa Interview: What to Expect and How to Prepare",
+      "excerpt": "Common visa interview questions, best answers, and tips from students who successfully obtained their visas.",
+      "author": "Admin",
+      "date": "05 November, 2024",
+      "datetime": "2024-11-05",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Life as an International Student: What Nobody Tells You",
+      "excerpt": "Real stories and practical advice from Uzbek students currently studying in the UK, Canada, and South Korea.",
+      "author": "Admin",
+      "date": "12 January, 2025",
+      "datetime": "2025-01-12",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Working While Studying: Rules and Opportunities by Country",
+      "excerpt": "A breakdown of part-time work regulations, typical student jobs, and earning potential in each of our partner countries.",
+      "author": "Admin",
+      "date": "28 February, 2025",
+      "datetime": "2025-02-28",
+      "link": "blog-post.html"
+    }
+  ],
+  "uz": [
+    {
+      "title": "Xorijda o'qish uchun to'g'ri davlatni qanday tanlash mumkin",
+      "excerpt": "12 ta hamkor davlatdagi yashash xarajatlari, ta'lim sifati, ish imkoniyatlari va viza siyosatini solishtirib, qaror qabul qilishingizga yordam beramiz.",
+      "author": "Admin",
+      "date": "10 iyul, 2024",
+      "datetime": "2024-07-10",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "IELTS tayyorgarlik: maqsadli ballga erishish bo'yicha maslahatlar",
+      "excerpt": "Tajribali o'qituvchilarimizdan IELTS bo'limlari - tinglash, o'qish, yozish va gapirish bo'yicha amaliy strategiyalar.",
+      "author": "Admin",
+      "date": "15 avgust, 2024",
+      "datetime": "2024-08-15",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Stipendiya qo'llanmasi: xorijda ta'limni qanday moliyalashtirish mumkin",
+      "excerpt": "Xalqaro universitetlarda stipendiyalarni topish, ariza topshirish va yutib olish bo'yicha bosqichma-bosqich qo'llanma.",
+      "author": "Admin",
+      "date": "28 sentyabr, 2024",
+      "datetime": "2024-09-28",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Talaba vizasi intervyusi: nimani kutish va qanday tayyorlanish kerak",
+      "excerpt": "Keng tarqalgan viza intervyu savollari, eng yaxshi javoblar va vizani muvaffaqiyatli olgan talabalarning maslahatlari.",
+      "author": "Admin",
+      "date": "05 noyabr, 2024",
+      "datetime": "2024-11-05",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Xalqaro talaba hayoti: hech kim aytmaydigan narsalar",
+      "excerpt": "Hozirda Buyuk Britaniya, Kanada va Janubiy Koreyada o'qiyotgan o'zbekistonlik talabalarning haqiqiy hikoyalari va amaliy maslahatlari.",
+      "author": "Admin",
+      "date": "12 yanvar, 2025",
+      "datetime": "2025-01-12",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "O'qish paytida ishlash: davlatlar bo'yicha qoidalar va imkoniyatlar",
+      "excerpt": "Hamkor davlatlarimizning har birida yarim kunlik ish qoidalari, odatiy talaba ishlari va daromad imkoniyatlari haqida ma'lumot.",
+      "author": "Admin",
+      "date": "28 fevral, 2025",
+      "datetime": "2025-02-28",
+      "link": "blog-post.html"
+    }
+  ],
+  "uzcyrl": [
+    {
+      "title": "Хорижда ўқиш учун тўғри давлатни қандай танлаш мумкин",
+      "excerpt": "12 та ҳамкор давлатдаги яшаш харажатлари, таълим сифати, иш имкониятлари ва виза сиёсатини солиштириб, қарор қабул қилишингизга ёрдам берамиз.",
+      "author": "Admin",
+      "date": "10 июл, 2024",
+      "datetime": "2024-07-10",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "IELTS тайёргарлик: мақсадли балга эришиш бўйича маслаҳатлар",
+      "excerpt": "Тажрибали ўқитувчиларимиздан IELTS бўлимлари - тинглаш, ўқиш, ёзиш ва гапириш бўйича амалий стратегиялар.",
+      "author": "Admin",
+      "date": "15 август, 2024",
+      "datetime": "2024-08-15",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Стипендия қўлланмаси: хорижда таълимни қандай молиялаштириш мумкин",
+      "excerpt": "Халқаро университетларда стипендияларни топиш, ариза топшириш ва ютиб олиш бўйича босқичма-босқич қўлланма.",
+      "author": "Admin",
+      "date": "28 сентябр, 2024",
+      "datetime": "2024-09-28",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Талаба визаси интервьюси: нимани кутиш ва қандай тайёрланиш керак",
+      "excerpt": "Кенг тарқалган виза интервью саволлари, энг яхши жавоблар ва визани муваффақиятли олган талабаларнинг маслаҳатлари.",
+      "author": "Admin",
+      "date": "05 ноябр, 2024",
+      "datetime": "2024-11-05",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Халқаро талаба ҳаёти: ҳеч ким айтмайдиган нарсалар",
+      "excerpt": "Ҳозирда Буюк Британия, Канада ва Жанубий Корeяда ўқиётган ўзбекистонлик талабаларнинг ҳақиқий ҳикоялари ва амалий маслаҳатлари.",
+      "author": "Admin",
+      "date": "12 январ, 2025",
+      "datetime": "2025-01-12",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Ўқиш пайтида ишлаш: давлатлар бўйича қоидалар ва имкониятлар",
+      "excerpt": "Ҳамкор давлатларимизнинг ҳар бирида ярим кунлик иш қоидалари, одатий талаба ишлари ва даромад имкониятлари ҳақида маълумот.",
+      "author": "Admin",
+      "date": "28 феврал, 2025",
+      "datetime": "2025-02-28",
+      "link": "blog-post.html"
+    }
+  ],
+  "ru": [
+    {
+      "title": "Как выбрать подходящую страну для обучения за рубежом",
+      "excerpt": "Сравнение стоимости жизни, качества образования, возможностей трудоустройства и визовой политики в 12 странах-партнёрах.",
+      "author": "Admin",
+      "date": "10 июля 2024",
+      "datetime": "2024-07-10",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Подготовка к IELTS: советы по достижению целевого балла",
+      "excerpt": "Практические стратегии по каждому разделу IELTS — аудирование, чтение, письмо и говорение — от наших опытных преподавателей.",
+      "author": "Admin",
+      "date": "15 августа 2024",
+      "datetime": "2024-08-15",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Гид по стипендиям: как финансировать обучение за рубежом",
+      "excerpt": "Пошаговое руководство по поиску, подаче заявок и получению стипендий в международных университетах.",
+      "author": "Admin",
+      "date": "28 сентября 2024",
+      "datetime": "2024-09-28",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Собеседование на студенческую визу: чего ожидать и как подготовиться",
+      "excerpt": "Частые вопросы на визовом собеседовании, лучшие ответы и советы от студентов, успешно получивших визу.",
+      "author": "Admin",
+      "date": "05 ноября 2024",
+      "datetime": "2024-11-05",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Жизнь иностранного студента: о чём никто не рассказывает",
+      "excerpt": "Реальные истории и практические советы от узбекских студентов, обучающихся в Великобритании, Канаде и Южной Корее.",
+      "author": "Admin",
+      "date": "12 января 2025",
+      "datetime": "2025-01-12",
+      "link": "blog-post.html"
+    },
+    {
+      "title": "Работа во время учёбы: правила и возможности по странам",
+      "excerpt": "Обзор правил подработки, типичных студенческих вакансий и потенциального заработка в каждой из наших стран-партнёров.",
+      "author": "Admin",
+      "date": "28 февраля 2025",
+      "datetime": "2025-02-28",
+      "link": "blog-post.html"
+    }
+  ]
+}

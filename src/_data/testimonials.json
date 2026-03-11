@@ -1,17 +1,70 @@
-[
-  {
-    "quote": "Grant Consulting helped me get a full scholarship to a UK university. The team guided me through every step, from IELTS prep to visa interview. I could not have done it without them.",
-    "name": "Aziza Karimova",
-    "title": "Scholarship Student, University of Leeds"
-  },
-  {
-    "quote": "I was confused about which country to choose. The consultants sat with me, analyzed my profile, and found the perfect program in Canada. Now I am studying and working part-time.",
-    "name": "Jasur Alimov",
-    "title": "Master's Student, University of Toronto"
-  },
-  {
-    "quote": "The visa process felt impossible until Grant Consulting took over. They prepared all my documents, coached me for the interview, and I got approved on the first try.",
-    "name": "Nodira Rustamova",
-    "title": "Bachelor's Student, Corvinus University Budapest"
-  }
-]
+{
+  "en": [
+    {
+      "quote": "Grant Consulting helped me get a full scholarship to a UK university. The team guided me through every step, from IELTS prep to visa interview. I could not have done it without them.",
+      "name": "Aziza Karimova",
+      "title": "Scholarship Student, University of Leeds"
+    },
+    {
+      "quote": "I was confused about which country to choose. The consultants sat with me, analyzed my profile, and found the perfect program in Canada. Now I am studying and working part-time.",
+      "name": "Jasur Alimov",
+      "title": "Master's Student, University of Toronto"
+    },
+    {
+      "quote": "The visa process felt impossible until Grant Consulting took over. They prepared all my documents, coached me for the interview, and I got approved on the first try.",
+      "name": "Nodira Rustamova",
+      "title": "Bachelor's Student, Corvinus University Budapest"
+    }
+  ],
+  "uz": [
+    {
+      "quote": "Grant Consulting menga Buyuk Britaniyadagi universitetdan to'liq grant olishda yordam berdi. Jamoa IELTS tayyorgarligidan viza intervyusigacha har bir qadamda menga yo'l ko'rsatdi. Ularsiz buning uddasidan chiqa olmas edim.",
+      "name": "Aziza Karimova",
+      "title": "Grant talabasi, University of Leeds"
+    },
+    {
+      "quote": "Qaysi davlatni tanlashni bilmay qiynalayotgan edim. Maslahatchilar men bilan birga o'tirib, profilimni tahlil qildi va Kanadadagi mukammal dasturni topdi. Hozir o'qiyapman va yarim kunlik ishlamoqdaman.",
+      "name": "Jasur Alimov",
+      "title": "Magistrant, University of Toronto"
+    },
+    {
+      "quote": "Viza jarayoni imkonsiz tuyulardi, Grant Consulting ishni o'z zimmasiga olgunicha. Ular barcha hujjatlarimni tayyorladi, intervyuga tayyorladi va men birinchi urinishda tasdiqlash oldim.",
+      "name": "Nodira Rustamova",
+      "title": "Bakalavr talabasi, Corvinus University Budapest"
+    }
+  ],
+  "uzcyrl": [
+    {
+      "quote": "Grant Consulting менга Буюк Британиядаги университетдан тўлиқ грант олишда ёрдам берди. Жамоа IELTS тайёргарлигидан виза интервьюсигача ҳар бир қадамда менга йўл кўрсатди. Уларсиз бунинг уддасидан чиқа олмас эдим.",
+      "name": "Aziza Karimova",
+      "title": "Грант талабаси, University of Leeds"
+    },
+    {
+      "quote": "Қайси давлатни танлашни билмай қийналаётган эдим. Маслаҳатчилар мен билан бирга ўтириб, профилимни таҳлил қилди ва Канададаги мукаммал дастурни топди. Ҳозир ўқияпман ва ярим кунлик ишламоқдаман.",
+      "name": "Jasur Alimov",
+      "title": "Магистрант, University of Toronto"
+    },
+    {
+      "quote": "Виза жараёни имконсиз туюларди, Grant Consulting ишни ўз зиммасига олгунича. Улар барча ҳужжатларимни тайёрлади, интервьюга тайёрлади ва мен биринчи уринишда тасдиқлаш олдим.",
+      "name": "Nodira Rustamova",
+      "title": "Бакалавр талабаси, Corvinus University Budapest"
+    }
+  ],
+  "ru": [
+    {
+      "quote": "Grant Consulting помог мне получить полную стипендию в британском университете. Команда сопровождала меня на каждом этапе — от подготовки к IELTS до визового собеседования. Без них я бы не справилась.",
+      "name": "Aziza Karimova",
+      "title": "Стипендиат, University of Leeds"
+    },
+    {
+      "quote": "Я не мог определиться со страной. Консультанты проанализировали мой профиль и подобрали идеальную программу в Канаде. Сейчас я учусь и подрабатываю.",
+      "name": "Jasur Alimov",
+      "title": "Магистрант, University of Toronto"
+    },
+    {
+      "quote": "Визовый процесс казался невозможным, пока Grant Consulting не взял всё на себя. Они подготовили все документы, подготовили меня к собеседованию, и я получила визу с первого раза.",
+      "name": "Nodira Rustamova",
+      "title": "Студентка бакалавриата, Corvinus University Budapest"
+    }
+  ]
+}

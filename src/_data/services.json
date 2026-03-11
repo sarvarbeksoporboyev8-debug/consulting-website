@@ -1,38 +1,154 @@
-[
-  {
-    "id": "free-consultation",
-    "title": "Free Consultation",
-    "description": "Get a free initial consultation to discuss your study abroad goals, eligibility, and the best university options for you.",
-    "link": "service-business-consulting.html"
-  },
-  {
-    "id": "university-grants",
-    "title": "Scholarships & Grants",
-    "description": "We help you secure grants and scholarships from TOP universities worldwide, covering application strategy and documentation.",
-    "link": "service-marketing-strategy.html"
-  },
-  {
-    "id": "document-preparation",
-    "title": "Document Preparation",
-    "description": "We handle document submission to up to 3 universities, including recommendation letters, essays, and all required paperwork.",
-    "link": "service-audit-evaluation.html"
-  },
-  {
-    "id": "visa-services",
-    "title": "Visa Support",
-    "description": "Complete visa application support - from document gathering to interview preparation and submission.",
-    "link": "service-problem-solving.html"
-  },
-  {
-    "id": "ielts-preparation",
-    "title": "IELTS Preparation",
-    "description": "IELTS preparation courses and language training to meet university admission requirements, with score improvement strategies.",
-    "link": "service-digital-marketing.html"
-  },
-  {
-    "id": "pre-departure-training",
-    "title": "Pre-Departure Training",
-    "description": "Free training sessions from specialists who have lived abroad, covering culture, academics, and practical life tips.",
-    "link": "service-seo-ranking.html"
-  }
-]
+{
+  "en": [
+    {
+      "id": "free-consultation",
+      "title": "Free Consultation",
+      "description": "Get a free initial consultation to discuss your study abroad goals, eligibility, and the best university options for you.",
+      "link": "services.html#free-consultation"
+    },
+    {
+      "id": "university-grants",
+      "title": "Scholarships & Grants",
+      "description": "We help you secure grants and scholarships from TOP universities worldwide, covering application strategy and documentation.",
+      "link": "services.html#university-grants"
+    },
+    {
+      "id": "document-preparation",
+      "title": "Document Preparation",
+      "description": "We handle document submission to up to 3 universities, including recommendation letters, essays, and all required paperwork.",
+      "link": "services.html#document-preparation"
+    },
+    {
+      "id": "visa-services",
+      "title": "Visa Support",
+      "description": "Complete visa application support — from document gathering to interview preparation and submission.",
+      "link": "services.html#visa-services"
+    },
+    {
+      "id": "ielts-preparation",
+      "title": "IELTS Preparation",
+      "description": "IELTS preparation courses and language training to meet university admission requirements, with score improvement strategies.",
+      "link": "services.html#ielts-preparation"
+    },
+    {
+      "id": "pre-departure-training",
+      "title": "Pre-Departure Training",
+      "description": "Free training sessions from specialists who have lived abroad, covering culture, academics, and practical life tips.",
+      "link": "services.html#pre-departure-training"
+    }
+  ],
+  "uz": [
+    {
+      "id": "free-consultation",
+      "title": "Bepul konsultatsiya",
+      "description": "Xorijda o'qish maqsadlaringiz, imkoniyatlaringiz va siz uchun eng yaxshi universitet variantlarini muhokama qilish uchun bepul konsultatsiya oling.",
+      "link": "services.html#free-consultation"
+    },
+    {
+      "id": "university-grants",
+      "title": "Grant va stipendiyalar",
+      "description": "Dunyoning TOP universitetlaridan grant va stipendiyalar olishda yordam beramiz, ariza strategiyasi va hujjatlarni tayyorlashni o'z ichiga oladi.",
+      "link": "services.html#university-grants"
+    },
+    {
+      "id": "document-preparation",
+      "title": "Hujjatlarni tayyorlash",
+      "description": "3 tagacha universitetga hujjat topshirish, tavsiyanomalar, esse va barcha kerakli hujjatlarni tayyorlash bilan shug'ullanamiz.",
+      "link": "services.html#document-preparation"
+    },
+    {
+      "id": "visa-services",
+      "title": "Viza olish xizmati",
+      "description": "To'liq viza ariza yordami — hujjatlarni yig'ishdan intervyuga tayyorlash va topshirishgacha.",
+      "link": "services.html#visa-services"
+    },
+    {
+      "id": "ielts-preparation",
+      "title": "IELTS tayyorlash",
+      "description": "Universitetga qabul talablarini bajarish uchun IELTS tayyorlov kurslari va til o'rgatish, ball oshirish strategiyalari bilan.",
+      "link": "services.html#ielts-preparation"
+    },
+    {
+      "id": "pre-departure-training",
+      "title": "Chet elga tayyorgarlik",
+      "description": "Xorijda yashagan mutaxassislardan bepul trening — madaniyat, ta'lim va kundalik hayot bo'yicha maslahatlar.",
+      "link": "services.html#pre-departure-training"
+    }
+  ],
+  "uzcyrl": [
+    {
+      "id": "free-consultation",
+      "title": "Бепул консултатсия",
+      "description": "Хорижда ўқиш мақсадларингиз, имкониятларингиз ва сиз учун энг яхши университет вариантларини муҳокама қилиш учун бепул консултатсия олинг.",
+      "link": "services.html#free-consultation"
+    },
+    {
+      "id": "university-grants",
+      "title": "Грант ва стипендиялар",
+      "description": "Дунёнинг ТОП университетларидан грант ва стипендиялар олишда ёрдам берамиз, ариза стратегияси ва ҳужжатларни тайёрлашни ўз ичига олади.",
+      "link": "services.html#university-grants"
+    },
+    {
+      "id": "document-preparation",
+      "title": "Ҳужжатларни тайёрлаш",
+      "description": "3 тагача университетга ҳужжат топшириш, тавсияномалар, эссе ва барча керакли ҳужжатларни тайёрлаш билан шуғулланамиз.",
+      "link": "services.html#document-preparation"
+    },
+    {
+      "id": "visa-services",
+      "title": "Виза олиш хизмати",
+      "description": "Тўлиқ виза ариза ёрдами — ҳужжатларни йиғишдан интервьюга тайёрлаш ва топширишгача.",
+      "link": "services.html#visa-services"
+    },
+    {
+      "id": "ielts-preparation",
+      "title": "IELTS тайёрлаш",
+      "description": "Университетга қабул талабларини бажариш учун IELTS тайёрлов курслари ва тил ўргатиш, балл оширишстратегиялари билан.",
+      "link": "services.html#ielts-preparation"
+    },
+    {
+      "id": "pre-departure-training",
+      "title": "Чет элга тайёргарлик",
+      "description": "Хорижда яшаган мутахассислардан бепул тренинг — маданият, таълим ва кундалик ҳаёт бўйича маслаҳатлар.",
+      "link": "services.html#pre-departure-training"
+    }
+  ],
+  "ru": [
+    {
+      "id": "free-consultation",
+      "title": "Бесплатная консультация",
+      "description": "Получите бесплатную первичную консультацию, чтобы обсудить ваши цели обучения за рубежом, возможности и лучшие варианты университетов.",
+      "link": "services.html#free-consultation"
+    },
+    {
+      "id": "university-grants",
+      "title": "Гранты и стипендии",
+      "description": "Помогаем получить гранты и стипендии от ТОП университетов мира, включая разработку стратегии подачи и подготовку документов.",
+      "link": "services.html#university-grants"
+    },
+    {
+      "id": "document-preparation",
+      "title": "Подготовка документов",
+      "description": "Подготовка и подача документов в 3 университета, включая рекомендательные письма, эссе и все необходимые документы.",
+      "link": "services.html#document-preparation"
+    },
+    {
+      "id": "visa-services",
+      "title": "Визовая поддержка",
+      "description": "Полное сопровождение визового процесса — от сбора документов до подготовки к собеседованию и подачи заявления.",
+      "link": "services.html#visa-services"
+    },
+    {
+      "id": "ielts-preparation",
+      "title": "Подготовка к IELTS",
+      "description": "Курсы подготовки к IELTS и языковые тренинги для выполнения требований университетов, со стратегиями повышения баллов.",
+      "link": "services.html#ielts-preparation"
+    },
+    {
+      "id": "pre-departure-training",
+      "title": "Предвыездная подготовка",
+      "description": "Бесплатные тренинги от специалистов, живших за рубежом — о культуре, учёбе и практических аспектах жизни за границей.",
+      "link": "services.html#pre-departure-training"
+    }
+  ]
+}

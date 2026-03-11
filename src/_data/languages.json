@@ -1,0 +1,6 @@
+[
+  { "code": "en", "name": "English", "htmlLang": "en", "dir": "ltr" },
+  { "code": "uz", "name": "O'zbekcha", "htmlLang": "uz-Latn", "dir": "ltr" },
+  { "code": "uzcyrl", "name": "Ўзбекча", "htmlLang": "uz-Cyrl", "dir": "ltr" },
+  { "code": "ru", "name": "Русский", "htmlLang": "ru", "dir": "ltr" }
+]

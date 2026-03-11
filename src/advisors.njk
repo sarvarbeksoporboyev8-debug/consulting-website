@@ -1,19 +1,25 @@
----
-layout: layouts/page.njk
-title: "Our Team - Grant Consulting"
-description: "Meet the Grant Consulting team - experienced consultants helping students study abroad."
-pageCss: "css/advisors.css"
-navKey: "Advisors"
-extraFonts: "&family=Merriweather:wght@700"
-heroTitle: "Our Team"
-heroSubtitle: "Meet the experienced consultants who guide students to their dream universities worldwide."
-breadcrumbs:
-  - label: "Team"
+---js
+{
+  pagination: { data: "languages", size: 1, alias: "lang" },
+  permalink: function(data) { return data.lang.code + "/advisors.html"; },
+  layout: "layouts/page.njk",
+  pageCss: "css/advisors.css",
+  navKey: "Team",
+  extraFonts: "&family=Merriweather:wght@700",
+  currentPage: "advisors.html",
+  eleventyComputed: {
+    title: function(data) { var L = data.lang.code; return (data.ui[L]||data.ui.en).page_team_title + " - Grant Consulting"; },
+    description: function(data) { return (data.ui[data.lang.code]||data.ui.en).team_subtitle; },
+    heroTitle: function(data) { return (data.ui[data.lang.code]||data.ui.en).page_team_hero; },
+    heroSubtitle: function(data) { return (data.ui[data.lang.code]||data.ui.en).team_subtitle; },
+    breadcrumbs: function(data) { return [{ label: (data.ui[data.lang.code]||data.ui.en).page_team_hero }]; }
+  }
+}
 ---
     <section class="team">
       <div class="section-header">
-        <h2>Meet Our Team</h2>
-        <p>Our consultants bring years of experience in international education, visa processing, and student success.</p>
+        <h2>{{ t.team_title | safe }}</h2>
+        <p>{{ t.team_subtitle }}</p>
       </div>
       {% include "partials/team-grid.njk" %}
     </section>
@@ -21,8 +27,8 @@ breadcrumbs:
     {% include "partials/features.njk" %}
 
     <section class="video-section">
-      <h2>See How We Help Students <span class="highlight">Study Abroad</span></h2>
-      <p class="desc">Watch how our team guides students through every step of the study abroad process.</p>
+      <h2>{{ t.about_video_title | safe }}</h2>
+      <p class="desc">{{ t.about_video_desc }}</p>
       <div class="video-player">
         <button type="button" class="play-btn" aria-label="Play video"></button>
       </div>

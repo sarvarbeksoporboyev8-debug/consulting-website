@@ -1,58 +1,266 @@
 {
-  "mini": [
-    {
-      "question": "Is the initial consultation really free?",
-      "answer": "Yes, your first consultation is completely free. We assess your profile, discuss your goals, and recommend the best study abroad options with no obligation."
-    },
-    {
-      "question": "What IELTS score do I need?",
-      "answer": "It depends on the program: Bachelor's programs typically require IELTS 4.5+, Master's programs require IELTS 6.0+. We also offer IELTS preparation courses to help you reach your target score."
-    },
-    {
-      "question": "How many universities can you apply to?",
-      "answer": "We handle document preparation and submission for up to 3 universities per student, ensuring each application is tailored and competitive."
-    },
-    {
-      "question": "Do you help with visa applications?",
-      "answer": "Yes, we provide complete visa support including document preparation, application submission, and interview coaching."
-    },
-    {
-      "question": "Which countries can I study in?",
-      "answer": "We have partnerships with universities in 12+ countries including the UK, Canada, Australia, South Korea, Italy, Malaysia, Ireland, China, Latvia, Slovakia, Hungary, and Switzerland."
-    }
-  ],
-  "full": [
-    {
-      "question": "Is the initial consultation really free?",
-      "answer": "Yes, your first consultation is completely free. We assess your profile, discuss your goals, and recommend the best study abroad options with no obligation."
-    },
-    {
-      "question": "What IELTS score do I need to study abroad?",
-      "answer": "It depends on the program level: Bachelor's programs typically require IELTS 4.5+, Master's programs require IELTS 6.0+. Some programs may have different requirements. We also offer IELTS preparation courses."
-    },
-    {
-      "question": "How many universities can you apply to for me?",
-      "answer": "We handle document preparation and submission for up to 3 universities per student, ensuring each application is tailored to the specific university's requirements."
-    },
-    {
-      "question": "Do you help with scholarship and grant applications?",
-      "answer": "Absolutely. Finding grants and scholarships is one of our core services. We identify funding opportunities that match your profile and help you prepare competitive applications."
-    },
-    {
-      "question": "What does the visa support include?",
-      "answer": "Our visa service covers everything: document gathering and verification, application form completion, submission, and thorough interview preparation coaching."
-    },
-    {
-      "question": "Do you offer language courses?",
-      "answer": "Yes, we offer IELTS preparation courses and general language training. Our courses are designed to help you meet university admission requirements efficiently."
-    },
-    {
-      "question": "What about summer programs for younger students?",
-      "answer": "We organize summer camp programs abroad for teenagers aged 8-17. These are supervised educational vacations that combine learning with cultural experiences."
-    },
-    {
-      "question": "Do you provide pre-departure support?",
-      "answer": "Yes. We offer free training sessions led by specialists who have lived and studied abroad. They cover academic culture, practical life tips, and what to expect in your destination country."
-    }
-  ]
+  "en": {
+    "mini": [
+      {
+        "question": "Is the initial consultation really free?",
+        "answer": "Yes, your first consultation is completely free. We assess your profile, discuss your goals, and recommend the best study abroad options with no obligation."
+      },
+      {
+        "question": "What IELTS score do I need?",
+        "answer": "It depends on the program: Bachelor's programs typically require IELTS 4.5+, Master's programs require IELTS 6.0+. We also offer IELTS preparation courses to help you reach your target score."
+      },
+      {
+        "question": "How many universities can you apply to?",
+        "answer": "We handle document preparation and submission for up to 3 universities per student, ensuring each application is tailored and competitive."
+      },
+      {
+        "question": "Do you help with visa applications?",
+        "answer": "Yes, we provide complete visa support including document preparation, application submission, and interview coaching."
+      },
+      {
+        "question": "Which countries can I study in?",
+        "answer": "We have partnerships with universities in 12+ countries including the UK, Canada, Australia, South Korea, Italy, Malaysia, Ireland, China, Latvia, Slovakia, Hungary, and Switzerland."
+      }
+    ],
+    "full": [
+      {
+        "question": "What services does Grant Consulting provide?",
+        "answer": "We provide a full range of study abroad services: free consultation, grant and scholarship assistance, document preparation and submission to up to 3 universities, visa support, IELTS preparation, and pre-departure training.",
+        "category": "General"
+      },
+      {
+        "question": "Is the initial consultation really free?",
+        "answer": "Yes, your first consultation is completely free. We assess your profile, discuss your goals, and recommend the best study abroad options with no obligation.",
+        "category": "General"
+      },
+      {
+        "question": "What IELTS score do I need to study abroad?",
+        "answer": "It depends on the program level: Bachelor's programs typically require IELTS 4.5+, Master's programs require IELTS 6.0+. Some programs may have different requirements. We also offer IELTS preparation courses.",
+        "category": "IELTS & Language"
+      },
+      {
+        "question": "Is there a chance to get a grant?",
+        "answer": "Absolutely. Finding grants and scholarships is one of our core services. We identify funding opportunities that match your profile and help you prepare competitive applications.",
+        "category": "Scholarships"
+      },
+      {
+        "question": "How many universities can you apply to for me?",
+        "answer": "We handle document preparation and submission for up to 3 universities per student, ensuring each application is tailored to the specific university's requirements.",
+        "category": "Admissions"
+      },
+      {
+        "question": "Do you help with visa applications?",
+        "answer": "Yes. Our visa service covers everything: document gathering and verification, application form completion, submission, and thorough interview preparation coaching.",
+        "category": "Visa & Documents"
+      },
+      {
+        "question": "Are there programs for younger students?",
+        "answer": "Yes, we organize summer camp programs abroad for teenagers aged 8–17. These are supervised educational vacations that combine learning with cultural experiences.",
+        "category": "Programs"
+      },
+      {
+        "question": "Do you provide pre-departure support?",
+        "answer": "Yes. We offer free training sessions led by specialists who have lived and studied abroad. They cover academic culture, practical life tips, and what to expect in your destination country.",
+        "category": "General"
+      }
+    ]
+  },
+  "uz": {
+    "mini": [
+      {
+        "question": "Konsultatsiya haqiqatan ham bepulmi?",
+        "answer": "Ha, birinchi konsultatsiya to'liq bepul. Biz sizning profilingizni baholaymiz, maqsadlaringizni muhokama qilamiz va hech qanday majburiyatsiz eng yaxshi xorijda ta'lim olish variantlarini tavsiya qilamiz."
+      },
+      {
+        "question": "IELTS talabi qancha?",
+        "answer": "Bu dasturga bog'liq: Bakalavr dasturlari odatda IELTS 4.5+ talab qiladi, Magistratura dasturlari IELTS 6.0+ talab qiladi. Biz maqsadli balingizga erishishga yordam beruvchi IELTS tayyorlov kurslarini ham taklif qilamiz."
+      },
+      {
+        "question": "Nechta universitetga hujjat topshirish mumkin?",
+        "answer": "Biz har bir talaba uchun 3 tagacha universitetga hujjat tayyorlash va topshirish bilan shug'ullanamiz, har bir ariza moslashtirilgan va raqobatbardosh bo'lishini ta'minlaymiz."
+      },
+      {
+        "question": "Viza olishda yordam berasizmi?",
+        "answer": "Ha, biz hujjatlarni tayyorlash, ariza topshirish va intervyuga tayyorlashni o'z ichiga olgan to'liq viza yordamini ko'rsatamiz."
+      },
+      {
+        "question": "Qaysi davlatlarda o'qish mumkin?",
+        "answer": "Biz 12+ davlatdagi universitetlar bilan hamkorlik qilamiz, jumladan Buyuk Britaniya, Kanada, Avstraliya, Janubiy Koreya, Italiya, Malayziya, Irlandiya, Xitoy, Latviya, Slovakiya, Vengriya va Shveytsariya."
+      }
+    ],
+    "full": [
+      {
+        "question": "Grant Consulting qanday xizmatlar ko'rsatadi?",
+        "answer": "Biz xorijda ta'lim olish bo'yicha to'liq xizmatlar ko'rsatamiz: bepul konsultatsiya, grant va stipendiya yordami, 3 tagacha universitetga hujjat tayyorlash va topshirish, viza yordami, IELTS tayyorlash va chet elga tayyorgarlik treninglari.",
+        "category": "Umumiy"
+      },
+      {
+        "question": "Konsultatsiya pullikmi?",
+        "answer": "Yo'q, birinchi konsultatsiya to'liq bepul. Biz sizning profilingizni baholaymiz, maqsadlaringizni muhokama qilamiz va hech qanday majburiyatsiz eng yaxshi xorijda ta'lim olish variantlarini tavsiya qilamiz.",
+        "category": "Umumiy"
+      },
+      {
+        "question": "IELTS talabi qancha?",
+        "answer": "Bu dastur darajasiga bog'liq: Bakalavr dasturlari odatda IELTS 4.5+ talab qiladi, Magistratura dasturlari IELTS 6.0+ talab qiladi. Ba'zi dasturlarning talablari farq qilishi mumkin. Biz IELTS tayyorlov kurslarini ham taklif qilamiz.",
+        "category": "IELTS va til"
+      },
+      {
+        "question": "Grant olish imkoniyati bormi?",
+        "answer": "Albatta. Grant va stipendiyalarni topish bizning asosiy xizmatlarimizdan biridir. Biz sizning profilingizga mos moliyalashtirish imkoniyatlarini aniqlaymiz va raqobatbardosh arizalar tayyorlashda yordam beramiz.",
+        "category": "Grantlar"
+      },
+      {
+        "question": "Nechta universitetga hujjat topshirish mumkin?",
+        "answer": "Biz har bir talaba uchun 3 tagacha universitetga hujjat tayyorlash va topshirish bilan shug'ullanamiz, har bir ariza aniq universitetning talablariga moslashtirilgan bo'lishini ta'minlaymiz.",
+        "category": "Qabul"
+      },
+      {
+        "question": "Viza olishda yordam berasizmi?",
+        "answer": "Ha. Bizning viza xizmatimiz hamma narsani qamrab oladi: hujjatlarni yig'ish va tekshirish, ariza shaklini to'ldirish, topshirish va intervyuga puxta tayyorlash.",
+        "category": "Viza va hujjatlar"
+      },
+      {
+        "question": "O'quvchilar uchun dasturlar bormi?",
+        "answer": "Ha, biz 8–17 yoshli o'smirlar uchun xorijda yozgi lager dasturlarini tashkil qilamiz. Bular ta'limni madaniy tajriba bilan birlashtiradigan nazorat ostidagi ta'lim ta'tillaridir.",
+        "category": "Dasturlar"
+      },
+      {
+        "question": "Chet elga chiqish oldidan tayyorgarlik bormi?",
+        "answer": "Ha. Biz xorijda yashab, ta'lim olgan mutaxassislar tomonidan bepul trening sessiyalarini taklif qilamiz. Ular akademik madaniyat, amaliy hayot maslahatlari va boradigan mamlakatda nimalar kutayotgani haqida ma'lumot beradi.",
+        "category": "Umumiy"
+      }
+    ]
+  },
+  "uzcyrl": {
+    "mini": [
+      {
+        "question": "Консултатсия ҳақиқатан ҳам бепулми?",
+        "answer": "Ҳа, биринчи консултатсия тўлиқ бепул. Биз сизнинг профилингизни баҳолаймиз, мақсадларингизни муҳокама қиламиз ва ҳеч қандай мажбуриятсиз энг яхши хорижда таълим олиш вариантларини тавсия қиламиз."
+      },
+      {
+        "question": "IELTS талаби қанча?",
+        "answer": "Бу дастурга боғлиқ: Бакалавр дастурлари одатда IELTS 4.5+ талаб қилади, Магистратура дастурлари IELTS 6.0+ талаб қилади. Биз мақсадли балингизга эришишга ёрдам берувчи IELTS тайёрлов курсларини ҳам таклиф қиламиз."
+      },
+      {
+        "question": "Нечта университетга ҳужжат топшириш мумкин?",
+        "answer": "Биз ҳар бир талаба учун 3 тагача университетга ҳужжат тайёрлаш ва топшириш билан шуғулланамиз, ҳар бир ариза мослаштирилган ва рақобатбардош бўлишини таъминлаймиз."
+      },
+      {
+        "question": "Виза олишда ёрдам берасизми?",
+        "answer": "Ҳа, биз ҳужжатларни тайёрлаш, ариза топшириш ва интервьюга тайёрлашни ўз ичига олган тўлиқ виза ёрдамини кўрсатамиз."
+      },
+      {
+        "question": "Қайси давлатларда ўқиш мумкин?",
+        "answer": "Биз 12+ давлатдаги университетлар билан ҳамкорлик қиламиз, жумладан Буюк Британия, Канада, Австралия, Жанубий Корея, Италия, Малайзия, Ирландия, Хитой, Латвия, Словакия, Венгрия ва Швейтсария."
+      }
+    ],
+    "full": [
+      {
+        "question": "Grant Consulting қандай хизматлар кўрсатади?",
+        "answer": "Биз хорижда таълим олиш бўйича тўлиқ хизматлар кўрсатамиз: бепул консултатсия, грант ва стипендия ёрдами, 3 тагача университетга ҳужжат тайёрлаш ва топшириш, виза ёрдами, IELTS тайёрлаш ва чет элга тайёргарлик тренинглари.",
+        "category": "Умумий"
+      },
+      {
+        "question": "Консултатсия пулликми?",
+        "answer": "Йўқ, биринчи консултатсия тўлиқ бепул. Биз сизнинг профилингизни баҳолаймиз, мақсадларингизни муҳокама қиламиз ва ҳеч қандай мажбуриятсиз энг яхши хорижда таълим олиш вариантларини тавсия қиламиз.",
+        "category": "Умумий"
+      },
+      {
+        "question": "IELTS талаби қанча?",
+        "answer": "Бу дастур даражасига боғлиқ: Бакалавр дастурлари одатда IELTS 4.5+ талаб қилади, Магистратура дастурлари IELTS 6.0+ талаб қилади. Баъзи дастурларнинг талаблари фарқ қилиши мумкин. Биз IELTS тайёрлов курсларини ҳам таклиф қиламиз.",
+        "category": "IELTS ва тил"
+      },
+      {
+        "question": "Грант олиш имконияти борми?",
+        "answer": "Албатта. Грант ва стипендияларни топиш бизнинг асосий хизматларимиздан биридир. Биз сизнинг профилингизга мос молиялаштириш имкониятларини аниқлаймиз ва рақобатбардош аризалар тайёрлашда ёрдам берамиз.",
+        "category": "Грантлар"
+      },
+      {
+        "question": "Нечта университетга ҳужжат топшириш мумкин?",
+        "answer": "Биз ҳар бир талаба учун 3 тагача университетга ҳужжат тайёрлаш ва топшириш билан шуғулланамиз, ҳар бир ариза аниқ университетнинг талабларига мослаштирилган бўлишини таъминлаймиз.",
+        "category": "Қабул"
+      },
+      {
+        "question": "Виза олишда ёрдам берасизми?",
+        "answer": "Ҳа. Бизнинг виза хизматимиз ҳамма нарсани қамраб олади: ҳужжатларни йиғиш ва текшириш, ариза шаклини тўлдириш, топшириш ва интервьюга пухта тайёрлаш.",
+        "category": "Виза ва ҳужжатлар"
+      },
+      {
+        "question": "Ўқувчилар учун дастурлар борми?",
+        "answer": "Ҳа, биз 8–17 ёшли ўсмирлар учун хорижда ёзги лагер дастурларини ташкил қиламиз. Булар таълимни маданий тажриба билан бирлаштирадиган назорат остидаги таълим таътиллларидир.",
+        "category": "Дастурлар"
+      },
+      {
+        "question": "Чет элга чиқиш олдидан тайёргарлик борми?",
+        "answer": "Ҳа. Биз хорижда яшаб, таълим олган мутахассислар томонидан бепул тренинг сессияларини таклиф қиламиз. Улар академик маданият, амалий ҳаёт маслаҳатлари ва борадиган мамлакатда нималар кутаётгани ҳақида маълумот беради.",
+        "category": "Умумий"
+      }
+    ]
+  },
+  "ru": {
+    "mini": [
+      {
+        "question": "Первая консультация действительно бесплатная?",
+        "answer": "Да, первая консультация полностью бесплатна. Мы оцениваем ваш профиль, обсуждаем ваши цели и рекомендуем лучшие варианты обучения за рубежом без каких-либо обязательств."
+      },
+      {
+        "question": "Какой балл IELTS нужен?",
+        "answer": "Зависит от программы: бакалавриат обычно требует IELTS 4.5+, магистратура — IELTS 6.0+. Мы также предлагаем курсы подготовки к IELTS, чтобы помочь вам достичь нужного балла."
+      },
+      {
+        "question": "В сколько университетов можно подать документы?",
+        "answer": "Мы занимаемся подготовкой и подачей документов в 3 университета на каждого студента, обеспечивая индивидуальный и конкурентоспособный подход к каждой заявке."
+      },
+      {
+        "question": "Вы помогаете с получением визы?",
+        "answer": "Да, мы оказываем полную визовую поддержку, включая подготовку документов, подачу заявления и подготовку к собеседованию."
+      },
+      {
+        "question": "В каких странах можно учиться?",
+        "answer": "Мы сотрудничаем с университетами в 12+ странах, включая Великобританию, Канаду, Австралию, Южную Корею, Италию, Малайзию, Ирландию, Китай, Латвию, Словакию, Венгрию и Швейцарию."
+      }
+    ],
+    "full": [
+      {
+        "question": "Какие услуги предоставляет Grant Consulting?",
+        "answer": "Мы предоставляем полный спектр услуг по обучению за рубежом: бесплатная консультация, помощь в получении грантов и стипендий, подготовка и подача документов в 3 университета, визовая поддержка, подготовка к IELTS и предвыездные тренинги.",
+        "category": "Общие вопросы"
+      },
+      {
+        "question": "Первая консультация действительно бесплатная?",
+        "answer": "Да, первая консультация полностью бесплатна. Мы оцениваем ваш профиль, обсуждаем ваши цели и рекомендуем лучшие варианты обучения за рубежом без каких-либо обязательств.",
+        "category": "Общие вопросы"
+      },
+      {
+        "question": "Какой балл IELTS нужен для обучения за рубежом?",
+        "answer": "Зависит от уровня программы: бакалавриат обычно требует IELTS 4.5+, магистратура — IELTS 6.0+. Требования некоторых программ могут отличаться. Мы также предлагаем курсы подготовки к IELTS.",
+        "category": "IELTS и языки"
+      },
+      {
+        "question": "Есть ли возможность получить грант?",
+        "answer": "Безусловно. Поиск грантов и стипендий — одна из наших ключевых услуг. Мы определяем подходящие вам возможности финансирования и помогаем подготовить конкурентоспособные заявки.",
+        "category": "Стипендии"
+      },
+      {
+        "question": "В сколько университетов можно подать документы?",
+        "answer": "Мы занимаемся подготовкой и подачей документов в 3 университета на каждого студента, обеспечивая соответствие каждой заявки требованиям конкретного университета.",
+        "category": "Поступление"
+      },
+      {
+        "question": "Вы помогаете с получением визы?",
+        "answer": "Да. Наша визовая служба охватывает всё: сбор и проверка документов, заполнение анкеты, подача заявления и тщательная подготовка к собеседованию.",
+        "category": "Виза и документы"
+      },
+      {
+        "question": "Есть ли программы для школьников?",
+        "answer": "Да, мы организуем летние лагеря за рубежом для подростков от 8 до 17 лет. Это образовательные каникулы под присмотром, сочетающие обучение с культурным погружением.",
+        "category": "Программы"
+      },
+      {
+        "question": "Проводите ли вы предвыездную подготовку?",
+        "answer": "Да. Мы проводим бесплатные тренинги под руководством специалистов, живших и учившихся за рубежом. Они охватывают академическую культуру, практические советы и то, чего ожидать в стране назначения.",
+        "category": "Общие вопросы"
+      }
+    ]
+  }
 }

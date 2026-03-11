@@ -1,14 +1,58 @@
-[
-  { "country": "United Kingdom", "countryUz": "Buyuk Britaniya", "flag": "" },
-  { "country": "Canada", "countryUz": "Kanada", "flag": "" },
-  { "country": "China", "countryUz": "Xitoy", "flag": "" },
-  { "country": "Australia", "countryUz": "Avstraliya", "flag": "" },
-  { "country": "Italy", "countryUz": "Italiya", "flag": "" },
-  { "country": "Malaysia", "countryUz": "Malaysiya", "flag": "" },
-  { "country": "Ireland", "countryUz": "Irlandiya", "flag": "" },
-  { "country": "South Korea", "countryUz": "Janubiy Koreya", "flag": "" },
-  { "country": "Latvia", "countryUz": "Latviya", "flag": "" },
-  { "country": "Slovakia", "countryUz": "Slovakiya", "flag": "" },
-  { "country": "Hungary", "countryUz": "Vengriya", "flag": "" },
-  { "country": "Switzerland", "countryUz": "Shveytsariya", "flag": "" }
-]
+{
+  "en": [
+    { "country": "United Kingdom", "flag": "" },
+    { "country": "Canada", "flag": "" },
+    { "country": "China", "flag": "" },
+    { "country": "Australia", "flag": "" },
+    { "country": "Italy", "flag": "" },
+    { "country": "Malaysia", "flag": "" },
+    { "country": "Ireland", "flag": "" },
+    { "country": "South Korea", "flag": "" },
+    { "country": "Latvia", "flag": "" },
+    { "country": "Slovakia", "flag": "" },
+    { "country": "Hungary", "flag": "" },
+    { "country": "Switzerland", "flag": "" }
+  ],
+  "uz": [
+    { "country": "Buyuk Britaniya", "flag": "" },
+    { "country": "Kanada", "flag": "" },
+    { "country": "Xitoy", "flag": "" },
+    { "country": "Avstraliya", "flag": "" },
+    { "country": "Italiya", "flag": "" },
+    { "country": "Malayziya", "flag": "" },
+    { "country": "Irlandiya", "flag": "" },
+    { "country": "Janubiy Koreya", "flag": "" },
+    { "country": "Latviya", "flag": "" },
+    { "country": "Slovakiya", "flag": "" },
+    { "country": "Vengriya", "flag": "" },
+    { "country": "Shveytsariya", "flag": "" }
+  ],
+  "uzcyrl": [
+    { "country": "Буюк Британия", "flag": "" },
+    { "country": "Канада", "flag": "" },
+    { "country": "Хитой", "flag": "" },
+    { "country": "Австралия", "flag": "" },
+    { "country": "Италия", "flag": "" },
+    { "country": "Малайзия", "flag": "" },
+    { "country": "Ирландия", "flag": "" },
+    { "country": "Жанубий Корея", "flag": "" },
+    { "country": "Латвия", "flag": "" },
+    { "country": "Словакия", "flag": "" },
+    { "country": "Венгрия", "flag": "" },
+    { "country": "Швейтсария", "flag": "" }
+  ],
+  "ru": [
+    { "country": "Великобритания", "flag": "" },
+    { "country": "Канада", "flag": "" },
+    { "country": "Китай", "flag": "" },
+    { "country": "Австралия", "flag": "" },
+    { "country": "Италия", "flag": "" },
+    { "country": "Малайзия", "flag": "" },
+    { "country": "Ирландия", "flag": "" },
+    { "country": "Южная Корея", "flag": "" },
+    { "country": "Латвия", "flag": "" },
+    { "country": "Словакия", "flag": "" },
+    { "country": "Венгрия", "flag": "" },
+    { "country": "Швейцария", "flag": "" }
+  ]
+}

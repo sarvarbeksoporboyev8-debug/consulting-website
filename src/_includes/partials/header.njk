@@ -1,19 +1,26 @@
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
-      <a href="index.html" class="logo">{{ site.name }}</a>
+      <a href="/{{ L }}/index.html" class="logo">{{ site[L].name | default("GRANT CONSULTING") }}</a>
       <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
         <span class="nav-toggle-bar"></span>
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Primary">
         <div class="nav-links">
-          {%- for item in nav -%}
-          <a href="{{ item.url }}"{% if navKey == item.label %} aria-current="page"{% endif %}>{{ item.label }}</a>
-          {%- endfor -%}
+          <a href="/{{ L }}/index.html"{% if navKey == "Home" %} aria-current="page"{% endif %}>{{ t.nav_home }}</a>
+          <a href="/{{ L }}/about.html"{% if navKey == "About" %} aria-current="page"{% endif %}>{{ t.nav_about }}</a>
+          <a href="/{{ L }}/services.html"{% if navKey == "Services" %} aria-current="page"{% endif %}>{{ t.nav_services }}</a>
+          <a href="/{{ L }}/advisors.html"{% if navKey == "Team" %} aria-current="page"{% endif %}>{{ t.nav_team }}</a>
+          <a href="/{{ L }}/blog.html"{% if navKey == "Blog" %} aria-current="page"{% endif %}>{{ t.nav_blog }}</a>
+          <a href="/{{ L }}/contact.html"{% if navKey == "Contact" %} aria-current="page"{% endif %}>{{ t.nav_contact }}</a>
         </div>
         <div class="nav-actions">
-          <a href="contact.html" class="nav-signin">Get Started</a>
-          <a href="contact.html#contact-form" class="btn-signup">Free Consultation</a>
+          <div class="lang-switcher">
+            {%- for l in languages %}
+            <a href="/{{ l.code }}/{{ currentPage | default('index.html') }}"{% if l.code == L %} class="active" aria-current="true"{% endif %}>{{ l.name }}</a>
+            {%- endfor %}
+          </div>
+          <a href="/{{ L }}/contact.html#contact-form" class="btn-signup">{{ t.btn_free_consultation }}</a>
         </div>
       </nav>
     </div>

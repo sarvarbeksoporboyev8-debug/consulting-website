@@ -1,21 +1,28 @@
----
-layout: layouts/base.njk
-title: "How to Choose the Right Country for Studying Abroad - Grant Consulting Blog"
-description: "A comprehensive guide to comparing countries for studying abroad, covering costs, education quality, work opportunities, and visa policies."
-pageCss: "css/blog-post.css"
-ogType: "article"
-extraFonts: "&family=Merriweather:wght@700"
+---js
+{
+  pagination: { data: "languages", size: 1, alias: "lang" },
+  permalink: function(data) { return data.lang.code + "/blog-post.html"; },
+  layout: "layouts/base.njk",
+  pageCss: "css/blog-post.css",
+  navKey: "Blog",
+  ogType: "article",
+  extraFonts: "&family=Merriweather:wght@700",
+  currentPage: "blog-post.html",
+  eleventyComputed: {
+    title: function(data) { var L = data.lang.code; return (data.blog[L]||data.blog.en)[0].title + " - Grant Consulting"; },
+    description: function(data) { var L = data.lang.code; return (data.blog[L]||data.blog.en)[0].excerpt; }
+  }
+}
 ---
     <section class="page-hero">
       <div class="page-hero-inner">
-        <h1>How to Choose the Right Country for Studying Abroad</h1>
-        <p class="subtitle">A practical guide for students planning their international education journey.</p>
+        <h1>{{ blog[L][0].title }}</h1>
         <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="index.html">Home</a>
+          <a href="/{{ L }}/index.html">{{ t.breadcrumb_home }}</a>
           <span>/</span>
-          <a href="blog.html">Blog</a>
+          <a href="/{{ L }}/blog.html">{{ t.nav_blog }}</a>
           <span>/</span>
-          <span>How to Choose the Right Country</span>
+          <span>{{ blog[L][0].title }}</span>
         </nav>
       </div>
     </section>
@@ -28,95 +35,24 @@ extraFonts: "&family=Merriweather:wght@700"
           <div class="post-featured"></div>
           <div class="post-body">
             <div class="post-meta">
-              <span>Grant Consulting</span>
-              <span>10 July, 2024</span>
+              <span>{{ blog[L][0].author }}</span>
+              <span>{{ blog[L][0].date }}</span>
             </div>
-            <h2>Choosing Your Study Abroad Destination</h2>
-            <p class="lead">One of the biggest decisions you will face as a prospective international student is choosing which country to study in. With options spanning from the UK and Canada to South Korea and Australia, each destination offers unique advantages in terms of education quality, living costs, work opportunities, and post-graduation pathways. At Grant Consulting, we help students navigate this decision every day, and in this guide we share the key factors you should consider.</p>
-            <h2>Key Factors to Consider</h2>
-            <p>When evaluating countries, it is important to look beyond just university rankings. Consider the total cost of living, including accommodation, food, and transportation. Research whether the country allows part-time work for international students during the semester and full-time during holidays. Check the post-graduation work visa options, as some countries like Canada and Australia offer generous post-study work permits that can lead to permanent residency.</p>
-            <p><strong>Questions to ask yourself:</strong></p>
-            <ul class="post-list">
-              <li>What is my budget for tuition and living expenses?</li>
-              <li>Do I want the option to work part-time while studying?</li>
-              <li>What language do I want to study in (English, or am I open to other languages)?</li>
-              <li>What are the post-graduation career and immigration opportunities?</li>
-            </ul>
+            <h2>{{ blog[L][0].title }}</h2>
+            <p class="lead">{{ blog[L][0].excerpt }}</p>
             <div class="share-row">
               <span>Share:</span>
               <div class="share-icons">
-                <a href="https://www.linkedin.com" aria-label="LinkedIn">in</a>
-                <a href="https://www.facebook.com" aria-label="Facebook">f</a>
-                <a href="https://x.com" aria-label="Twitter">X</a>
+                <a href="{{ site.shared.instagram }}" aria-label="Instagram">IG</a>
+                <a href="{{ site.shared.telegram }}" aria-label="Telegram">TG</a>
               </div>
             </div>
             <nav class="post-nav" aria-label="Post navigation">
               <div class="prev">
-                <span class="label">Previous:</span>
-                <a href="blog.html">Back to all articles</a>
-              </div>
-              <div class="next">
-                <span class="label">Next:</span>
-                <a href="blog-post.html">IELTS Preparation: Tips to Reach Your Target Score</a>
+                <a href="/{{ L }}/blog.html">{{ t.nav_blog }}</a>
               </div>
             </nav>
           </div>
         </article>
-
-        <section class="comments-section">
-          <h2>Comments:</h2>
-          <div class="comment">
-            <div class="comment-inner">
-              <div class="comment-avatar" aria-hidden="true"></div>
-              <div class="comment-body">
-                <p>This guide helped me decide between Canada and the UK. I ended up choosing Canada because of the post-graduation work permit. Thank you Grant Consulting!</p>
-                <div class="comment-meta">
-                  <div>
-                    <span class="comment-author">- Dilshod Karimov</span>
-                    <span class="comment-date">July 15, 2024</span>
-                  </div>
-                  <a href="blog-post.html#comment-form" class="comment-reply">Reply</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="comment-inner">
-              <div class="comment-avatar" aria-hidden="true"></div>
-              <div class="comment-body">
-                <p>Very informative article. I did not know that South Korea offers scholarships specifically for Central Asian students. Going to look into this more.</p>
-                <div class="comment-meta">
-                  <div>
-                    <span class="comment-author">- Malika Toshpulatova</span>
-                    <span class="comment-date">July 20, 2024</span>
-                  </div>
-                  <a href="blog-post.html#comment-form" class="comment-reply">Reply</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <div class="comment-form-wrap" id="comment-form">
-          <h2>Leave a comment</h2>
-          <p class="hint">Your email address will not be published <span class="required">*</span></p>
-          <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST" class="stacked-form" data-form novalidate>
-            <input type="hidden" name="_subject" value="New blog comment">
-            <div class="form-group">
-              <label for="comment-name" class="sr-only">Name</label>
-              <input type="text" id="comment-name" name="name" placeholder="Name" required>
-            </div>
-            <div class="form-group">
-              <label for="comment-email" class="sr-only">Email Address</label>
-              <input type="email" id="comment-email" name="email" placeholder="Email Address" required>
-            </div>
-            <div class="form-group">
-              <label for="comment-text" class="sr-only">Comment</label>
-              <textarea id="comment-text" name="comment" placeholder="Write your comment" rows="6" required></textarea>
-            </div>
-            <button type="submit" class="btn-submit">Submit</button>
-            <p class="form-status" data-form-status aria-live="polite"></p>
-          </form>
-        </div>
       </div>
     </div>

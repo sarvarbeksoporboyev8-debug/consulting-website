@@ -1,21 +1,22 @@
     <section class="form-faq">
       <div>
-        <h2>Ready to start your journey?</h2>
-        <p class="subtitle">Get a free consultation</p>
+        <h2>{{ t.form_title }}</h2>
+        <p class="subtitle">{{ t.form_subtitle }}</p>
         <form class="stacked-form" action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST" data-form novalidate>
+          <input type="hidden" name="_language" value="{{ L }}">
           <div class="field-group">
-            <label for="{{ formPrefix }}-name">Your Name*</label>
-            <input type="text" id="{{ formPrefix }}-name" name="name" placeholder="Your name" required>
+            <label for="{{ formPrefix }}-name">{{ t.form_name_label }}</label>
+            <input type="text" id="{{ formPrefix }}-name" name="name" placeholder="{{ t.form_name_placeholder }}" required>
           </div>
           <div class="field-group">
-            <label for="{{ formPrefix }}-email">Your Email*</label>
-            <input type="email" id="{{ formPrefix }}-email" name="email" placeholder="name@example.com" required>
+            <label for="{{ formPrefix }}-email">{{ t.form_email_label }}</label>
+            <input type="email" id="{{ formPrefix }}-email" name="email" placeholder="{{ t.form_email_placeholder }}" required>
           </div>
           <div class="field-group">
-            <label for="{{ formPrefix }}-query">How can we help?*</label>
-            <textarea id="{{ formPrefix }}-query" name="message" placeholder="Which country and program are you interested in? What is your IELTS score?" required></textarea>
+            <label for="{{ formPrefix }}-query">{{ t.form_message_label }}</label>
+            <textarea id="{{ formPrefix }}-query" name="message" placeholder="{{ t.form_message_placeholder }}" required></textarea>
           </div>
-          <button type="submit" class="btn-primary">Send a Message</button>
+          <button type="submit" class="btn-primary">{{ t.btn_send_message }}</button>
           <p class="form-status" data-form-status aria-live="polite"></p>
         </form>
       </div>
