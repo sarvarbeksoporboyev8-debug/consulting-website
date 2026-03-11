@@ -63,14 +63,6 @@
 
     {% include "partials/features.njk" %}
 
-    <section class="team">
-      <div class="section-header">
-        <h2>{{ t.team_title | safe }}</h2>
-        <p>{{ t.team_subtitle }}</p>
-      </div>
-      {% include "partials/team-grid.njk" %}
-    </section>
-
     {% set formPrefix = "about" %}
     {% include "partials/form-faq-section.njk" %}
 

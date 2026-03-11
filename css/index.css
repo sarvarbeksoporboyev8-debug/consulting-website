@@ -18,7 +18,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   align-items: center;
-  max-width: 1240px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 24px;
   padding-right: 24px;
@@ -142,7 +142,7 @@ body {
    ------------------------- */
 .clients {
   padding: 48px 0 64px;
-  max-width: 1240px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 24px;
   padding-right: 24px;
@@ -175,7 +175,7 @@ body {
    ------------------------- */
 .about {
   padding: 100px 24px 120px;
-  max-width: 1244px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -286,7 +286,7 @@ body {
    ------------------------- */
 .blog {
   padding: 100px 24px 120px;
-  max-width: 1230px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
