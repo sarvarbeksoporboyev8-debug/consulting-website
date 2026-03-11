@@ -1,0 +1,58 @@
+{
+  "mini": [
+    {
+      "question": "Is the initial consultation really free?",
+      "answer": "Yes, your first consultation is completely free. We assess your profile, discuss your goals, and recommend the best study abroad options with no obligation."
+    },
+    {
+      "question": "What IELTS score do I need?",
+      "answer": "It depends on the program: Bachelor's programs typically require IELTS 4.5+, Master's programs require IELTS 6.0+. We also offer IELTS preparation courses to help you reach your target score."
+    },
+    {
+      "question": "How many universities can you apply to?",
+      "answer": "We handle document preparation and submission for up to 3 universities per student, ensuring each application is tailored and competitive."
+    },
+    {
+      "question": "Do you help with visa applications?",
+      "answer": "Yes, we provide complete visa support including document preparation, application submission, and interview coaching."
+    },
+    {
+      "question": "Which countries can I study in?",
+      "answer": "We have partnerships with universities in 12+ countries including the UK, Canada, Australia, South Korea, Italy, Malaysia, Ireland, China, Latvia, Slovakia, Hungary, and Switzerland."
+    }
+  ],
+  "full": [
+    {
+      "question": "Is the initial consultation really free?",
+      "answer": "Yes, your first consultation is completely free. We assess your profile, discuss your goals, and recommend the best study abroad options with no obligation."
+    },
+    {
+      "question": "What IELTS score do I need to study abroad?",
+      "answer": "It depends on the program level: Bachelor's programs typically require IELTS 4.5+, Master's programs require IELTS 6.0+. Some programs may have different requirements. We also offer IELTS preparation courses."
+    },
+    {
+      "question": "How many universities can you apply to for me?",
+      "answer": "We handle document preparation and submission for up to 3 universities per student, ensuring each application is tailored to the specific university's requirements."
+    },
+    {
+      "question": "Do you help with scholarship and grant applications?",
+      "answer": "Absolutely. Finding grants and scholarships is one of our core services. We identify funding opportunities that match your profile and help you prepare competitive applications."
+    },
+    {
+      "question": "What does the visa support include?",
+      "answer": "Our visa service covers everything: document gathering and verification, application form completion, submission, and thorough interview preparation coaching."
+    },
+    {
+      "question": "Do you offer language courses?",
+      "answer": "Yes, we offer IELTS preparation courses and general language training. Our courses are designed to help you meet university admission requirements efficiently."
+    },
+    {
+      "question": "What about summer programs for younger students?",
+      "answer": "We organize summer camp programs abroad for teenagers aged 8-17. These are supervised educational vacations that combine learning with cultural experiences."
+    },
+    {
+      "question": "Do you provide pre-departure support?",
+      "answer": "Yes. We offer free training sessions led by specialists who have lived and studied abroad. They cover academic culture, practical life tips, and what to expect in your destination country."
+    }
+  ]
+}

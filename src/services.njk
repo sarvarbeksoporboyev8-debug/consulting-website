@@ -1,0 +1,73 @@
+---
+layout: layouts/page.njk
+title: "Services - Grant Consulting"
+description: "Our services: free consultation, university grants, document preparation, visa support, IELTS courses, and pre-departure training."
+pageCss: "css/services.css"
+navKey: "Services"
+extraFonts: "&family=Merriweather:wght@700"
+heroTitle: "Services"
+breadcrumbs:
+  - label: "Services"
+---
+    <section class="solution-section">
+      <div class="solution-grid">
+        <div class="solution-content">
+          <h2>Your Complete Study Abroad Solution</h2>
+          <p class="intro">From your first consultation to arriving at campus, we handle everything so you can focus on your future.</p>
+          <div class="solution-steps">
+            {%- for step in steps %}
+            <div class="solution-step">
+              <div class="solution-step-num">{{ step.num }}</div>
+              <div class="solution-step-title">{{ step.title }}</div>
+              <p class="solution-step-desc">{{ step.description }}</p>
+            </div>
+            {%- endfor %}
+          </div>
+        </div>
+        <div class="solution-image" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="services-dark">
+      <div class="container">
+        <div class="services-header">
+          <h2>What We Offer</h2>
+          <p>Everything you need to study abroad, from consultation to visa approval.</p>
+        </div>
+        <div class="services-grid">
+          {%- for svc in services | head(3) %}
+          <div class="service-card" id="{{ svc.id }}">
+            <h3>{{ svc.title }}</h3>
+            <p>{{ svc.description }}</p>
+            <a href="{{ svc.link }}" class="btn-link">Learn More<span class="sr-only"> about {{ svc.title }}</span></a>
+          </div>
+          {%- endfor %}
+        </div>
+        <div class="services-cta-row">
+          <div class="service-card service-card-cta">
+            <h3>Ready to start your journey abroad?</h3>
+            <a href="contact.html#contact-form" class="btn-primary">Get Free Consultation</a>
+          </div>
+          {%- for svc in services | slice(3) %}
+          <div class="service-card" id="{{ svc.id }}">
+            <h3>{{ svc.title }}</h3>
+            <p>{{ svc.description }}</p>
+            <a href="{{ svc.link }}" class="btn-link">Learn More<span class="sr-only"> about {{ svc.title }}</span></a>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="section-header">
+        <h2>What Our Students Say</h2>
+        <p>Hear from students who successfully made it abroad with our help.</p>
+      </div>
+      {% include "partials/testimonials-grid.njk" %}
+    </section>
+
+    {% set formPrefix = "services" %}
+    {% include "partials/form-faq-section.njk" %}
+
+    {% include "partials/cta-simple.njk" %}

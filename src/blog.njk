@@ -1,0 +1,34 @@
+---
+layout: layouts/page.njk
+title: "Blog - Grant Consulting"
+description: "Articles and guides about studying abroad, IELTS preparation, scholarships, and student life."
+pageCss: "css/blog.css"
+navKey: "Blog"
+extraFonts: "&family=Merriweather:wght@700"
+heroTitle: "Blog"
+breadcrumbs:
+  - label: "Blog"
+---
+    <div class="main-wrap">
+      {% include "partials/blog-sidebar.njk" %}
+
+      <div class="blog-content">
+        <div class="blog-grid">
+          {%- for post in blog %}
+          <article class="blog-card">
+            <div class="image" aria-hidden="true"></div>
+            <div class="body">
+              <div class="meta">
+                <span>{{ post.author }}</span>
+                <span>{{ post.date }}</span>
+              </div>
+              <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
+              <p class="excerpt">{{ post.excerpt }}</p>
+              <a href="{{ post.link }}" class="read-more">Read More</a>
+            </div>
+          </article>
+          {%- endfor %}
+        </div>
+
+      </div>
+    </div>

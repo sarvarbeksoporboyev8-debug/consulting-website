@@ -1,0 +1,137 @@
+/* Contact — page-specific styles (shared styles in site.css) */
+
+/* Contact layout */
+.contact-wrap {
+  display: grid;
+  grid-template-columns: 416px 1fr;
+  gap: 40px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 48px 24px 0;
+}
+
+/* Contact details card */
+.contact-details-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 40px rgba(83, 83, 83, 0.06);
+  overflow: hidden;
+}
+
+.contact-details-card .card-head {
+  background: var(--black);
+  padding: 26px 40px;
+}
+
+.contact-details-card .card-head h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.contact-details-card .card-body { padding: 40px; }
+
+.contact-details-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #12141d;
+  margin-bottom: 16px;
+}
+
+.contact-details-card .address,
+.contact-details-card .contact-row {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.contact-details-card .contact-info {
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid #eee;
+}
+
+.contact-details-card .icon {
+  width: 20px;
+  height: 24px;
+  flex-shrink: 0;
+  background: #bdbdbd;
+  border-radius: 2px;
+}
+
+.contact-details-card .icon-sm { width: 20px; height: 20px; }
+
+.contact-details-card p {
+  font-size: 1rem;
+  color: var(--black);
+  line-height: 1.75;
+}
+
+/* Contact form card */
+.contact-form-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 40px rgba(83, 83, 83, 0.06);
+  padding: 40px;
+}
+
+.contact-form-card .form-group { margin-bottom: 24px; }
+
+.contact-form-card input,
+.contact-form-card textarea {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-family: inherit;
+  background: var(--white);
+}
+
+.contact-form-card input::placeholder,
+.contact-form-card textarea::placeholder { color: var(--gray-500); opacity: 0.8; }
+
+.contact-form-card textarea { min-height: 150px; resize: vertical; }
+
+.btn-send {
+  display: inline-block;
+  padding: 20px 30px;
+  background: var(--black);
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.btn-send:hover { opacity: 0.9; }
+
+/* Map section */
+.map-section {
+  width: 100%;
+  height: 550px;
+  background: linear-gradient(135deg, #e8e8e8 0%, #c8c8c8 100%);
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-section .map-placeholder {
+  width: 48px;
+  height: 48px;
+  background: var(--black);
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+/* Contact-page CTA margin override */
+.cta-section { margin-top: 48px; }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .contact-wrap { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,10 @@
+      <div class="testimonials-grid">
+        {%- for item in testimonials %}
+        <div class="testimonial-card">
+          <div class="avatar" aria-hidden="true"></div>
+          <blockquote>"{{ item.quote }}"</blockquote>
+          <div class="name">{{ item.name }}</div>
+          <div class="title">{{ item.title }}</div>
+        </div>
+        {%- endfor %}
+      </div>

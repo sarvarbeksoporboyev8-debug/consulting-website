@@ -1,0 +1,69 @@
+---
+layout: layouts/page.njk
+title: "About Us - Grant Consulting"
+description: "Learn how Grant Consulting helps students from Uzbekistan study abroad at top universities worldwide."
+pageCss: "css/about.css"
+navKey: "About"
+extraFonts: ""
+heroTitle: "About Us"
+breadcrumbs:
+  - label: "About"
+---
+    <section class="lead-section">
+      <div class="lead-grid">
+        <div class="lead-content">
+          <h2>We Guide Students To <span class="highlight">Global Education</span></h2>
+          <p class="intro">From free consultation to visa approval, we help students achieve their dream of studying abroad.</p>
+          <div class="lead-tabs" role="tablist" data-tabs>
+            <button type="button" role="tab" id="tab-mission" class="active" aria-selected="true" data-tab-target="mission-panel">Mission</button>
+            <button type="button" role="tab" id="tab-vision" aria-selected="false" tabindex="-1" data-tab-target="vision-panel">Vision</button>
+            <button type="button" role="tab" id="tab-values" aria-selected="false" tabindex="-1" data-tab-target="value-panel">Our Values</button>
+          </div>
+          <div class="tab-content">
+            <div id="mission-panel" role="tabpanel" aria-labelledby="tab-mission" class="is-active" data-tab-panel>
+              To make international education accessible to every talented student in Uzbekistan by providing free consultation, grant assistance, and complete application support.
+            </div>
+            <div id="vision-panel" role="tabpanel" aria-labelledby="tab-vision" data-tab-panel hidden>
+              To become the leading educational consulting agency in Central Asia, connecting students with the world's best universities and career opportunities.
+            </div>
+            <div id="value-panel" role="tabpanel" aria-labelledby="tab-values" data-tab-panel hidden>
+              We value honesty, student success, and accessibility. Every student deserves a fair chance at international education regardless of their background.
+            </div>
+          </div>
+        </div>
+        <div class="lead-visual">
+          <div class="lead-image" aria-hidden="true"></div>
+          <div class="lead-card">
+            <div class="label">Countries</div>
+            <div class="count">{{ universities | length }} Partners</div>
+            <hr>
+            {%- for uni in universities | head(3) %}
+            <div class="item">{{ uni.country }}</div>
+            {%- endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section" id="video-overview">
+      <h2>See How We Help Students <span class="highlight">Study Abroad</span></h2>
+      <p class="desc">Watch how our team guides students through every step of the study abroad process.</p>
+      <div class="video-player">
+        <button type="button" class="play-btn" aria-label="Play video"></button>
+      </div>
+    </section>
+
+    {% include "partials/features.njk" %}
+
+    <section class="team">
+      <div class="section-header">
+        <h2>Meet Our <span class="highlight">Team</span></h2>
+        <p>Our experienced consultants are ready to guide you through every step of your study abroad journey.</p>
+      </div>
+      {% include "partials/team-grid.njk" %}
+    </section>
+
+    {% set formPrefix = "about" %}
+    {% include "partials/form-faq-section.njk" %}
+
+    {% include "partials/cta-simple.njk" %}

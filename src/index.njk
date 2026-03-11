@@ -1,0 +1,133 @@
+---
+layout: layouts/base.njk
+title: "Grant Consulting - Study Abroad"
+description: "Grant Consulting helps students from Uzbekistan study abroad with free consultation, university grants, visa support, and IELTS preparation."
+pageCss: "css/index.css"
+navKey: "Home"
+extraFonts: ""
+---
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Your Path to <span class="highlight">Studying Abroad</span> Starts Here</h1>
+        <p class="subtitle">Free consultation, university grants, visa support, and IELTS preparation. We guide you every step of the way.</p>
+        <div class="hero-buttons">
+          <a href="contact.html#contact-form" class="btn-primary">Book a Free Consultation</a>
+          <a href="about.html#video-overview" class="hero-video">Learn how we work</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image" aria-hidden="true"></div>
+        <div class="hero-chart">
+          <p class="hero-chart-title">Your future awaits</p>
+          <hr>
+          <div class="stat">
+            <div class="stat-label">PARTNER COUNTRIES</div>
+            <div class="stat-value">12+</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">STUDENTS PLACED</div>
+            <div class="stat-value">500+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients">
+      <h2>Universities in {{ universities | length }} Countries</h2>
+      <div class="client-logos">
+        {%- for uni in universities | head(4) %}
+        <div class="client-logo" title="{{ uni.country }}"></div>
+        {%- endfor %}
+      </div>
+    </section>
+
+    {% include "partials/features.njk" %}
+
+    <section class="about">
+      <div class="about-grid">
+        <div>
+          <div class="about-badge">About us</div>
+          <h2>We Help You Get Into <span class="highlight">Top Universities</span></h2>
+          <p class="about-desc">From your first consultation to arriving at campus, we handle everything so you can focus on your future.</p>
+          <div class="about-steps">
+            {%- for step in steps %}
+            <div class="about-step">
+              <div class="about-step-num">{{ step.num }}</div>
+              <div class="about-step-title">{{ step.title }}</div>
+              <p class="about-step-desc">{{ step.description }}</p>
+            </div>
+            {%- endfor %}
+          </div>
+        </div>
+        <div class="about-image" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="services-header">
+          <h2>Our <span class="highlight">Services</span></h2>
+          <p>Everything you need to study abroad, from consultation to visa approval.</p>
+        </div>
+        <div class="services-grid">
+          {%- for svc in services | head(3) %}
+          <div class="service-card">
+            <h3>{{ svc.title }}</h3>
+            <p>{{ svc.description }}</p>
+            <a href="{{ svc.link }}" class="link">Read more<span class="sr-only"> about {{ svc.title }}</span></a>
+          </div>
+          {%- endfor %}
+        </div>
+        <div class="services-cta-row">
+          <div class="service-card service-card-cta">
+            <h3>Ready to start your journey abroad?</h3>
+            <a href="contact.html#contact-form" class="btn-primary">Get Free Consultation</a>
+          </div>
+          {%- for svc in services | slice(3, 4) %}
+          <div class="service-card">
+            <h3>{{ svc.title }}</h3>
+            <p>{{ svc.description }}</p>
+            <a href="{{ svc.link }}" class="link">Read more<span class="sr-only"> about {{ svc.title }}</span></a>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <div class="section-header">
+        <h2>Meet Our <span class="highlight">Team</span></h2>
+        <p>Our experienced consultants are ready to guide you through every step of your study abroad journey.</p>
+      </div>
+      {% include "partials/team-grid.njk" %}
+    </section>
+
+    <section class="testimonials">
+      <div class="section-header">
+        <h2>What Our <span class="highlight">Students Say</span></h2>
+        <p>Hear from students who successfully made it abroad with our help.</p>
+      </div>
+      {% include "partials/testimonials-grid.njk" %}
+    </section>
+
+    <section class="blog">
+      <div class="section-header">
+        <h2>Latest <span class="highlight">Articles</span></h2>
+        <p>Tips and guides to help you prepare for studying abroad.</p>
+      </div>
+      <div class="blog-grid">
+        {%- for post in blog | head(2) %}
+        <div class="blog-card">
+          <div class="image" aria-hidden="true"></div>
+          <div class="tag">{{ post.author }}-</div>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt }}</p>
+        </div>
+        {%- endfor %}
+      </div>
+    </section>
+
+    {% set formPrefix = "home" %}
+    {% include "partials/form-faq-section.njk" %}
+
+    {% include "partials/cta-simple.njk" %}

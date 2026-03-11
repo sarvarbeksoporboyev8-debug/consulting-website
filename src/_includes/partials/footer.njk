@@ -1,0 +1,47 @@
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="index.html" class="logo">{{ site.name }}</a>
+            <p>{{ site.tagline }}</p>
+            <form class="newsletter-form" data-form novalidate>
+              <label class="sr-only" for="newsletter-email">Email address</label>
+              <div class="footer-email">
+                <input type="email" id="newsletter-email" name="newsletter_email" placeholder="Enter your email" required>
+                <button type="submit" class="btn-primary">Subscribe</button>
+              </div>
+              <p class="form-status" data-form-status aria-live="polite"></p>
+            </form>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              {%- for svc in services | head(4) %}
+              <li><a href="{{ svc.link }}">{{ svc.title }}</a></li>
+              {%- endfor %}
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="about.html#mission-panel">Our Mission</a></li>
+              <li><a href="about.html#vision-panel">Our Vision</a></li>
+              <li><a href="advisors.html">Our Team</a></li>
+              <li><a href="contact.html">Talk to Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col footer-contact">
+            <h4>Contact Info</h4>
+            <p>{{ site.address }}</p>
+            <p><a href="{{ site.phoneHref }}">{{ site.phone }}</a></p>
+            {%- if site.phone2 %}
+            <p><a href="{{ site.phone2Href }}">{{ site.phone2 }}</a></p>
+            {%- endif %}
+            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; {{ site.year }} {{ site.name }}. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>

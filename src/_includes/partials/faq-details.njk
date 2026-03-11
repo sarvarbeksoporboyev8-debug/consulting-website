@@ -1,0 +1,6 @@
+        {%- for item in faq.mini %}
+        <details class="faq-item">
+          <summary>{{ item.question }}</summary>
+          <p>{{ item.answer }}</p>
+        </details>
+        {%- endfor %}

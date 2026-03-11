@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Devon Lane",
+    "role": "CEO & Founder",
+    "photo": "",
+    "socials": {
+      "instagram": "",
+      "linkedin": "",
+      "telegram": ""
+    }
+  },
+  {
+    "name": "Floyd Miles",
+    "role": "Senior Consultant",
+    "photo": "",
+    "socials": {
+      "instagram": "",
+      "linkedin": "",
+      "telegram": ""
+    }
+  },
+  {
+    "name": "Ronald Richards",
+    "role": "Visa Specialist",
+    "photo": "",
+    "socials": {
+      "instagram": "",
+      "linkedin": "",
+      "telegram": ""
+    }
+  },
+  {
+    "name": "Jane Cooper",
+    "role": "IELTS Instructor",
+    "photo": "",
+    "socials": {
+      "instagram": "",
+      "linkedin": "",
+      "telegram": ""
+    }
+  }
+]

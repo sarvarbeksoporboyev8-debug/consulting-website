@@ -1,0 +1,70 @@
+---
+layout: layouts/page.njk
+title: "Business Consulting - Consulti Business Consulting"
+description: "End-to-end business consulting that helps teams move from ambiguity to a clear, executable plan."
+pageCss: "css/service-business-consulting.css"
+extraFonts: "&family=Merriweather:wght@700"
+heroTitle: "Business Consulting"
+breadcrumbs:
+  - label: "Services"
+    url: "services.html"
+  - label: "Business Consulting"
+---
+    <div class="main-wrap">
+      <aside class="sidebar">
+        <h2 class="sidebar-title">Services</h2>
+        <ul class="sidebar-nav">
+          <li><a href="service-competitive-analysis.html">Competitive Analysis</a></li>
+          <li><a href="service-strategic-planning.html">Strategic Planning</a></li>
+          <li><a href="service-marketing-strategy.html">Marketing Strategy</a></li>
+          <li><a href="service-problem-solving.html">Problem Solving</a></li>
+          <li><a href="service-business-consulting.html" class="active">Business Consulting</a></li>
+          <li><a href="service-audit-evaluation.html">Audit & Evaluation</a></li>
+          <li><a href="service-digital-marketing.html">Digital Marketing</a></li>
+          <li><a href="service-seo-ranking.html">Boost SEO Ranking</a></li>
+          <li><a href="service-daily-reports.html">Daily Reports</a></li>
+        </ul>
+      </aside>
+
+      <div class="content-area">
+        <div class="content-image"></div>
+
+        <div class="content-body">
+          <p>Whether you are an early-stage company building your first operational playbook or a mature organization navigating a market shift, we meet you where you are. Our consultants embed with your team to understand the real challenges — not just the ones on the slide deck — and help you design practical solutions that stick.</p>
+          <p>Translating strategy into daily operations is where most businesses stall. We bridge that gap by breaking high-level goals into concrete workflows, assigning clear ownership, and establishing the feedback loops that keep execution on track. The result is a team that knows what to do on Monday morning, not just at the annual offsite.</p>
+          <p>Cross-functional alignment is at the heart of everything we do. We work across departments — finance, product, marketing, operations — to make sure every team is pulling in the same direction. When priorities are shared and hand-offs are clean, the entire organization moves faster with less friction.</p>
+        </div>
+
+        <section class="content-section">
+          <h2>Why this service is important?</h2>
+          <ul class="benefit-list">
+            <li>
+              <span class="icon" aria-hidden="true"></span>
+              <div class="text">
+                <h3>Operational clarity:</h3>
+                <p>We map your current processes, identify friction points, and redesign workflows so teams spend less time coordinating and more time executing.</p>
+              </div>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true"></span>
+              <div class="text">
+                <h3>Strategic alignment:</h3>
+                <p>We facilitate cross-functional planning sessions that turn high-level goals into team-level objectives with clear owners and deadlines.</p>
+              </div>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true"></span>
+              <div class="text">
+                <h3>Scalable systems:</h3>
+                <p>We help you build the internal frameworks — reporting cadences, decision-making templates, and review cycles — that keep working as you grow.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    {% set formPrefix = "bc" %}
+    {% include "partials/form-faq-section.njk" %}
+
+    {% include "partials/cta-simple.njk" %}

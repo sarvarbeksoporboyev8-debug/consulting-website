@@ -1,0 +1,10 @@
+    <section class="features">
+      <div class="features-inner">
+        {%- for item in stats %}
+        <div class="feature-item">
+          <div class="feature-value">{{ item.value }}</div>
+          <div class="feature-label">{{ item.label }}</div>
+        </div>
+        {%- endfor %}
+      </div>
+    </section>

@@ -1,0 +1,8 @@
+[
+  { "label": "Home",     "url": "index.html" },
+  { "label": "About",    "url": "about.html" },
+  { "label": "Services", "url": "services.html" },
+  { "label": "Advisors", "url": "advisors.html" },
+  { "label": "Blog",     "url": "blog.html" },
+  { "label": "Contact",  "url": "contact.html" }
+]

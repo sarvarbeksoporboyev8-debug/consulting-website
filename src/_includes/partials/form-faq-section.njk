@@ -1,0 +1,25 @@
+    <section class="form-faq">
+      <div>
+        <h2>Ready to discuss your project?</h2>
+        <p class="subtitle">Drop us a line</p>
+        <form class="stacked-form" data-form novalidate>
+          <div class="field-group">
+            <label for="{{ formPrefix }}-name">Your Name*</label>
+            <input type="text" id="{{ formPrefix }}-name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="field-group">
+            <label for="{{ formPrefix }}-email">Your Email*</label>
+            <input type="email" id="{{ formPrefix }}-email" name="email" placeholder="name@company.com" required>
+          </div>
+          <div class="field-group">
+            <label for="{{ formPrefix }}-query">How can we help?*</label>
+            <textarea id="{{ formPrefix }}-query" name="query" placeholder="Tell us about your goals, timeline, and constraints." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send a Message</button>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </div>
+      <div>
+        {% include "partials/faq-details.njk" %}
+      </div>
+    </section>

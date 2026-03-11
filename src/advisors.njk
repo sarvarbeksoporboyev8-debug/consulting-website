@@ -1,0 +1,31 @@
+---
+layout: layouts/page.njk
+title: "Our Team - Grant Consulting"
+description: "Meet the Grant Consulting team - experienced consultants helping students study abroad."
+pageCss: "css/advisors.css"
+navKey: "Advisors"
+extraFonts: "&family=Merriweather:wght@700"
+heroTitle: "Our Team"
+heroSubtitle: "Meet the experienced consultants who guide students to their dream universities worldwide."
+breadcrumbs:
+  - label: "Team"
+---
+    <section class="team">
+      <div class="section-header">
+        <h2>Meet Our Team</h2>
+        <p>Our consultants bring years of experience in international education, visa processing, and student success.</p>
+      </div>
+      {% include "partials/team-grid.njk" %}
+    </section>
+
+    {% include "partials/features.njk" %}
+
+    <section class="video-section">
+      <h2>See How We Help Students <span class="highlight">Study Abroad</span></h2>
+      <p class="desc">Watch how our team guides students through every step of the study abroad process.</p>
+      <div class="video-player">
+        <button type="button" class="play-btn" aria-label="Play video"></button>
+      </div>
+    </section>
+
+    {% include "partials/cta-simple.njk" %}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {%- if description %}
+  <meta name="description" content="{{ description }}">
+  {%- endif %}
+  <title>{{ title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800{{ extraFonts }}&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  {%- if description %}
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:type" content="{{ ogType | default('website') }}">
+  {%- endif %}
+  <link rel="stylesheet" href="css/site.css">
+  {%- if pageCss %}
+  <link rel="stylesheet" href="{{ pageCss }}">
+  {%- endif %}
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  {% include "partials/header.njk" %}
+
+  <main id="main-content">
+{{ content | safe }}
+  </main>
+  {%- if not noFooter %}
+  {% include "partials/footer.njk" %}
+  {%- endif %}
+</body>
+</html>

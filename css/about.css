@@ -1,0 +1,145 @@
+/* ===================================================
+   ABOUT PAGE — Unique Styles
+   Shared styles (reset, tokens, header, nav, buttons,
+   page-hero, breadcrumb, section-header, features,
+   team, video, form-faq, cta, footer) live in site.css.
+   =================================================== */
+
+/* --- Lead Section --- */
+.lead-section {
+  padding: 100px 24px 80px;
+  max-width: 1244px;
+  margin: 0 auto;
+}
+
+.lead-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.lead-content h2 {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  color: var(--black);
+}
+
+.lead-content h2 .highlight,
+.about h2 .highlight {
+  background: linear-gradient(transparent 65%, var(--yellow) 65%);
+}
+
+.lead-content .intro {
+  font-size: 1.0625rem;
+  color: var(--gray-500);
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.lead-tabs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.lead-tabs button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  border: 2px solid var(--black);
+  background: var(--white);
+  color: var(--black);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.lead-tabs button.active {
+  background: var(--black);
+  color: var(--white);
+}
+
+.lead-tabs button:not(.active):hover {
+  background: var(--gray-300);
+}
+
+.lead-content .tab-content {
+  font-size: 1rem;
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
+.lead-visual {
+  position: relative;
+}
+
+.lead-image {
+  width: 100%;
+  max-width: 446px;
+  aspect-ratio: 446 / 429;
+  border-radius: var(--radius-lg);
+  margin-left: auto;
+}
+
+.lead-card {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 203px;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.lead-card .label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--gray-500);
+  margin-bottom: 8px;
+}
+
+.lead-card .count {
+  font-size: 0.8125rem;
+  color: var(--gray-500);
+  margin-bottom: 16px;
+}
+
+.lead-card hr {
+  border: none;
+  border-top: 1px solid var(--gray-300);
+  margin-bottom: 16px;
+}
+
+.lead-card .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.lead-card .item:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Responsive: About-page-specific overrides only --- */
+@media (max-width: 1024px) {
+  .lead-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lead-image {
+    margin: 0 auto;
+  }
+
+  .lead-card {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

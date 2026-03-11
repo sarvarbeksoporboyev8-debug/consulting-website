@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Language Courses",
+    "description": "Language courses + opportunity to work",
+    "requirement": ""
+  },
+  {
+    "title": "Bachelor's Degree",
+    "description": "Undergraduate programs at top universities worldwide",
+    "requirement": "IELTS 4.5"
+  },
+  {
+    "title": "Master's Degree",
+    "description": "Graduate programs for career advancement",
+    "requirement": "IELTS 6.0"
+  },
+  {
+    "title": "PhD Programs",
+    "description": "Doctoral research programs with funding opportunities",
+    "requirement": ""
+  },
+  {
+    "title": "Summer Camps",
+    "description": "Summer vacation programs for teenagers aged 8-17",
+    "requirement": "Ages 8-17"
+  }
+]

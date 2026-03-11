@@ -1,0 +1,63 @@
+---
+layout: layouts/page.njk
+title: "FAQ - Grant Consulting"
+description: "Find answers about studying abroad, IELTS requirements, visa support, scholarships, and how Grant Consulting works."
+pageCss: "css/faq.css"
+extraFonts: "&family=Merriweather:wght@700"
+heroTitle: "Frequently Asked Questions"
+breadcrumbs:
+  - label: "FAQ"
+---
+    <div class="faq-wrap">
+      <aside class="faq-sidebar">
+        <div class="sidebar-head">
+          <h2>Quick Navigation</h2>
+        </div>
+        <div class="sidebar-body">
+          <nav aria-label="FAQ categories">
+            <a href="#faq" class="active">General</a>
+            <a href="#faq">Admissions</a>
+            <a href="#faq">IELTS &amp; Language</a>
+            <a href="#faq">Visa &amp; Documents</a>
+            <a href="#faq">Scholarships</a>
+            <a href="#faq">Programs</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="faq-content" id="faq">
+        <ul class="faq-list">
+          {%- for item in faq.full %}
+          <li class="faq-item{% if loop.first %} is-open{% endif %}">
+            <button type="button" aria-expanded="{{ 'true' if loop.first else 'false' }}" aria-controls="faq-{{ loop.index }}" id="faq-q{{ loop.index }}">
+              {{ item.question }}
+              <span class="faq-toggle" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-{{ loop.index }}" role="region" aria-labelledby="faq-q{{ loop.index }}">
+              <div class="faq-answer-inner">
+                {{ item.answer }}
+              </div>
+            </div>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <section class="video-section">
+      <h2>See How We Help Students <span class="highlight">Study Abroad</span></h2>
+      <p>Watch how our team guides students through every step of the study abroad process.</p>
+      <div class="video-placeholder" aria-label="Video placeholder">
+        <button type="button" class="play-btn" aria-label="Play video"></button>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-inner">
+        <h2>Ready to start your study abroad journey?</h2>
+        <a href="contact.html" class="btn-book">
+          <span>Book a <strong>FREE</strong> Consultation</span>
+          <span class="icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
