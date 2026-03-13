@@ -1,0 +1,26 @@
+---js
+{
+  pagination: { data: "languages", size: 1, alias: "lang" },
+  permalink: function(data) { return data.lang.code + "/gallery.html"; },
+  layout: "layouts/page.njk",
+  pageCss: "css/blog.css",
+  navKey: "Gallery",
+  extraFonts: "",
+  currentPage: "gallery.html",
+  eleventyComputed: {
+    title: function(data) { var L = data.lang.code; return (data.ui[L]||data.ui.en).nav_gallery + " - Grant Consulting"; },
+    description: function(data) { return (data.ui[data.lang.code]||data.ui.en).gallery_subtitle; },
+    heroTitle: function(data) { return (data.ui[data.lang.code]||data.ui.en).nav_gallery; },
+    breadcrumbs: function(data) { return [{ label: (data.ui[data.lang.code]||data.ui.en).nav_gallery }]; }
+  }
+}
+---
+    <div class="blog-content" style="max-width:900px;margin:0 auto;padding:48px 24px;">
+      <div class="section-header" style="text-align:center;margin-bottom:48px;">
+        <h2>{{ t.gallery_title }}</h2>
+        <p>{{ t.gallery_subtitle }}</p>
+      </div>
+      <p style="text-align:center;color:var(--gray-500);font-size:1.125rem;">{{ t.gallery_coming_soon }}</p>
+    </div>
+
+    {% include "partials/cta-simple.njk" %}
