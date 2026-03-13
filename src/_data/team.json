@@ -1,0 +1,26 @@
+{
+  "en": [
+    { "name": "Devon Lane", "role": "CEO & Founder", "photo": "team1.jpg" },
+    { "name": "Floyd Miles", "role": "Visa Specialist", "photo": "team2.jpg" },
+    { "name": "Jane Cooper", "role": "Admissions Advisor", "photo": "team3.jpg" },
+    { "name": "Ronald Richards", "role": "Student Counselor", "photo": "team4.jpg" }
+  ],
+  "uz": [
+    { "name": "Devon Lane", "role": "Bosh direktor", "photo": "team1.jpg" },
+    { "name": "Floyd Miles", "role": "Viza mutaxassisi", "photo": "team2.jpg" },
+    { "name": "Jane Cooper", "role": "Qabul maslahatchisi", "photo": "team3.jpg" },
+    { "name": "Ronald Richards", "role": "Talaba maslahatchisi", "photo": "team4.jpg" }
+  ],
+  "uzcyrl": [
+    { "name": "Devon Lane", "role": "Бош директор", "photo": "team1.jpg" },
+    { "name": "Floyd Miles", "role": "Виза мутахассиси", "photo": "team2.jpg" },
+    { "name": "Jane Cooper", "role": "Қабул маслаҳатчиси", "photo": "team3.jpg" },
+    { "name": "Ronald Richards", "role": "Талаба маслаҳатчиси", "photo": "team4.jpg" }
+  ],
+  "ru": [
+    { "name": "Devon Lane", "role": "Генеральный директор", "photo": "team1.jpg" },
+    { "name": "Floyd Miles", "role": "Визовый специалист", "photo": "team2.jpg" },
+    { "name": "Jane Cooper", "role": "Консультант по поступлению", "photo": "team3.jpg" },
+    { "name": "Ronald Richards", "role": "Студенческий консультант", "photo": "team4.jpg" }
+  ]
+}

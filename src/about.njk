@@ -55,6 +55,26 @@
 
     {% include "partials/features.njk" %}
 
+    <section class="team-section">
+      <div class="team-inner">
+        <div class="section-header" style="text-align:center;margin-bottom:48px;">
+          <h2>{{ t.team_title }}</h2>
+          <p>{{ t.team_subtitle }}</p>
+        </div>
+        <div class="team-grid">
+          {%- for member in team[L] %}
+          <div class="team-card">
+            <div class="team-photo">
+              <img src="{{ langRoot }}img/team/{{ member.photo }}" alt="{{ member.name }}" loading="lazy">
+            </div>
+            <h3 class="team-name">{{ member.name }}</h3>
+            <p class="team-role">{{ member.role }}</p>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+
     {% set formPrefix = "about" %}
     {% include "partials/form-faq-section.njk" %}
 
