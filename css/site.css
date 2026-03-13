@@ -198,6 +198,71 @@ header,
   color: var(--gray-700);
 }
 
+/* Dropdown navigation */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdown-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  transition: transform 0.2s ease;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 220px;
+  background: var(--white);
+  border: 1px solid #eee;
+  border-radius: var(--radius);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+  padding: 8px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  z-index: 50;
+  margin-top: 0.5rem;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown.is-open .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-dropdown:hover .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--gray-700);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.nav-dropdown-menu a:hover {
+  background: #f5f5f5;
+  color: var(--black);
+}
+
 /* Language switcher */
 .lang-switcher {
   display: flex;
@@ -1315,10 +1380,10 @@ footer {
     display: flex;
   }
 
-  /* Nav links in 2-column grid for compactness */
+  /* Nav links vertical list on mobile */
   .nav-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 0;
     width: 100%;
     border-bottom: 1px solid #eee;
@@ -1326,16 +1391,62 @@ footer {
     margin-bottom: 0.5rem;
   }
 
-  .nav-links a {
-    padding: 0.6rem 0.25rem;
-    font-size: 0.875rem;
-    text-align: center;
+  .nav-links > a,
+  .nav-links > .nav-dropdown > .nav-dropdown-toggle {
+    padding: 0.6rem 0;
+    font-size: 0.9375rem;
   }
 
   .nav-links a[aria-current="page"]::after,
   .nav-links a:hover::after,
   .nav-actions a.nav-signin:hover::after {
     bottom: 0.15rem;
+  }
+
+  /* Mobile dropdowns: inline expand, not floating */
+  .nav-dropdown {
+    position: static;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    transform: none;
+    min-width: 0;
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+    padding: 0 0 0.25rem 1rem;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+    background: transparent;
+  }
+
+  .nav-dropdown.is-open .nav-dropdown-menu {
+    display: block;
+  }
+
+  /* On mobile, only open via tap (is-open), not hover */
+  .nav-dropdown:hover .nav-dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+
+  .nav-dropdown.is-open .nav-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+  }
+
+  .nav-dropdown-menu a {
+    padding: 6px 0;
+    font-size: 0.8125rem;
+    color: var(--gray-500);
+  }
+
+  .nav-dropdown.is-open .dropdown-arrow {
+    transform: rotate(180deg);
   }
 
   /* Actions: lang switcher + CTA stacked and centered */
@@ -1434,11 +1545,6 @@ footer {
   .nav-toggle {
     width: 2.5rem;
     height: 2.5rem;
-  }
-
-  /* Stack nav links single column on very small phones */
-  .nav-links {
-    grid-template-columns: 1fr;
   }
 
   /* Stack actions vertically on very small screens */

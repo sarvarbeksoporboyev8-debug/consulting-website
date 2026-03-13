@@ -17,8 +17,29 @@ document.addEventListener("DOMContentLoaded", function () {
       body.classList.toggle("menu-open", !isOpen);
     });
 
+    // Close nav when clicking non-dropdown links
     siteNav.querySelectorAll("a").forEach(function (link) {
-      link.addEventListener("click", closeNav);
+      if (!link.classList.contains("nav-dropdown-toggle")) {
+        link.addEventListener("click", closeNav);
+      }
+    });
+
+    // Mobile dropdown toggle (tap to expand/collapse)
+    siteNav.querySelectorAll(".nav-dropdown-toggle").forEach(function (toggle) {
+      toggle.addEventListener("click", function (e) {
+        if (window.innerWidth <= 900) {
+          e.preventDefault();
+          var dropdown = toggle.closest(".nav-dropdown");
+          var wasOpen = dropdown.classList.contains("is-open");
+          // Close all other dropdowns
+          siteNav.querySelectorAll(".nav-dropdown").forEach(function (d) {
+            d.classList.remove("is-open");
+          });
+          if (!wasOpen) {
+            dropdown.classList.add("is-open");
+          }
+        }
+      });
     });
 
     document.addEventListener("keydown", function (e) {

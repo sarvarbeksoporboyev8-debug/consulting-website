@@ -8,9 +8,34 @@
       <nav id="site-nav" class="site-nav" aria-label="Primary">
         <div class="nav-links">
           <a href="/{{ L }}/index.html"{% if navKey == "Home" %} aria-current="page"{% endif %}>{{ t.nav_home }}</a>
-          <a href="/{{ L }}/about.html"{% if navKey == "About" %} aria-current="page"{% endif %}>{{ t.nav_about }}</a>
-          <a href="/{{ L }}/services.html"{% if navKey == "Services" %} aria-current="page"{% endif %}>{{ t.nav_services }}</a>
-          <a href="/{{ L }}/blog.html"{% if navKey == "Blog" %} aria-current="page"{% endif %}>{{ t.nav_blog }}</a>
+
+          <div class="nav-dropdown">
+            <a href="/{{ L }}/about.html"{% if navKey == "About" %} aria-current="page"{% endif %} class="nav-dropdown-toggle">{{ t.nav_about }} <span class="dropdown-arrow"></span></a>
+            <div class="nav-dropdown-menu">
+              <a href="/{{ L }}/about.html#mission-panel">{{ t.footer_mission }}</a>
+              <a href="/{{ L }}/about.html#vision-panel">{{ t.footer_vision }}</a>
+              <a href="/{{ L }}/faq.html">FAQ</a>
+            </div>
+          </div>
+
+          <div class="nav-dropdown">
+            <a href="/{{ L }}/services.html"{% if navKey == "Services" %} aria-current="page"{% endif %} class="nav-dropdown-toggle">{{ t.nav_services }} <span class="dropdown-arrow"></span></a>
+            <div class="nav-dropdown-menu">
+              {%- for svc in services[L] %}
+              <a href="/{{ L }}/{{ svc.link }}">{{ svc.title }}</a>
+              {%- endfor %}
+            </div>
+          </div>
+
+          <div class="nav-dropdown">
+            <a href="/{{ L }}/blog.html"{% if navKey == "Blog" %} aria-current="page"{% endif %} class="nav-dropdown-toggle">{{ t.nav_blog }} <span class="dropdown-arrow"></span></a>
+            <div class="nav-dropdown-menu">
+              {%- for post in blog[L] %}
+              <a href="/{{ L }}/{{ post.link }}">{{ post.title }}</a>
+              {%- endfor %}
+            </div>
+          </div>
+
           <a href="/{{ L }}/events.html"{% if navKey == "Events" %} aria-current="page"{% endif %}>{{ t.nav_events }}</a>
           <a href="/{{ L }}/gallery.html"{% if navKey == "Gallery" %} aria-current="page"{% endif %}>{{ t.nav_gallery }}</a>
           <a href="/{{ L }}/contact.html"{% if navKey == "Contact" %} aria-current="page"{% endif %}>{{ t.nav_contact }}</a>
