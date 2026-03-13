@@ -18,7 +18,7 @@
         <div class="nav-actions">
           <div class="lang-switcher">
             {%- for l in languages %}
-            <a href="/{{ l.code }}/{{ currentPage | default('index.html') }}"{% if l.code == L %} class="active" aria-current="true"{% endif %}>{{ l.name }}</a>
+            <a href="/{{ l.code }}/{{ currentPage | default('index.html') }}"{% if l.code == L %} class="active" aria-current="true"{% endif %} title="{{ l.name }}">{{ l.short }}</a>
             {%- endfor %}
           </div>
           <a href="/{{ L }}/contact.html#contact-form" class="btn-signup">{{ t.btn_free_consultation }}</a>

@@ -1,6 +1,6 @@
 [
-  { "code": "en", "name": "English", "htmlLang": "en", "dir": "ltr" },
-  { "code": "uz", "name": "O'zbekcha", "htmlLang": "uz-Latn", "dir": "ltr" },
-  { "code": "uzcyrl", "name": "Ўзбекча", "htmlLang": "uz-Cyrl", "dir": "ltr" },
-  { "code": "ru", "name": "Русский", "htmlLang": "ru", "dir": "ltr" }
+  { "code": "en", "name": "English", "short": "EN", "htmlLang": "en", "dir": "ltr" },
+  { "code": "uz", "name": "O'zbekcha", "short": "UZ", "htmlLang": "uz-Latn", "dir": "ltr" },
+  { "code": "uzcyrl", "name": "Ўзбекча", "short": "ЎЗ", "htmlLang": "uz-Cyrl", "dir": "ltr" },
+  { "code": "ru", "name": "Русский", "short": "RU", "htmlLang": "ru", "dir": "ltr" }
 ]
