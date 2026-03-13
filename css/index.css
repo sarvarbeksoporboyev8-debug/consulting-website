@@ -163,12 +163,11 @@ body {
 }
 
 .client-logo {
-  width: 120px;
-  height: 36px;
-  background: var(--gray-300);
-  border-radius: 4px;
-  opacity: 0.7;
+  height: 32px;
+  opacity: 0.85;
+  transition: opacity 0.2s;
 }
+.client-logo:hover { opacity: 1; }
 
 /* -------------------------
    About

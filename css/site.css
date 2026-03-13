@@ -481,7 +481,8 @@ header,
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #e0e0e0 0%, #c0c0c0 100%);
+  background-size: cover;
+  background-position: center;
   margin: 0 auto 24px;
 }
 

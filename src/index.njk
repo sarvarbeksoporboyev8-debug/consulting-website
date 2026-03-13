@@ -55,7 +55,7 @@
       <div class="client-logos">
         {%- for uni in universities[L] %}
         {%- if loop.index <= 4 %}
-        <div class="client-logo" title="{{ uni.country }}"></div>
+        <img class="client-logo" src="{{ langRoot }}img/flags/{{ uni.flag }}" alt="{{ uni.country }}" title="{{ uni.country }}">
         {%- endif %}
         {%- endfor %}
       </div>
