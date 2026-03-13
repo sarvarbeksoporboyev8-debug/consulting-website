@@ -1338,25 +1338,32 @@ footer {
     bottom: 0.15rem;
   }
 
-  /* Actions row: lang switcher + CTA side by side */
+  /* Actions: lang switcher + CTA stacked and centered */
   .nav-actions {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     gap: 0.75rem;
     width: 100%;
     padding-top: 0.25rem;
   }
 
   .nav-actions .lang-switcher {
-    flex-shrink: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-actions .lang-switcher a {
+    flex: 1;
+    text-align: center;
   }
 
   .nav-actions .btn-signup {
     font-size: 0.8125rem;
     padding: 8px 14px;
     white-space: nowrap;
+    width: 100%;
+    text-align: center;
   }
 
   .hero-buttons,
@@ -1437,7 +1444,7 @@ footer {
   /* Stack actions vertically on very small screens */
   .nav-actions {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
   }
 
   .nav-actions .btn-signup {
