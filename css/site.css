@@ -36,6 +36,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -1283,6 +1284,10 @@ footer {
    RESPONSIVE — MOBILE (max 900px)
    =================================================== */
 @media (max-width: 900px) {
+  .site-header {
+    width: 100%;
+  }
+
   .nav-toggle {
     display: inline-flex;
   }
@@ -1295,34 +1300,63 @@ footer {
     flex-direction: column;
     align-items: stretch;
     margin-left: 0;
-    gap: 0.5rem;
-    padding: 1.25rem;
+    gap: 0;
+    padding: 1rem;
     border: 1px solid #eee;
     border-radius: var(--radius-lg);
     background: rgba(255, 255, 255, 0.98);
     box-shadow: 0 24px 60px rgba(0, 0, 0, 0.08);
+    max-height: calc(100vh - var(--header-height) - 2rem);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .site-nav.is-open {
     display: flex;
   }
 
-  .nav-links,
-  .nav-actions {
+  /* Nav links in 2-column grid for compactness */
+  .nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
     width: 100%;
-    flex-direction: column;
-    align-items: stretch;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
-  .nav-links a,
-  .nav-actions a {
-    padding: 0.75rem 0;
+  .nav-links a {
+    padding: 0.6rem 0.25rem;
+    font-size: 0.875rem;
+    text-align: center;
   }
 
   .nav-links a[aria-current="page"]::after,
   .nav-links a:hover::after,
   .nav-actions a.nav-signin:hover::after {
-    bottom: 0.2rem;
+    bottom: 0.15rem;
+  }
+
+  /* Actions row: lang switcher + CTA side by side */
+  .nav-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 100%;
+    padding-top: 0.25rem;
+  }
+
+  .nav-actions .lang-switcher {
+    flex-shrink: 0;
+  }
+
+  .nav-actions .btn-signup {
+    font-size: 0.8125rem;
+    padding: 8px 14px;
+    white-space: nowrap;
   }
 
   .hero-buttons,
@@ -1357,11 +1391,80 @@ footer {
 
   .footer-top {
     grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .page-hero {
+    padding: 120px 16px 60px;
+  }
+
+  .page-hero h1 {
+    font-size: 1.75rem;
   }
 
   .cta-section,
   .footer-email {
     gap: 1rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ===================================================
+   RESPONSIVE — EXTRA SMALL (max 480px)
+   =================================================== */
+@media (max-width: 480px) {
+  :root {
+    --header-height: 4rem;
+  }
+
+  .logo {
+    font-size: 1.125rem;
+  }
+
+  .nav-toggle {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  /* Stack nav links single column on very small phones */
+  .nav-links {
+    grid-template-columns: 1fr;
+  }
+
+  /* Stack actions vertically on very small screens */
+  .nav-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav-actions .btn-signup {
+    text-align: center;
+  }
+
+  .lang-switcher a {
+    padding: 5px 7px;
+    font-size: 0.6875rem;
+  }
+
+  .page-hero {
+    padding: 100px 12px 48px;
+  }
+
+  .page-hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer-inner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .btn-signup {
+    font-size: 0.8125rem;
+    padding: 10px 16px;
   }
 }
 
