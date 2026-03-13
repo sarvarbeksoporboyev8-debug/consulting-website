@@ -17,7 +17,8 @@
 .blog-card .image {
   width: 100%;
   aspect-ratio: 389 / 280;
-  background: linear-gradient(135deg, #e0e0e0 0%, #bdbdbd 100%);
+  object-fit: cover;
+  display: block;
 }
 
 .blog-card .body { padding: 24px; }

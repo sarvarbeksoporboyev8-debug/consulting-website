@@ -130,7 +130,7 @@
       <div class="blog-grid">
         {%- for post in blog[L] | head(2) %}
         <div class="blog-card">
-          <div class="image" style="background-image:url('{{ langRoot }}img/blog/{{ post.image }}');" aria-hidden="true"></div>
+          <img class="image" src="{{ langRoot }}img/blog/{{ post.image }}" alt="{{ post.title }}">
           <div class="tag">{{ post.author }}-</div>
           <h3>{{ post.title }}</h3>
           <p>{{ post.excerpt }}</p>

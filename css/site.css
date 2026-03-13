@@ -481,8 +481,7 @@ header,
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(135deg, #e0e0e0 0%, #c0c0c0 100%);
   margin: 0 auto 24px;
 }
 
@@ -1120,7 +1119,9 @@ footer {
   width: 130px;
   height: 120px;
   flex-shrink: 0;
-  background: #bdbdbd;
+  background-color: #bdbdbd;
+  background-size: cover;
+  background-position: center;
   border-radius: 4px;
 }
 

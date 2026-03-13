@@ -90,7 +90,9 @@ body {
   width: 100%;
   max-width: 495px;
   aspect-ratio: 495 / 576;
-  background: linear-gradient(135deg, #e8e8e8 0%, #d0d0d0 100%);
+  background-color: #e8e8e8;
+  background-size: cover;
+  background-position: center;
   border-radius: var(--radius-lg);
   margin-left: auto;
 }
@@ -249,7 +251,9 @@ body {
   width: 100%;
   max-width: 495px;
   aspect-ratio: 495 / 600;
-  background: linear-gradient(135deg, #e8e8e8 0%, #d0d0d0 100%);
+  background-color: #e8e8e8;
+  background-size: cover;
+  background-position: center;
   border-radius: var(--radius-lg);
   margin-left: auto;
 }
@@ -302,9 +306,10 @@ body {
 .blog-card .image {
   width: 100%;
   aspect-ratio: 600 / 399;
-  background: linear-gradient(135deg, #e8e8e8 0%, #d0d0d0 100%);
+  object-fit: cover;
   border-radius: var(--radius-lg);
   margin-bottom: 24px;
+  display: block;
 }
 
 .blog-card .tag {
