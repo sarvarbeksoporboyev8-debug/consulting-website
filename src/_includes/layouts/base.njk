@@ -7,15 +7,16 @@
   <meta name="description" content="{{ description }}">
   {%- endif %}
   <title>{{ title }}</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800{{ extraFonts }}&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ langRoot }}favicon.svg" type="image/svg+xml">
   <link rel="icon" href="{{ langRoot }}favicon.ico" sizes="any">
   {%- if description %}
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:type" content="{{ ogType | default('website') }}">
+  <meta property="og:image" content="{{ site.shared.domain }}/favicon.svg">
+  <meta property="og:url" content="{{ site.shared.domain }}/{{ L }}/{{ currentPage | default('index.html') }}">
   {%- endif %}
+  <link rel="stylesheet" href="{{ langRoot }}css/fonts.css">
   <link rel="stylesheet" href="{{ langRoot }}css/site.css">
   {%- if pageCss %}
   <link rel="stylesheet" href="{{ langRoot }}{{ pageCss }}">

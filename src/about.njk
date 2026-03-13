@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="lead-visual">
-          <div class="lead-image" aria-hidden="true"></div>
+          <div class="lead-image" style="background-image:url('{{ langRoot }}img/about-lead.jpg');" aria-hidden="true"></div>
           <div class="lead-card">
             <div class="label">{{ t.about_countries_label }}</div>
             <div class="count">{{ t.about_countries_count }}</div>
@@ -50,14 +50,6 @@
             {%- endfor %}
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="video-section" id="video-overview">
-      <h2>{{ t.about_video_title | safe }}</h2>
-      <p class="desc">{{ t.about_video_desc }}</p>
-      <div class="video-player">
-        <button type="button" class="play-btn" aria-label="Play video"></button>
       </div>
     </section>
 

@@ -6,7 +6,8 @@
       "author": "Admin",
       "date": "10 July, 2024",
       "datetime": "2024-07-10",
-      "link": "blog-choosing-country.html"
+      "link": "blog-choosing-country.html",
+      "image": "choosing-country.jpg"
     },
     {
       "title": "IELTS Preparation: Tips to Reach Your Target Score",
@@ -14,7 +15,8 @@
       "author": "Admin",
       "date": "15 August, 2024",
       "datetime": "2024-08-15",
-      "link": "blog-ielts-tips.html"
+      "link": "blog-ielts-tips.html",
+      "image": "ielts-tips.jpg"
     },
     {
       "title": "Scholarship Guide: How to Fund Your Education Abroad",
@@ -22,7 +24,8 @@
       "author": "Admin",
       "date": "28 September, 2024",
       "datetime": "2024-09-28",
-      "link": "blog-scholarship-guide.html"
+      "link": "blog-scholarship-guide.html",
+      "image": "scholarship-guide.jpg"
     },
     {
       "title": "Student Visa Interview: What to Expect and How to Prepare",
@@ -30,7 +33,8 @@
       "author": "Admin",
       "date": "05 November, 2024",
       "datetime": "2024-11-05",
-      "link": "blog-visa-interview.html"
+      "link": "blog-visa-interview.html",
+      "image": "visa-interview.jpg"
     },
     {
       "title": "Life as an International Student: What Nobody Tells You",
@@ -38,7 +42,8 @@
       "author": "Admin",
       "date": "12 January, 2025",
       "datetime": "2025-01-12",
-      "link": "blog-student-life.html"
+      "link": "blog-student-life.html",
+      "image": "student-life.jpg"
     },
     {
       "title": "Working While Studying: Rules and Opportunities by Country",
@@ -46,7 +51,8 @@
       "author": "Admin",
       "date": "28 February, 2025",
       "datetime": "2025-02-28",
-      "link": "blog-working-while-studying.html"
+      "link": "blog-working-while-studying.html",
+      "image": "working-while-studying.jpg"
     }
   ],
   "uz": [
@@ -56,7 +62,8 @@
       "author": "Admin",
       "date": "10 iyul, 2024",
       "datetime": "2024-07-10",
-      "link": "blog-choosing-country.html"
+      "link": "blog-choosing-country.html",
+      "image": "choosing-country.jpg"
     },
     {
       "title": "IELTS tayyorgarlik: maqsadli ballga erishish bo'yicha maslahatlar",
@@ -64,7 +71,8 @@
       "author": "Admin",
       "date": "15 avgust, 2024",
       "datetime": "2024-08-15",
-      "link": "blog-ielts-tips.html"
+      "link": "blog-ielts-tips.html",
+      "image": "ielts-tips.jpg"
     },
     {
       "title": "Stipendiya qo'llanmasi: xorijda ta'limni qanday moliyalashtirish mumkin",
@@ -72,7 +80,8 @@
       "author": "Admin",
       "date": "28 sentyabr, 2024",
       "datetime": "2024-09-28",
-      "link": "blog-scholarship-guide.html"
+      "link": "blog-scholarship-guide.html",
+      "image": "scholarship-guide.jpg"
     },
     {
       "title": "Talaba vizasi intervyusi: nimani kutish va qanday tayyorlanish kerak",
@@ -80,7 +89,8 @@
       "author": "Admin",
       "date": "05 noyabr, 2024",
       "datetime": "2024-11-05",
-      "link": "blog-visa-interview.html"
+      "link": "blog-visa-interview.html",
+      "image": "visa-interview.jpg"
     },
     {
       "title": "Xalqaro talaba hayoti: hech kim aytmaydigan narsalar",
@@ -88,7 +98,8 @@
       "author": "Admin",
       "date": "12 yanvar, 2025",
       "datetime": "2025-01-12",
-      "link": "blog-student-life.html"
+      "link": "blog-student-life.html",
+      "image": "student-life.jpg"
     },
     {
       "title": "O'qish paytida ishlash: davlatlar bo'yicha qoidalar va imkoniyatlar",
@@ -96,7 +107,8 @@
       "author": "Admin",
       "date": "28 fevral, 2025",
       "datetime": "2025-02-28",
-      "link": "blog-working-while-studying.html"
+      "link": "blog-working-while-studying.html",
+      "image": "working-while-studying.jpg"
     }
   ],
   "uzcyrl": [
@@ -106,7 +118,8 @@
       "author": "Admin",
       "date": "10 июл, 2024",
       "datetime": "2024-07-10",
-      "link": "blog-choosing-country.html"
+      "link": "blog-choosing-country.html",
+      "image": "choosing-country.jpg"
     },
     {
       "title": "IELTS тайёргарлик: мақсадли балга эришиш бўйича маслаҳатлар",
@@ -114,7 +127,8 @@
       "author": "Admin",
       "date": "15 август, 2024",
       "datetime": "2024-08-15",
-      "link": "blog-ielts-tips.html"
+      "link": "blog-ielts-tips.html",
+      "image": "ielts-tips.jpg"
     },
     {
       "title": "Стипендия қўлланмаси: хорижда таълимни қандай молиялаштириш мумкин",
@@ -122,7 +136,8 @@
       "author": "Admin",
       "date": "28 сентябр, 2024",
       "datetime": "2024-09-28",
-      "link": "blog-scholarship-guide.html"
+      "link": "blog-scholarship-guide.html",
+      "image": "scholarship-guide.jpg"
     },
     {
       "title": "Талаба визаси интервьюси: нимани кутиш ва қандай тайёрланиш керак",
@@ -130,7 +145,8 @@
       "author": "Admin",
       "date": "05 ноябр, 2024",
       "datetime": "2024-11-05",
-      "link": "blog-visa-interview.html"
+      "link": "blog-visa-interview.html",
+      "image": "visa-interview.jpg"
     },
     {
       "title": "Халқаро талаба ҳаёти: ҳеч ким айтмайдиган нарсалар",
@@ -138,7 +154,8 @@
       "author": "Admin",
       "date": "12 январ, 2025",
       "datetime": "2025-01-12",
-      "link": "blog-student-life.html"
+      "link": "blog-student-life.html",
+      "image": "student-life.jpg"
     },
     {
       "title": "Ўқиш пайтида ишлаш: давлатлар бўйича қоидалар ва имкониятлар",
@@ -146,7 +163,8 @@
       "author": "Admin",
       "date": "28 феврал, 2025",
       "datetime": "2025-02-28",
-      "link": "blog-working-while-studying.html"
+      "link": "blog-working-while-studying.html",
+      "image": "working-while-studying.jpg"
     }
   ],
   "ru": [
@@ -156,7 +174,8 @@
       "author": "Admin",
       "date": "10 июля 2024",
       "datetime": "2024-07-10",
-      "link": "blog-choosing-country.html"
+      "link": "blog-choosing-country.html",
+      "image": "choosing-country.jpg"
     },
     {
       "title": "Подготовка к IELTS: советы по достижению целевого балла",
@@ -164,7 +183,8 @@
       "author": "Admin",
       "date": "15 августа 2024",
       "datetime": "2024-08-15",
-      "link": "blog-ielts-tips.html"
+      "link": "blog-ielts-tips.html",
+      "image": "ielts-tips.jpg"
     },
     {
       "title": "Гид по стипендиям: как финансировать обучение за рубежом",
@@ -172,7 +192,8 @@
       "author": "Admin",
       "date": "28 сентября 2024",
       "datetime": "2024-09-28",
-      "link": "blog-scholarship-guide.html"
+      "link": "blog-scholarship-guide.html",
+      "image": "scholarship-guide.jpg"
     },
     {
       "title": "Собеседование на студенческую визу: чего ожидать и как подготовиться",
@@ -180,7 +201,8 @@
       "author": "Admin",
       "date": "05 ноября 2024",
       "datetime": "2024-11-05",
-      "link": "blog-visa-interview.html"
+      "link": "blog-visa-interview.html",
+      "image": "visa-interview.jpg"
     },
     {
       "title": "Жизнь иностранного студента: о чём никто не рассказывает",
@@ -188,7 +210,8 @@
       "author": "Admin",
       "date": "12 января 2025",
       "datetime": "2025-01-12",
-      "link": "blog-student-life.html"
+      "link": "blog-student-life.html",
+      "image": "student-life.jpg"
     },
     {
       "title": "Работа во время учёбы: правила и возможности по странам",
@@ -196,7 +219,8 @@
       "author": "Admin",
       "date": "28 февраля 2025",
       "datetime": "2025-02-28",
-      "link": "blog-working-while-studying.html"
+      "link": "blog-working-while-studying.html",
+      "image": "working-while-studying.jpg"
     }
   ]
 }

@@ -105,11 +105,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  // Form submission via AJAX
   document.querySelectorAll("[data-form]").forEach(function (form) {
     var status = form.querySelector("[data-form-status]");
     var requiredFields = form.querySelectorAll("[required]");
+    var submitBtn = form.querySelector("[type='submit']");
 
     form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
       var invalidField = null;
 
       requiredFields.forEach(function (field) {
@@ -121,11 +125,10 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       if (invalidField) {
-        event.preventDefault();
         invalidField.focus();
 
         if (status) {
-          status.textContent = "Check the highlighted fields and try again.";
+          status.textContent = status.getAttribute("data-msg-error") || "Please check the highlighted fields.";
           status.classList.add("is-error");
           status.classList.remove("is-success");
         }
@@ -133,92 +136,52 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
 
-      event.preventDefault();
+      // If no action URL, skip submission
+      var action = form.getAttribute("action");
+      if (!action) return;
 
-      requiredFields.forEach(function (field) {
-        field.removeAttribute("aria-invalid");
-      });
-
-      if (status) {
-        status.textContent = "Front-end validation passed. Connect this form to your delivery endpoint before launch.";
-        status.classList.add("is-success");
-        status.classList.remove("is-error");
+      // Disable button during submission
+      if (submitBtn) {
+        submitBtn.disabled = true;
       }
-    });
-  });
 
-  // Video modal
-  var modalOpen = false;
-  document.querySelectorAll(".play-btn").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      if (modalOpen) return;
-      modalOpen = true;
+      var formData = new FormData(form);
 
-      var overlay = document.createElement("div");
-      overlay.className = "video-modal-overlay";
-      overlay.setAttribute("role", "dialog");
-      overlay.setAttribute("aria-modal", "true");
-      overlay.setAttribute("aria-label", "Video player");
+      fetch(action, {
+        method: "POST",
+        body: formData,
+        headers: { "Accept": "application/json" }
+      }).then(function (response) {
+        if (response.ok) {
+          if (status) {
+            status.textContent = status.getAttribute("data-msg-success") || "Message sent successfully!";
+            status.classList.add("is-success");
+            status.classList.remove("is-error");
+          }
 
-      var modal = document.createElement("div");
-      modal.className = "video-modal";
+          requiredFields.forEach(function (field) {
+            field.removeAttribute("aria-invalid");
+          });
 
-      var close = document.createElement("button");
-      close.type = "button";
-      close.className = "video-modal-close";
-      close.setAttribute("aria-label", "Close video");
-      close.textContent = "\u00D7";
-
-      var placeholder = document.createElement("div");
-      placeholder.className = "video-modal-placeholder";
-      placeholder.innerHTML = "<p>Video coming soon.</p><p>Check back later for our overview video.</p>";
-
-      modal.appendChild(close);
-      modal.appendChild(placeholder);
-      overlay.appendChild(modal);
-      document.body.appendChild(overlay);
-
-      close.focus();
-
-      // Focus trap
-      var focusable = overlay.querySelectorAll("button, [href], [tabindex]:not([tabindex='-1'])");
-      var firstFocusable = focusable[0];
-      var lastFocusable = focusable[focusable.length - 1];
-
-      function trapFocus(e) {
-        if (e.key === "Tab") {
-          if (e.shiftKey) {
-            if (document.activeElement === firstFocusable) {
-              e.preventDefault();
-              lastFocusable.focus();
-            }
-          } else {
-            if (document.activeElement === lastFocusable) {
-              e.preventDefault();
-              firstFocusable.focus();
-            }
+          form.reset();
+        } else {
+          if (status) {
+            status.textContent = status.getAttribute("data-msg-error") || "Something went wrong. Please try again.";
+            status.classList.add("is-error");
+            status.classList.remove("is-success");
           }
         }
-      }
-
-      function closeModal() {
-        document.removeEventListener("keydown", handleKeydown);
-        overlay.removeEventListener("keydown", trapFocus);
-        document.body.removeChild(overlay);
-        modalOpen = false;
-        btn.focus();
-      }
-
-      function handleKeydown(e) {
-        if (e.key === "Escape") closeModal();
-      }
-
-      close.addEventListener("click", closeModal);
-      overlay.addEventListener("click", function (e) {
-        if (e.target === overlay) closeModal();
+      }).catch(function () {
+        if (status) {
+          status.textContent = status.getAttribute("data-msg-error") || "Network error. Please try again.";
+          status.classList.add("is-error");
+          status.classList.remove("is-success");
+        }
+      }).finally(function () {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+        }
       });
-      overlay.addEventListener("keydown", trapFocus);
-      document.addEventListener("keydown", handleKeydown);
     });
   });
 });

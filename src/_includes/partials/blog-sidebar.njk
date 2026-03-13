@@ -3,7 +3,7 @@
         {%- for post in blog[L] | reverse %}
         {%- if loop.index <= 4 %}
         <article class="recent-post">
-          <div class="thumb" aria-hidden="true"></div>
+          <div class="thumb" style="background-image:url('{{ langRoot }}img/blog/{{ post.image }}');" aria-hidden="true"></div>
           <div class="meta">
             <h4><a href="/{{ L }}/{{ post.link }}">{{ post.title }}</a></h4>
             <time datetime="{{ post.datetime }}">{{ post.date }}</time>

@@ -87,7 +87,10 @@
     "contact_form_submit": "Send Message",
     "faq_sidebar_title": "Quick Navigation",
     "faq_categories": ["General", "Admissions", "IELTS & Language", "Visa & Documents", "Scholarships", "Programs"],
-    "breadcrumb_home": "Home"
+    "breadcrumb_home": "Home",
+    "form_success": "Message sent successfully! We will contact you soon.",
+    "form_error": "Something went wrong. Please check the fields and try again.",
+    "newsletter_success": "Subscribed successfully!"
   },
   "uz": {
     "nav_home": "Bosh sahifa",
@@ -177,7 +180,10 @@
     "contact_form_submit": "Xabar yuborish",
     "faq_sidebar_title": "Tezkor navigatsiya",
     "faq_categories": ["Umumiy", "Qabul", "IELTS va til", "Viza va hujjatlar", "Grantlar", "Dasturlar"],
-    "breadcrumb_home": "Bosh sahifa"
+    "breadcrumb_home": "Bosh sahifa",
+    "form_success": "Xabar muvaffaqiyatli yuborildi! Tez orada siz bilan bog'lanamiz.",
+    "form_error": "Xatolik yuz berdi. Maydonlarni tekshirib, qayta urinib ko'ring.",
+    "newsletter_success": "Muvaffaqiyatli obuna bo'ldingiz!"
   },
   "uzcyrl": {
     "nav_home": "Бош саҳифа",
@@ -267,7 +273,10 @@
     "contact_form_submit": "Хабар юбориш",
     "faq_sidebar_title": "Тезкор навигатсия",
     "faq_categories": ["Умумий", "Қабул", "IELTS ва тил", "Виза ва ҳужжатлар", "Грантлар", "Дастурлар"],
-    "breadcrumb_home": "Бош саҳифа"
+    "breadcrumb_home": "Бош саҳифа",
+    "form_success": "Хабар муваффақиятли юборилди! Тез орада сиз билан боғланамиз.",
+    "form_error": "Хатолик юз берди. Майдонларни текшириб, қайта уриниб кўринг.",
+    "newsletter_success": "Муваффақиятли обуна бўлдингиз!"
   },
   "ru": {
     "nav_home": "Главная",
@@ -357,6 +366,9 @@
     "contact_form_submit": "Отправить сообщение",
     "faq_sidebar_title": "Быстрая навигация",
     "faq_categories": ["Общие вопросы", "Поступление", "IELTS и языки", "Виза и документы", "Стипендии", "Программы"],
-    "breadcrumb_home": "Главная"
+    "breadcrumb_home": "Главная",
+    "form_success": "Сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.",
+    "form_error": "Произошла ошибка. Проверьте поля и попробуйте снова.",
+    "newsletter_success": "Вы успешно подписались!"
   }
 }

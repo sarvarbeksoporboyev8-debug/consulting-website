@@ -2,8 +2,10 @@
       <div>
         <h2>{{ t.form_title }}</h2>
         <p class="subtitle">{{ t.form_subtitle }}</p>
-        <form class="stacked-form" action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST" data-form novalidate>
+        <form class="stacked-form" action="https://formsubmit.co/ajax/info@grantconsulting.uz" method="POST" data-form novalidate>
+          <input type="hidden" name="_subject" value="Consultation request - grant-consulting.uz">
           <input type="hidden" name="_language" value="{{ L }}">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="field-group">
             <label for="{{ formPrefix }}-name">{{ t.form_name_label }}</label>
             <input type="text" id="{{ formPrefix }}-name" name="name" placeholder="{{ t.form_name_placeholder }}" required>
@@ -17,7 +19,7 @@
             <textarea id="{{ formPrefix }}-query" name="message" placeholder="{{ t.form_message_placeholder }}" required></textarea>
           </div>
           <button type="submit" class="btn-primary">{{ t.btn_send_message }}</button>
-          <p class="form-status" data-form-status aria-live="polite"></p>
+          <p class="form-status" data-form-status data-msg-success="{{ t.form_success }}" data-msg-error="{{ t.form_error }}" aria-live="polite"></p>
         </form>
       </div>
       <div>

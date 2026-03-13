@@ -30,11 +30,11 @@
         <p class="subtitle">{{ t.hero_subtitle }}</p>
         <div class="hero-buttons">
           <a href="/{{ L }}/contact.html#contact-form" class="btn-primary">{{ t.hero_cta_primary }}</a>
-          <a href="/{{ L }}/about.html#video-overview" class="hero-video">{{ t.hero_cta_secondary }}</a>
+          <a href="/{{ L }}/about.html" class="hero-video">{{ t.hero_cta_secondary }}</a>
         </div>
       </div>
       <div class="hero-visual">
-        <div class="hero-image" aria-hidden="true"></div>
+        <div class="hero-image" style="background-image:url('{{ langRoot }}img/hero/hero.jpg');" aria-hidden="true"></div>
         <div class="hero-chart">
           <p class="hero-chart-title">{{ t.hero_chart_title }}</p>
           <hr>
@@ -79,7 +79,7 @@
             {%- endfor %}
           </div>
         </div>
-        <div class="about-image" aria-hidden="true"></div>
+        <div class="about-image" style="background-image:url('{{ langRoot }}img/about.jpg');" aria-hidden="true"></div>
       </div>
     </section>
 
@@ -130,7 +130,7 @@
       <div class="blog-grid">
         {%- for post in blog[L] | head(2) %}
         <div class="blog-card">
-          <div class="image" aria-hidden="true"></div>
+          <div class="image" style="background-image:url('{{ langRoot }}img/blog/{{ post.image }}');" aria-hidden="true"></div>
           <div class="tag">{{ post.author }}-</div>
           <h3>{{ post.title }}</h3>
           <p>{{ post.excerpt }}</p>

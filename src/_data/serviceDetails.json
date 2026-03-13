@@ -2,6 +2,7 @@
   {
     "id": "competitive-analysis",
     "slug": "service-competitive-analysis",
+    "image": "university-selection.jpg",
     "cssFile": "css/service-competitive-analysis.css",
     "formPrefix": "sca",
     "en": {
@@ -116,6 +117,7 @@
   {
     "id": "strategic-planning",
     "slug": "service-strategic-planning",
+    "image": "study-planning.jpg",
     "cssFile": "css/service-strategic-planning.css",
     "formPrefix": "sp",
     "en": {
@@ -230,6 +232,7 @@
   {
     "id": "marketing-strategy",
     "slug": "service-marketing-strategy",
+    "image": "scholarships.jpg",
     "cssFile": "css/service-marketing-strategy.css",
     "formPrefix": "ms",
     "en": {
@@ -344,6 +347,7 @@
   {
     "id": "problem-solving",
     "slug": "service-problem-solving",
+    "image": "visa-support.jpg",
     "cssFile": "css/service-problem-solving.css",
     "formPrefix": "ps",
     "en": {
@@ -458,6 +462,7 @@
   {
     "id": "business-consulting",
     "slug": "service-business-consulting",
+    "image": "consultation.jpg",
     "cssFile": "css/service-business-consulting.css",
     "formPrefix": "bc",
     "en": {
@@ -572,6 +577,7 @@
   {
     "id": "audit-evaluation",
     "slug": "service-audit-evaluation",
+    "image": "ielts-prep.jpg",
     "cssFile": "css/service-audit-evaluation.css",
     "formPrefix": "ae",
     "en": {
@@ -686,113 +692,114 @@
   {
     "id": "digital-marketing",
     "slug": "service-digital-marketing",
+    "image": "documents.jpg",
     "cssFile": "css/service-digital-marketing.css",
     "formPrefix": "dm",
     "en": {
-      "title": "IELTS Preparation - Grant Consulting",
-      "description": "Achieve your target IELTS score with Grant Consulting's preparation courses — practice tests, score improvement strategies, and speaking coaching.",
-      "heroTitle": "IELTS Preparation",
-      "sidebarLabel": "IELTS Preparation",
-      "breadcrumbLabel": "IELTS Preparation",
+      "title": "Application & Essay Support - Grant Consulting",
+      "description": "Professional guidance on personal statements, motivation letters, and university applications to strengthen your candidacy.",
+      "heroTitle": "Application & Essay Support",
+      "sidebarLabel": "Essay Support",
+      "breadcrumbLabel": "Application & Essay Support",
       "paragraphs": [
-        "A strong IELTS score is the gateway to studying at top universities around the world. Grant Consulting offers structured IELTS preparation courses designed to help students achieve the band scores required by their target institutions. Our classes cover all four sections of the exam — Listening, Reading, Writing, and Speaking — with a curriculum built around proven test-taking strategies and real exam materials.",
-        "Regular practice testing is at the core of our preparation approach. Students take full-length mock exams under timed conditions throughout the course, allowing them to track their progress and identify the specific areas where they need the most improvement. After each practice test, our instructors provide detailed feedback with actionable advice on how to gain additional points in each section.",
-        "The Speaking section is often the most challenging for students in Uzbekistan, and it is the area where personalized coaching makes the biggest difference. Our instructors conduct one-on-one speaking practice sessions that simulate the real exam environment, helping students build fluency, improve pronunciation, and develop the confidence to perform at their best. Whether you need to reach a 6.0 or a 7.5, we tailor our approach to your current level and target score."
+        "A strong application can be the deciding factor between acceptance and rejection at competitive universities. Grant Consulting provides professional guidance on every written component of your university application — from personal statements and motivation letters to statements of purpose and CV preparation. Our consultants have helped hundreds of students craft compelling narratives that highlight their unique strengths and academic potential.",
+        "Writing for international admissions is fundamentally different from academic writing. Admissions committees look for authenticity, clarity of purpose, and evidence of personal growth. Our team works one-on-one with each student to uncover the experiences and achievements that matter most, then helps structure and refine the essay until it communicates your story with confidence and impact.",
+        "Beyond essays, we review your entire application package for consistency and completeness. We ensure your CV, recommendation letter requests, and supporting documents align with the narrative of your personal statement. Every detail matters — from formatting and word count to tone and cultural appropriateness for your target country — and we make sure nothing is overlooked."
       ],
       "whyTitle": "Why this service is important?",
       "benefits": [
         {
-          "title": "Practice tests:",
-          "text": "We administer full-length, timed mock exams using official and curated materials, giving you a realistic preview of the test and a clear benchmark of your current ability."
+          "title": "Personal statement coaching:",
+          "text": "We work with you one-on-one to develop a personal statement that authentically communicates your goals, experiences, and motivation — tailored to the expectations of each university you apply to."
         },
         {
-          "title": "Score improvement:",
-          "text": "Our instructors analyze your results after every practice test and create a focused study plan that targets your weakest areas, so every hour of preparation counts."
+          "title": "Motivation letter review:",
+          "text": "Our consultants review and refine your motivation letters to ensure they are clear, persuasive, and aligned with the specific requirements of each program and institution."
         },
         {
-          "title": "Speaking coaching:",
-          "text": "We provide one-on-one speaking practice sessions that build your fluency, refine your pronunciation, and prepare you to handle any question the examiner may ask."
+          "title": "Full application review:",
+          "text": "We check your entire application package — CV, essays, recommendation letter guidance, and supporting documents — for consistency, completeness, and maximum impact."
         }
       ]
     },
     "uz": {
-      "title": "IELTS tayyorgarlik - Grant Consulting",
-      "description": "Grant Consulting tayyorgarlik kurslari bilan maqsadli IELTS balingizga erishing — amaliy testlar, ball yaxshilash strategiyalari va speaking kouching.",
-      "heroTitle": "IELTS tayyorgarlik",
-      "sidebarLabel": "IELTS tayyorgarlik",
-      "breadcrumbLabel": "IELTS tayyorgarlik",
+      "title": "Ariza va esse yordami - Grant Consulting",
+      "description": "Shaxsiy bayonotlar, motivatsion xatlar va universitet arizalarini kuchaytirishda professional yordam.",
+      "heroTitle": "Ariza va esse yordami",
+      "sidebarLabel": "Esse yordami",
+      "breadcrumbLabel": "Ariza va esse yordami",
       "paragraphs": [
-        "Yuqori IELTS bali dunyo bo'ylab eng yaxshi universitetlarda o'qish uchun darvozadir. Grant Consulting talabalarga maqsadli muassasalari talab qiladigan ball ko'rsatkichlariga erishishga yordam berish uchun mo'ljallangan tuzilgan IELTS tayyorgarlik kurslarini taklif etadi. Bizning darslarimiz imtihonning to'rtala bo'limini qamrab oladi — Listening, Reading, Writing va Speaking — isbotlangan test topshirish strategiyalari va haqiqiy imtihon materiallari asosida qurilgan o'quv dasturi bilan.",
-        "Muntazam amaliy testlar bizning tayyorgarlik yondashuvimizning asosini tashkil qiladi. Talabalar kurs davomida vaqt chegarasi bilan to'liq hajmli sinov imtihonlarini topshiradilar, bu ularga o'z taraqqiyotini kuzatish va eng ko'p takomillashtirish zarur bo'lgan aniq sohalarni aniqlash imkonini beradi. Har bir amaliy testdan so'ng, o'qituvchilarimiz har bir bo'limda qo'shimcha ball olish bo'yicha amaliy maslahatlar bilan batafsil fikr-mulohaza bildiradi.",
-        "Speaking bo'limi ko'pincha O'zbekistondagi talabalar uchun eng qiyin bo'lib, bu shaxsiy kouching eng katta farq qiladigan sohadir. Bizning o'qituvchilarimiz haqiqiy imtihon muhitini simulyatsiya qiluvchi yakka tartibdagi speaking mashq sessiyalarini o'tkazadi, talabalarga ravonlikni oshirish, talaffuzni yaxshilash va eng yaxshi natija ko'rsatish uchun ishonchni rivojlantirishga yordam beradi. Sizga 6.0 yoki 7.5 ga erishish kerak bo'lishidan qat'i nazar, biz yondashuvimizni sizning hozirgi darajangiz va maqsadli balingizga moslashtiramiz."
+        "Kuchli ariza raqobatbardosh universitetlarda qabul qilinish yoki rad etilish o'rtasidagi hal qiluvchi omil bo'lishi mumkin. Grant Consulting sizning universitet arizangizning har bir yozma qismiga — shaxsiy bayonotlar va motivatsion xatlardan tortib maqsad bayonotlari va CV tayyorlashgacha — professional yo'l-yo'riq ko'rsatadi. Bizning maslahatchilarimiz yuzlab talabalarga o'zlarining noyob kuchli tomonlari va akademik salohiyatlarini ta'kidlaydigan ishonchli hikoyalar yaratishda yordam berishgan.",
+        "Xalqaro qabul uchun yozish akademik yozishdan tubdan farq qiladi. Qabul komissiyalari haqiqiylik, maqsad aniqligi va shaxsiy o'sish dalillarini qidiradi. Bizning jamoamiz har bir talaba bilan yakka tartibda ishlaydi, eng muhim tajribalar va yutuqlarni ochib beradi, so'ngra esse ishonch va ta'sir bilan sizning hikoyangizni yetkazguncha tuzilishi va takomillashtirishga yordam beradi.",
+        "Esselerdan tashqari, biz sizning butun ariza paketingizni izchillik va to'liqlik uchun ko'rib chiqamiz. Sizning CV, tavsiya xatlari so'rovlari va qo'llab-quvvatlovchi hujjatlaringiz shaxsiy bayonotingiz hikoyasiga mos kelishini ta'minlaymiz. Har bir tafsilot muhim — formatlashtirish va so'z sonidan tortib ohang va maqsadli mamlakatingiz uchun madaniy moslikkacha — va biz hech narsa e'tibordan chetda qolmasligiga ishonch hosil qilamiz."
       ],
       "whyTitle": "Nima uchun bu xizmat muhim?",
       "benefits": [
         {
-          "title": "Amaliy testlar:",
-          "text": "Biz rasmiy va tanlangan materiallardan foydalanib, to'liq hajmli, vaqt chegarali sinov imtihonlarini o'tkazamiz, bu sizga testning real ko'rinishini va joriy qobiliyatingizning aniq ko'rsatkichini beradi."
+          "title": "Shaxsiy bayonot kouching:",
+          "text": "Biz siz bilan yakka tartibda ishlaydi, maqsadlaringiz, tajribalaringiz va motivatsiyangizni haqiqiy tarzda yetkazadigan shaxsiy bayonot ishlab chiqamiz — har bir ariza topshiradigan universitetingizning kutganlariga moslashtirilgan."
         },
         {
-          "title": "Ball yaxshilash:",
-          "text": "O'qituvchilarimiz har bir amaliy testdan so'ng natijalaringizni tahlil qiladi va eng zaif sohalaringizni nishonga oladigan yo'naltirilgan o'quv rejasini tuzadi, shu bilan tayyorgarlikning har bir soati hisobga olinadi."
+          "title": "Motivatsion xat ko'rib chiqish:",
+          "text": "Bizning maslahatchilarimiz motivatsion xatlaringizni ko'rib chiqadi va takomillashtiradi, ularning aniq, ishonchli va har bir dastur va muassasaning maxsus talablariga mos kelishini ta'minlaydi."
         },
         {
-          "title": "Speaking kouching:",
-          "text": "Biz sizning ravonligingizni oshiradigan, talaffuzingizni takomillashtiradigan va imtihon oluvchi berishi mumkin bo'lgan har qanday savolga tayyor bo'lishingizni ta'minlaydigan yakka tartibdagi speaking mashq sessiyalarini taqdim etamiz."
+          "title": "To'liq ariza ko'rib chiqish:",
+          "text": "Biz sizning butun ariza paketingizni — CV, esseler, tavsiya xatlari bo'yicha yo'l-yo'riq va qo'llab-quvvatlovchi hujjatlar — izchillik, to'liqlik va maksimal ta'sir uchun tekshiramiz."
         }
       ]
     },
     "uzcyrl": {
-      "title": "IELTS тайёргарлик - Grant Consulting",
-      "description": "Grant Consulting тайёргарлик курслари билан мақсадли IELTS балингизга эришинг — амалий тестлар, балл яхшилаш стратегиялари ва speaking коучинг.",
-      "heroTitle": "IELTS тайёргарлик",
-      "sidebarLabel": "IELTS тайёргарлик",
-      "breadcrumbLabel": "IELTS тайёргарлик",
+      "title": "Ариза ва эссе ёрдами - Grant Consulting",
+      "description": "Шахсий баёнотлар, мотиватсион хатлар ва университет аризаларини кучайтиришда профессионал ёрдам.",
+      "heroTitle": "Ариза ва эссе ёрдами",
+      "sidebarLabel": "Эссе ёрдами",
+      "breadcrumbLabel": "Ариза ва эссе ёрдами",
       "paragraphs": [
-        "Юқори IELTS бали дунё бўйлаб энг яхши университетларда ўқиш учун дарвозадир. Grant Consulting талабаларга мақсадли муассасалари талаб қиладиган балл кўрсаткичларига эришишга ёрдам бериш учун мўлжалланган тузилган IELTS тайёргарлик курсларини таклиф этади. Бизнинг дарсларимиз имтиҳоннинг тўртала бўлимини қамраб олади — Listening, Reading, Writing ва Speaking — исботланган тест топшириш стратегиялари ва ҳақиқий имтиҳон материаллари асосида қурилган ўқув дастури билан.",
-        "Мунтазам амалий тестлар бизнинг тайёргарлик ёндашувимизнинг асосини ташкил қилади. Талабалар курс давомида вақт чегараси билан тўлиқ ҳажмли синов имтиҳонларини топширадилар, бу уларга ўз тараққиётини кузатиш ва энг кўп такомиллаштириш зарур бўлган аниқ соҳаларни аниқлаш имконини беради. Ҳар бир амалий тестдан сўнг, ўқитувчиларимиз ҳар бир бўлимда қўшимча балл олиш бўйича амалий маслаҳатлар билан батафсил фикр-мулоҳаза билдиради.",
-        "Speaking бўлими кўпинча Ўзбекистондаги талабалар учун энг қийин бўлиб, бу шахсий коучинг энг катта фарқ қиладиган соҳадир. Бизнинг ўқитувчиларимиз ҳақиқий имтиҳон муҳитини симуляция қилувчи якка тартибдаги speaking машқ сессияларини ўтказади, талабаларга равонликни ошириш, талаффузни яхшилаш ва энг яхши натижа кўрсатиш учун ишончни ривожлантиришга ёрдам беради. Сизга 6.0 ёки 7.5 га эришиш керак бўлишидан қатъи назар, биз ёндашувимизни сизнинг ҳозирги даражангиз ва мақсадли балингизга мослаштирамиз."
+        "Кучли ариза рақобатбардош университетларда қабул қилиниш ёки рад этилиш ўртасидаги ҳал қилувчи омил бўлиши мумкин. Grant Consulting сизнинг университет аризангизнинг ҳар бир ёзма қисмига — шахсий баёнотлар ва мотиватсион хатлардан тортиб мақсад баёнотлари ва CV тайёрлашгача — профессионал йўл-йўриқ кўрсатади. Бизнинг маслаҳатчиларимиз юзлаб талабаларга ўзларининг ноёб кучли томонлари ва академик салоҳиятларини таъкидлайдиган ишончли ҳикоялар яратишда ёрдам беришган.",
+        "Халқаро қабул учун ёзиш академик ёзишдан тубдан фарқ қилади. Қабул комиссиялари ҳақиқийлик, мақсад аниқлиги ва шахсий ўсиш далилларини қидиради. Бизнинг жамоамиз ҳар бир талаба билан якка тартибда ишлайди, энг муҳим тажрибалар ва ютуқларни очиб беради, сўнгра эссе ишонч ва таъсир билан сизнинг ҳикоянгизни етказгунча тузилиши ва такомиллаштиришга ёрдам беради.",
+        "Эсселардан ташқари, биз сизнинг бутун ариза пакетингизни изчиллик ва тўлиқлик учун кўриб чиқамиз. Сизнинг CV, тавсия хатлари сўровлари ва қўллаб-қувватловчи ҳужжатларингиз шахсий баёнотингиз ҳикоясига мос келишини таъминлаймиз. Ҳар бир тафсилот муҳим — форматлаштириш ва сўз сонидан тортиб оҳанг ва мақсадли мамлакатингиз учун маданий мосликкача — ва биз ҳеч нарса эътибордан четда қолмаслигига ишонч ҳосил қиламиз."
       ],
       "whyTitle": "Нима учун бу хизмат муҳим?",
       "benefits": [
         {
-          "title": "Амалий тестлар:",
-          "text": "Биз расмий ва танланган материаллардан фойдаланиб, тўлиқ ҳажмли, вақт чегарали синов имтиҳонларини ўтказамиз, бу сизга тестнинг реал кўринишини ва жорий қобилиятингизнинг аниқ кўрсаткичини беради."
+          "title": "Шахсий баёнот коучинг:",
+          "text": "Биз сиз билан якка тартибда ишлайди, мақсадларингиз, тажрибаларингиз ва мотиватсияңизни ҳақиқий тарзда етказадиган шахсий баёнот ишлаб чиқамиз — ҳар бир ариза топширадиган университетингизнинг кутганларига мослаштирилган."
         },
         {
-          "title": "Балл яхшилаш:",
-          "text": "Ўқитувчиларимиз ҳар бир амалий тестдан сўнг натижаларингизни таҳлил қилади ва энг заиф соҳаларингизни нишонга оладиган йўналтирилган ўқув режасини тузади, шу билан тайёргарликнинг ҳар бир соати ҳисобга олинади."
+          "title": "Мотиватсион хат кўриб чиқиш:",
+          "text": "Бизнинг маслаҳатчиларимиз мотиватсион хатларингизни кўриб чиқади ва такомиллаштиради, уларнинг аниқ, ишончли ва ҳар бир дастур ва муассасанинг махсус талабларига мос келишини таъминлайди."
         },
         {
-          "title": "Speaking коучинг:",
-          "text": "Биз сизнинг равонлигингизни ошурадиган, талаффузингизни такомиллаштирадиган ва имтиҳон олувчи бериши мумкин бўлган ҳар қандай саволга тайёр бўлишингизни таъминлайдиган якка тартибдаги speaking машқ сессияларини тақдим этамиз."
+          "title": "Тўлиқ ариза кўриб чиқиш:",
+          "text": "Биз сизнинг бутун ариза пакетингизни — CV, эсселар, тавсия хатлари бўйича йўл-йўриқ ва қўллаб-қувватловчи ҳужжатлар — изчиллик, тўлиқлик ва максимал таъсир учун текширамиз."
         }
       ]
     },
     "ru": {
-      "title": "Подготовка к IELTS - Grant Consulting",
-      "description": "Достигните целевого балла IELTS с подготовительными курсами Grant Consulting — пробные тесты, стратегии повышения баллов и коучинг по разговорной речи.",
-      "heroTitle": "Подготовка к IELTS",
-      "sidebarLabel": "Подготовка к IELTS",
-      "breadcrumbLabel": "Подготовка к IELTS",
+      "title": "Поддержка заявок и эссе - Grant Consulting",
+      "description": "Профессиональная помощь с личными заявлениями, мотивационными письмами и университетскими заявками для усиления вашей кандидатуры.",
+      "heroTitle": "Поддержка заявок и эссе",
+      "sidebarLabel": "Эссе и заявки",
+      "breadcrumbLabel": "Поддержка заявок и эссе",
       "paragraphs": [
-        "Высокий балл IELTS — это путь к обучению в лучших университетах мира. Grant Consulting предлагает структурированные курсы подготовки к IELTS, разработанные для того, чтобы помочь студентам достичь баллов, требуемых их целевыми учебными заведениями. Наши занятия охватывают все четыре раздела экзамена — Listening, Reading, Writing и Speaking — с учебной программой, построенной на проверенных стратегиях сдачи тестов и реальных экзаменационных материалах.",
-        "Регулярное пробное тестирование лежит в основе нашего подхода к подготовке. На протяжении всего курса студенты сдают полноформатные пробные экзамены в условиях ограниченного времени, что позволяет им отслеживать свой прогресс и определять конкретные области, требующие наибольшего улучшения. После каждого пробного теста наши преподаватели предоставляют подробную обратную связь с практическими рекомендациями по набору дополнительных баллов в каждом разделе.",
-        "Раздел Speaking часто является самым сложным для студентов из Узбекистана, и именно в этой области персональный коучинг даёт наибольший результат. Наши преподаватели проводят индивидуальные практические сессии по разговорной речи, имитирующие реальную обстановку экзамена, помогая студентам развить беглость речи, улучшить произношение и обрести уверенность для достижения наилучших результатов. Независимо от того, нужен ли вам балл 6.0 или 7.5, мы адаптируем наш подход к вашему текущему уровню и целевому баллу."
+        "Сильная заявка может стать решающим фактором между зачислением и отказом в конкурентных университетах. Grant Consulting предоставляет профессиональное сопровождение по каждому письменному компоненту вашей университетской заявки — от личных заявлений и мотивационных писем до заявлений о целях и подготовки CV. Наши консультанты помогли сотням студентов создать убедительные повествования, подчёркивающие их уникальные сильные стороны и академический потенциал.",
+        "Написание текстов для международного поступления принципиально отличается от академического письма. Приёмные комиссии ищут подлинность, ясность целей и свидетельства личностного роста. Наша команда работает индивидуально с каждым студентом, выявляя наиболее важные опыт и достижения, а затем помогает структурировать и отшлифовать эссе, пока оно не передаст вашу историю с уверенностью и воздействием.",
+        "Помимо эссе, мы проверяем весь ваш пакет документов на последовательность и полноту. Мы обеспечиваем соответствие вашего CV, запросов рекомендательных писем и сопроводительных документов общей линии вашего личного заявления. Каждая деталь имеет значение — от оформления и объёма текста до тона и культурной уместности для вашей целевой страны — и мы следим, чтобы ничего не было упущено."
       ],
       "whyTitle": "Почему эта услуга важна?",
       "benefits": [
         {
-          "title": "Пробные тесты:",
-          "text": "Мы проводим полноформатные пробные экзамены с ограничением по времени, используя официальные и тщательно отобранные материалы, что даёт вам реалистичное представление о тесте и чёткий ориентир вашего текущего уровня."
+          "title": "Коучинг личного заявления:",
+          "text": "Мы работаем с вами индивидуально, разрабатывая личное заявление, которое подлинно передаёт ваши цели, опыт и мотивацию — адаптированное к ожиданиям каждого университета, в который вы подаёте заявку."
         },
         {
-          "title": "Повышение баллов:",
-          "text": "Наши преподаватели анализируют ваши результаты после каждого пробного теста и составляют целенаправленный план подготовки, нацеленный на ваши слабые стороны, чтобы каждый час подготовки приносил максимальную пользу."
+          "title": "Проверка мотивационного письма:",
+          "text": "Наши консультанты проверяют и дорабатывают ваши мотивационные письма, обеспечивая их ясность, убедительность и соответствие конкретным требованиям каждой программы и учебного заведения."
         },
         {
-          "title": "Коучинг по разговорной речи:",
-          "text": "Мы проводим индивидуальные практические сессии по разговорной речи, которые развивают вашу беглость, совершенствуют произношение и готовят вас к любому вопросу, который может задать экзаменатор."
+          "title": "Полная проверка заявки:",
+          "text": "Мы проверяем весь ваш пакет документов — CV, эссе, рекомендации по оформлению рекомендательных писем и сопроводительные документы — на последовательность, полноту и максимальное воздействие."
         }
       ]
     }
@@ -800,6 +807,7 @@
   {
     "id": "seo-ranking",
     "slug": "service-seo-ranking",
+    "image": "career.jpg",
     "cssFile": "css/service-seo-ranking.css",
     "formPrefix": "seo",
     "en": {
@@ -914,6 +922,7 @@
   {
     "id": "daily-reports",
     "slug": "service-daily-reports",
+    "image": "reports.jpg",
     "cssFile": "css/service-daily-reports.css",
     "formPrefix": "dr",
     "en": {

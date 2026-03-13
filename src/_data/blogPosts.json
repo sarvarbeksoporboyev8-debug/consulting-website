@@ -2,6 +2,7 @@
   {
     "id": "choosing-country",
     "slug": "blog-choosing-country",
+    "image": "choosing-country.jpg",
     "en": {
       "title": "How to Choose the Right Country for Studying Abroad",
       "excerpt": "Comparing cost of living, education quality, work opportunities, and visa policies across our 12 partner countries to help you decide.",
@@ -234,6 +235,7 @@
   {
     "id": "ielts-tips",
     "slug": "blog-ielts-tips",
+    "image": "ielts-tips.jpg",
     "en": {
       "title": "IELTS Preparation: Tips to Reach Your Target Score",
       "excerpt": "Practical strategies for each IELTS section - listening, reading, writing, and speaking - from our experienced instructors.",
@@ -466,6 +468,7 @@
   {
     "id": "scholarship-guide",
     "slug": "blog-scholarship-guide",
+    "image": "scholarship-guide.jpg",
     "en": {
       "title": "Scholarship Guide: How to Fund Your Education Abroad",
       "excerpt": "A step-by-step guide to finding, applying for, and winning scholarships at international universities.",
@@ -698,6 +701,7 @@
   {
     "id": "visa-interview",
     "slug": "blog-visa-interview",
+    "image": "visa-interview.jpg",
     "en": {
       "title": "Student Visa Interview: What to Expect and How to Prepare",
       "excerpt": "Common visa interview questions, best answers, and tips from students who successfully obtained their visas.",
@@ -930,6 +934,7 @@
   {
     "id": "student-life",
     "slug": "blog-student-life",
+    "image": "student-life.jpg",
     "en": {
       "title": "Life as an International Student: What Nobody Tells You",
       "excerpt": "Real stories and practical advice from Uzbek students currently studying in the UK, Canada, and South Korea.",
@@ -1162,6 +1167,7 @@
   {
     "id": "working-while-studying",
     "slug": "blog-working-while-studying",
+    "image": "working-while-studying.jpg",
     "en": {
       "title": "Working While Studying: Rules and Opportunities by Country",
       "excerpt": "A breakdown of part-time work regulations, typical student jobs, and earning potential in each of our partner countries.",
