@@ -4,16 +4,6 @@
           <div class="footer-brand">
             <a href="/{{ L }}/index.html" class="logo">{{ site[L].name }}</a>
             <p>{{ site[L].tagline }}</p>
-            <form class="newsletter-form" action="https://formsubmit.co/ajax/Info@ukud-uzb.uz" method="POST" data-form novalidate>
-              <input type="hidden" name="_subject" value="Newsletter subscription - grant-consulting.uz">
-              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-              <label class="sr-only" for="newsletter-email">Email</label>
-              <div class="footer-email">
-                <input type="email" id="newsletter-email" name="email" placeholder="{{ t.footer_email_placeholder }}" required>
-                <button type="submit" class="btn-primary">{{ t.btn_subscribe }}</button>
-              </div>
-              <p class="form-status" data-form-status data-msg-success="{{ t.newsletter_success }}" data-msg-error="{{ t.form_error }}" aria-live="polite"></p>
-            </form>
           </div>
           <div class="footer-col">
             <h4>{{ t.footer_services }}</h4>
