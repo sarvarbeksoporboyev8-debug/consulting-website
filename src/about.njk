@@ -27,13 +27,13 @@
           </div>
           <div class="tab-content">
             <div id="mission-panel" role="tabpanel" aria-labelledby="tab-mission" class="is-active" data-tab-panel>
-              {{ t.about_mission_text }}
+              {{ t.about_mission_text | safe }}
             </div>
             <div id="vision-panel" role="tabpanel" aria-labelledby="tab-vision" data-tab-panel hidden>
-              {{ t.about_vision_text }}
+              {{ t.about_vision_text | safe }}
             </div>
             <div id="value-panel" role="tabpanel" aria-labelledby="tab-values" data-tab-panel hidden>
-              {{ t.about_values_text }}
+              {{ t.about_values_text | safe }}
             </div>
           </div>
         </div>
