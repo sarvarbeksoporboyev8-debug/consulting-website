@@ -20,7 +20,8 @@
         <div class="lead-content">
           <h2>{{ t.about_lead_title | safe }}</h2>
           <p class="intro">{{ t.about_lead_subtitle }}</p>
-          <div class="lead-tabs" role="tablist" data-tabs>
+          <div data-tabs>
+          <div class="lead-tabs" role="tablist">
             <button type="button" role="tab" id="tab-mission" class="active" aria-selected="true" data-tab-target="mission-panel">{{ t.about_tab_mission }}</button>
             <button type="button" role="tab" id="tab-vision" aria-selected="false" tabindex="-1" data-tab-target="vision-panel">{{ t.about_tab_vision }}</button>
             <button type="button" role="tab" id="tab-values" aria-selected="false" tabindex="-1" data-tab-target="value-panel">{{ t.about_tab_values }}</button>
@@ -35,6 +36,7 @@
             <div id="value-panel" role="tabpanel" aria-labelledby="tab-values" data-tab-panel hidden>
               {{ t.about_values_text | safe }}
             </div>
+          </div>
           </div>
         </div>
         <div class="lead-visual">
