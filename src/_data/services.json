@@ -25,6 +25,12 @@
       "link": "service-problem-solving.html"
     },
     {
+      "id": "language-courses-summer-camps",
+      "title": "Language Courses & Summer Camps",
+      "description": "We help you find and enrol in language courses and summer camps abroad — building your language skills and international experience before or alongside your studies.",
+      "link": "services.html"
+    },
+    {
       "id": "free-consultation",
       "title": "Free Consultation",
       "description": "A free initial session to assess your profile, set goals, and get personalized path recommendations.",
@@ -79,6 +85,12 @@
       "title": "Viza olish xizmati",
       "description": "To'liq viza ariza yordami — hujjatlarni yig'ishdan intervyuga tayyorlash va topshirishgacha.",
       "link": "service-problem-solving.html"
+    },
+    {
+      "id": "language-courses-summer-camps",
+      "title": "Til kurslari va yozgi oromgohlar",
+      "description": "Xorijdagi til kurslari va yozgi oromgohlarga topishda va yozilishda yordam beramiz — ta'lim oldidan yoki davomida til ko'nikmalaringizni va xalqaro tajribangizni oshirish uchun.",
+      "link": "services.html"
     },
     {
       "id": "free-consultation",
@@ -137,6 +149,12 @@
       "link": "service-problem-solving.html"
     },
     {
+      "id": "language-courses-summer-camps",
+      "title": "Тил курслари ва ёзги оромгоҳлар",
+      "description": "Хориждаги тил курслари ва ёзги оромгоҳларга топишда ва ёзилишда ёрдам берамиз — таълим олдидан ёки давомида тил кўникмаларингизни ва халқаро тажрибангизни ошириш учун.",
+      "link": "services.html"
+    },
+    {
       "id": "free-consultation",
       "title": "Бепул консултатсия",
       "description": "Профилингизни баҳолаш, мақсадларни белгилаш ва шахсий йўл тавсияларини олиш учун бепул бошланғич сеанс.",
@@ -191,6 +209,12 @@
       "title": "Визовая поддержка",
       "description": "Полное сопровождение визового процесса — от сбора документов до подготовки к собеседованию и подачи.",
       "link": "service-problem-solving.html"
+    },
+    {
+      "id": "language-courses-summer-camps",
+      "title": "Языковые курсы и летние лагеря",
+      "description": "Помогаем найти и записаться на языковые курсы и летние лагеря за рубежом — для повышения уровня языка и накопления международного опыта до или во время учёбы.",
+      "link": "services.html"
     },
     {
       "id": "free-consultation",
