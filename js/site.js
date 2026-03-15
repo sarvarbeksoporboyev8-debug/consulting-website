@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
   if (typeof AOS !== "undefined") {
-    AOS.init({ once: true, duration: 650, easing: "ease-out-cubic", offset: 60 });
+    AOS.init({ once: false, duration: 650, easing: "ease-out-cubic", offset: 60 });
   }
 });
 
