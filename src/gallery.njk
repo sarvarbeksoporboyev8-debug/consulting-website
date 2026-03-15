@@ -151,6 +151,13 @@
     </div>
 
     <script>
+    document.querySelectorAll('.gallery-item video').forEach(function(vid) {
+      vid.addEventListener('loadedmetadata', function() {
+        vid.currentTime = 0.001;
+      });
+    });
+    </script>
+    <script>
     (function() {
       var items = document.querySelectorAll('[data-gallery]');
       var lightbox = document.getElementById('gallery-lightbox');
