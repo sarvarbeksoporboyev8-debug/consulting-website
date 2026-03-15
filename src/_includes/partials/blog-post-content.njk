@@ -14,7 +14,7 @@
             <h2>{{ d.title }}</h2>
             <p class="lead">{{ d.excerpt }}</p>
             {%- for section in d.sections %}
-            <h2>{{ section.heading }}</h2>
+            {%- if section.heading %}<h2>{{ section.heading }}</h2>{%- endif %}
             {%- for p in section.content %}
             <p>{{ p }}</p>
             {%- endfor %}
