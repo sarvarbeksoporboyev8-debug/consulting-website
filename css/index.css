@@ -338,6 +338,85 @@ body {
 }
 
 /* -------------------------
+   Hero Social Cards
+   ------------------------- */
+.hero-social {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.hero-social-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 24px 22px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-social-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0);
+  transition: background 0.25s ease;
+}
+
+.hero-social-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 48px rgba(0,0,0,0.18);
+}
+
+.hero-social-card:hover::after {
+  background: rgba(255,255,255,0.07);
+}
+
+.hero-social-card--instagram {
+  background: linear-gradient(135deg, #f9a825 0%, #e6683c 30%, #dc2743 55%, #bc1888 100%);
+}
+
+.hero-social-card--telegram {
+  background: linear-gradient(135deg, #40b3e0 0%, #229ed9 50%, #1a7bbf 100%);
+}
+
+.hero-social-icon {
+  width: 38px;
+  height: 38px;
+  fill: #fff;
+  margin-bottom: 8px;
+  flex-shrink: 0;
+}
+
+.hero-social-platform {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.hero-social-handle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.hero-social-cta {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.9;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 12px;
+}
+
+/* -------------------------
    Responsive — homepage-specific only
    ------------------------- */
 @media (max-width: 1024px) {
@@ -354,6 +433,13 @@ body {
 
   .hero-buttons {
     justify-content: center;
+  }
+
+  .hero-social {
+    justify-content: center;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-visual {
