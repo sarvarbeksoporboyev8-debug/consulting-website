@@ -1,5 +1,10 @@
 window.addEventListener("load", function () {
   if (typeof AOS !== "undefined") {
+    // Auto-apply staggered zoom-in to gallery items
+    document.querySelectorAll(".gallery-item").forEach(function (el, i) {
+      el.setAttribute("data-aos", "zoom-in");
+      el.setAttribute("data-aos-delay", String((i % 4) * 80));
+    });
     AOS.init({ once: false, duration: 650, easing: "ease-out-cubic", offset: 60 });
   }
 });

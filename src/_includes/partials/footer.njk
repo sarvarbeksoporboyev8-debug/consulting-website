@@ -1,11 +1,11 @@
     <footer>
       <div class="footer-inner">
         <div class="footer-top">
-          <div class="footer-brand">
+          <div class="footer-brand" data-aos="fade-up">
             <a href="/{{ L }}/index.html" class="logo">{{ site[L].name }}</a>
             <p>{{ site[L].tagline }}</p>
           </div>
-          <div class="footer-col">
+          <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
             <h4>{{ t.footer_services }}</h4>
             <ul>
               {%- for svc in services[L] %}
@@ -15,7 +15,7 @@
               {%- endfor %}
             </ul>
           </div>
-          <div class="footer-col">
+          <div class="footer-col" data-aos="fade-up" data-aos-delay="200">
             <h4>{{ t.footer_about }}</h4>
             <ul>
               <li><a href="/{{ L }}/about.html#mission-panel">{{ t.footer_mission }}</a></li>
@@ -23,7 +23,7 @@
               <li><a href="/{{ L }}/contact.html">{{ t.footer_talk }}</a></li>
             </ul>
           </div>
-          <div class="footer-col footer-contact">
+          <div class="footer-col footer-contact" data-aos="fade-up" data-aos-delay="300">
             <h4>{{ t.footer_contact }}</h4>
             <p>{{ site.shared["address_" + L] | default(site.shared.address_en) }}</p>
             <p><a href="{{ site.shared.phoneHref }}">{{ site.shared.phone }}</a></p>

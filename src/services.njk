@@ -17,12 +17,12 @@
 ---
     <section class="solution-section">
       <div class="solution-grid">
-        <div class="solution-content">
+        <div class="solution-content" data-aos="fade-right">
           <h2>{{ t.services_solution_title }}</h2>
           <p class="intro">{{ t.services_solution_subtitle }}</p>
           <div class="solution-steps">
             {%- for step in steps[L] %}
-            <div class="solution-step">
+            <div class="solution-step" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 100 }}">
               <div class="solution-step-num">{{ step.num }}</div>
               <div class="solution-step-title">{{ step.title }}</div>
               <p class="solution-step-desc">{{ step.description }}</p>
@@ -30,19 +30,19 @@
             {%- endfor %}
           </div>
         </div>
-        <div class="solution-image" style="background-image:url('{{ langRoot }}img/solution.jpg');" aria-hidden="true"></div>
+        <div class="solution-image" style="background-image:url('{{ langRoot }}img/solution.jpg');" aria-hidden="true" data-aos="fade-left"></div>
       </div>
     </section>
 
     <section class="services-dark">
       <div class="container">
-        <div class="services-header">
+        <div class="services-header" data-aos="fade-up">
           <h2>{{ t.services_offer_title }}</h2>
           <p>{{ t.services_offer_subtitle }}</p>
         </div>
         <div class="services-grid">
           {%- for svc in services[L] | head(3) %}
-          <div class="service-card" id="{{ svc.id }}">
+          <div class="service-card" id="{{ svc.id }}" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 120 }}">
             <h3>{{ svc.title }}</h3>
             <p>{{ svc.description }}</p>
             <a href="/{{ L }}/{{ svc.link }}" class="btn-link">{{ t.btn_learn_more }}<span class="sr-only"> {{ svc.title }}</span></a>
@@ -50,12 +50,12 @@
           {%- endfor %}
         </div>
         <div class="services-cta-row">
-          <div class="service-card service-card-cta">
+          <div class="service-card service-card-cta" data-aos="zoom-in">
             <h3>{{ t.services_cta }}</h3>
             <a href="/{{ L }}/contact.html#contact-form" class="btn-primary">{{ t.btn_free_consultation }}</a>
           </div>
           {%- for svc in services[L] | slice(3, 4) %}
-          <div class="service-card" id="{{ svc.id }}">
+          <div class="service-card" id="{{ svc.id }}" data-aos="fade-up" data-aos-delay="120">
             <h3>{{ svc.title }}</h3>
             <p>{{ svc.description }}</p>
             <a href="/{{ L }}/{{ svc.link }}" class="btn-link">{{ t.btn_learn_more }}<span class="sr-only"> {{ svc.title }}</span></a>
@@ -64,7 +64,7 @@
         </div>
         <div class="services-grid">
           {%- for svc in services[L] | slice(4, 7) %}
-          <div class="service-card" id="{{ svc.id }}">
+          <div class="service-card" id="{{ svc.id }}" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 120 }}">
             <h3>{{ svc.title }}</h3>
             <p>{{ svc.description }}</p>
             <a href="/{{ L }}/{{ svc.link }}" class="btn-link">{{ t.btn_learn_more }}<span class="sr-only"> {{ svc.title }}</span></a>
@@ -73,7 +73,7 @@
         </div>
         <div class="services-grid">
           {%- for svc in services[L] | slice(7) %}
-          <div class="service-card" id="{{ svc.id }}">
+          <div class="service-card" id="{{ svc.id }}" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 120 }}">
             <h3>{{ svc.title }}</h3>
             <p>{{ svc.description }}</p>
             <a href="/{{ L }}/{{ svc.link }}" class="btn-link">{{ t.btn_learn_more }}<span class="sr-only"> {{ svc.title }}</span></a>
@@ -84,7 +84,7 @@
     </section>
 
     <section class="testimonials">
-      <div class="section-header">
+      <div class="section-header" data-aos="fade-up">
         <h2>{{ t.testimonials_title | safe }}</h2>
         <p>{{ t.testimonials_subtitle }}</p>
       </div>

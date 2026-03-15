@@ -1,5 +1,5 @@
     <section class="form-faq">
-      <div>
+      <div data-aos="fade-right">
         <h2>{{ t.form_title }}</h2>
         <p class="subtitle">{{ t.form_subtitle }}</p>
         <form class="stacked-form" action="https://formsubmit.co/ajax/Info@ukud-uzb.uz" method="POST" data-form novalidate>
@@ -22,7 +22,7 @@
           <p class="form-status" data-form-status data-msg-success="{{ t.form_success }}" data-msg-error="{{ t.form_error }}" aria-live="polite"></p>
         </form>
       </div>
-      <div>
+      <div data-aos="fade-left">
         {% include "partials/faq-details.njk" %}
       </div>
     </section>

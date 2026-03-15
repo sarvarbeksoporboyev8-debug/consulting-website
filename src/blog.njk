@@ -21,7 +21,7 @@
       <div class="blog-content">
         <div class="blog-grid">
           {%- for post in blog[L] %}
-          <article class="blog-card">
+          <article class="blog-card" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 100 }}">
             <img class="image" src="{{ langRoot }}img/blog/{{ post.image }}" alt="{{ post.title }}">
             <div class="body">
               <div class="meta">

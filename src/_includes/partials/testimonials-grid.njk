@@ -1,6 +1,6 @@
       <div class="testimonials-grid">
         {%- for item in testimonials[L] %}
-        <div class="testimonial-card">
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 120 }}">
           <blockquote>"{{ item.quote }}"</blockquote>
           <div class="name">{{ item.name }}</div>
           <div class="title">{{ item.title }}</div>
