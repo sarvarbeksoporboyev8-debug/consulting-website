@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "wrangler": "^4.73.0"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
