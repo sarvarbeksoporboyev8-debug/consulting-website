@@ -1,7 +1,7 @@
     <section class="features">
       <div class="features-inner">
         {%- for item in stats[L] %}
-        <div class="feature-item">
+        <div class="feature-item" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 100 }}">
           <div class="feature-value">{{ item.value }}</div>
           <div class="feature-label">{{ item.label }}</div>
         </div>

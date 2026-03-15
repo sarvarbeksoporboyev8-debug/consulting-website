@@ -1,3 +1,9 @@
+window.addEventListener("load", function () {
+  if (typeof AOS !== "undefined") {
+    AOS.init({ once: true, duration: 650, easing: "ease-out-cubic", offset: 60 });
+  }
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   var body = document.body;
   var navToggle = document.querySelector("[data-nav-toggle]");

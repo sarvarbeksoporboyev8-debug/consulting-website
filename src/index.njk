@@ -50,7 +50,7 @@
       </div>
     </section>
 
-    <section class="clients">
+    <section class="clients" data-aos="fade-up">
       <h2>{{ t.clients_title }}</h2>
       <div class="client-logos">
         {%- for uni in universities[L] %}
@@ -65,13 +65,13 @@
 
     <section class="about">
       <div class="about-grid">
-        <div>
+        <div data-aos="fade-right">
           <div class="about-badge">{{ t.about_badge }}</div>
           <h2>{{ t.about_title | safe }}</h2>
           <p class="about-desc">{{ t.about_desc }}</p>
           <div class="about-steps">
             {%- for step in steps[L] %}
-            <div class="about-step">
+            <div class="about-step" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 100 }}">
               <div class="about-step-num">{{ step.num }}</div>
               <div class="about-step-title">{{ step.title }}</div>
               <p class="about-step-desc">{{ step.description }}</p>
@@ -79,19 +79,19 @@
             {%- endfor %}
           </div>
         </div>
-        <div class="about-image" style="background-image:url('{{ langRoot }}img/about.jpg');" aria-hidden="true"></div>
+        <div class="about-image" style="background-image:url('{{ langRoot }}img/about.jpg');" aria-hidden="true" data-aos="fade-left"></div>
       </div>
     </section>
 
     <section class="services">
       <div class="container">
-        <div class="services-header">
+        <div class="services-header" data-aos="fade-up">
           <h2>{{ t.services_title | safe }}</h2>
           <p>{{ t.services_subtitle }}</p>
         </div>
         <div class="services-grid">
           {%- for svc in services[L] | head(3) %}
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 120 }}">
             <h3>{{ svc.title }}</h3>
             <p>{{ svc.description }}</p>
             <a href="/{{ L }}/{{ svc.link }}" class="link">{{ t.btn_read_more }}<span class="sr-only"> {{ svc.title }}</span></a>
@@ -99,12 +99,12 @@
           {%- endfor %}
         </div>
         <div class="services-cta-row">
-          <div class="service-card service-card-cta">
+          <div class="service-card service-card-cta" data-aos="zoom-in">
             <h3>{{ t.services_cta }}</h3>
             <a href="/{{ L }}/contact.html#contact-form" class="btn-primary">{{ t.btn_free_consultation }}</a>
           </div>
           {%- for svc in services[L] | slice(3, 4) %}
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-up" data-aos-delay="120">
             <h3>{{ svc.title }}</h3>
             <p>{{ svc.description }}</p>
             <a href="/{{ L }}/{{ svc.link }}" class="link">{{ t.btn_read_more }}<span class="sr-only"> {{ svc.title }}</span></a>
@@ -115,7 +115,7 @@
     </section>
 
     <section class="testimonials">
-      <div class="section-header">
+      <div class="section-header" data-aos="fade-up">
         <h2>{{ t.testimonials_title | safe }}</h2>
         <p>{{ t.testimonials_subtitle }}</p>
       </div>
@@ -123,13 +123,13 @@
     </section>
 
     <section class="blog">
-      <div class="section-header">
+      <div class="section-header" data-aos="fade-up">
         <h2>{{ t.blog_title | safe }}</h2>
         <p>{{ t.blog_subtitle }}</p>
       </div>
       <div class="blog-grid">
         {%- for post in blog[L] | head(2) %}
-        <div class="blog-card">
+        <div class="blog-card" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 150 }}">
           <img class="image" src="{{ langRoot }}img/blog/{{ post.image }}" alt="{{ post.title }}">
           <div class="tag">{{ post.author }}-</div>
           <h3>{{ post.title }}</h3>

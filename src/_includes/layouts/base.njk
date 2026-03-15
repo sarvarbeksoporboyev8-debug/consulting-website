@@ -16,6 +16,7 @@
   <meta property="og:image" content="{{ site.shared.domain }}/favicon.svg">
   <meta property="og:url" content="{{ site.shared.domain }}/{{ L }}/{{ currentPage | default('index.html') }}">
   {%- endif %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&display=swap">
@@ -25,6 +26,7 @@
   <link rel="stylesheet" href="{{ langRoot }}{{ pageCss }}">
   {%- endif %}
   <script src="{{ langRoot }}js/site.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
 </head>
 <body>
   {% include "partials/header.njk" %}
